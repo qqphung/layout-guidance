@@ -1,0 +1,13 @@
+[2023-04-11 21:40:19,235][__main__][INFO] - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-04-11 21:40:19,236][__main__][INFO] - save config to ./chair_example/config.yaml
+[2023-04-11 21:40:24,105][__main__][INFO] - Inference
+[2023-04-11 21:40:24,105][__main__][INFO] - Prompt: Two cars on the street.
+[2023-04-11 21:40:24,105][__main__][INFO] - Phrases: cars;cars
+[2023-04-11 21:40:24,105][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-11 21:40:59,664][__main__][INFO] - Decode Image...
+[2023-04-11 21:40:59,937][__main__][INFO] - save example image to ./chair_example/Two_cars_on_the_street.example_0.png
+[2023-04-11 21:41:00,067][__main__][INFO] - save example image to ./chair_example/Two_cars_on_the_street.example_1.png
+[2023-04-11 21:41:05,844][__main__][INFO] - Inference
+[2023-04-11 21:41:05,844][__main__][INFO] - Prompt: Three cars on the street.
+[2023-04-11 21:41:05,844][__main__][INFO] - Phrases: carOne;carTwo;carThree
+[2023-04-11 21:41:05,844][__main__][INFO] - Conver Phrases to Object Positions

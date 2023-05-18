@@ -1,0 +1,111 @@
+[2023-05-13 19:59:26,036][__main__][INFO] - {'general': {'save_path': './draw_bench/counting', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-13 19:59:26,036][__main__][INFO] - save config to ./draw_bench/counting/config.yaml
+[2023-05-13 19:59:26,043][__main__][INFO] - Inference
+[2023-05-13 19:59:26,043][__main__][INFO] - Prompt: One car on the street.
+[2023-05-13 19:59:26,043][__main__][INFO] - Phrases: car;street
+[2023-05-13 19:59:26,043][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 19:59:51,750][__main__][INFO] - Decode Image...
+[2023-05-13 19:59:51,914][__main__][INFO] - Inference
+[2023-05-13 19:59:51,915][__main__][INFO] - Prompt: One car on the street.
+[2023-05-13 19:59:51,915][__main__][INFO] - Phrases: car;street
+[2023-05-13 19:59:51,915][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:00:18,545][__main__][INFO] - Decode Image...
+[2023-05-13 20:00:18,720][__main__][INFO] - Inference
+[2023-05-13 20:00:18,720][__main__][INFO] - Prompt: One car on the street.
+[2023-05-13 20:00:18,720][__main__][INFO] - Phrases: car;street
+[2023-05-13 20:00:18,720][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:00:44,148][__main__][INFO] - Decode Image...
+[2023-05-13 20:00:44,345][__main__][INFO] - Inference
+[2023-05-13 20:00:44,345][__main__][INFO] - Prompt: One car on the street.
+[2023-05-13 20:00:44,345][__main__][INFO] - Phrases: car;street
+[2023-05-13 20:00:44,345][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:01:15,173][__main__][INFO] - Decode Image...
+[2023-05-13 20:01:15,362][__main__][INFO] - Inference
+[2023-05-13 20:01:15,362][__main__][INFO] - Prompt: One car on the street.
+[2023-05-13 20:01:15,362][__main__][INFO] - Phrases: car;street
+[2023-05-13 20:01:15,362][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:01:39,979][__main__][INFO] - Decode Image...
+[2023-05-13 20:01:40,155][__main__][INFO] - Inference
+[2023-05-13 20:01:40,155][__main__][INFO] - Prompt: One car on the street.
+[2023-05-13 20:01:40,155][__main__][INFO] - Phrases: car;street
+[2023-05-13 20:01:40,155][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:02:04,537][__main__][INFO] - Decode Image...
+[2023-05-13 20:02:04,711][__main__][INFO] - Inference
+[2023-05-13 20:02:04,711][__main__][INFO] - Prompt: One car on the street.
+[2023-05-13 20:02:04,711][__main__][INFO] - Phrases: car;street
+[2023-05-13 20:02:04,711][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:02:27,022][__main__][INFO] - Decode Image...
+[2023-05-13 20:02:27,208][__main__][INFO] - Inference
+[2023-05-13 20:02:27,208][__main__][INFO] - Prompt: One car on the street.
+[2023-05-13 20:02:27,208][__main__][INFO] - Phrases: car;street
+[2023-05-13 20:02:27,208][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:02:51,261][__main__][INFO] - Decode Image...
+[2023-05-13 20:02:51,426][__main__][INFO] - Inference
+[2023-05-13 20:02:51,426][__main__][INFO] - Prompt: One car on the street.
+[2023-05-13 20:02:51,426][__main__][INFO] - Phrases: car;street
+[2023-05-13 20:02:51,426][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:03:21,360][__main__][INFO] - Decode Image...
+[2023-05-13 20:03:21,524][__main__][INFO] - Inference
+[2023-05-13 20:03:21,524][__main__][INFO] - Prompt: One car on the street.
+[2023-05-13 20:03:21,524][__main__][INFO] - Phrases: car;street
+[2023-05-13 20:03:21,524][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:03:56,574][__main__][INFO] - Decode Image...
+[2023-05-13 20:03:56,738][__main__][INFO] - Inference
+[2023-05-13 20:03:56,738][__main__][INFO] - Prompt: Two cars on the street.
+[2023-05-13 20:03:56,738][__main__][INFO] - Phrases: car;car
+[2023-05-13 20:03:56,738][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:04:08,628][__main__][INFO] - Decode Image...
+[2023-05-13 20:04:08,785][__main__][INFO] - Inference
+[2023-05-13 20:04:08,785][__main__][INFO] - Prompt: Two cars on the street.
+[2023-05-13 20:04:08,785][__main__][INFO] - Phrases: car;car
+[2023-05-13 20:04:08,785][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:04:20,388][__main__][INFO] - Decode Image...
+[2023-05-13 20:04:20,556][__main__][INFO] - Inference
+[2023-05-13 20:04:20,556][__main__][INFO] - Prompt: Two cars on the street.
+[2023-05-13 20:04:20,556][__main__][INFO] - Phrases: car;car
+[2023-05-13 20:04:20,556][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:04:34,063][__main__][INFO] - Decode Image...
+[2023-05-13 20:04:34,253][__main__][INFO] - Inference
+[2023-05-13 20:04:34,253][__main__][INFO] - Prompt: Two cars on the street.
+[2023-05-13 20:04:34,253][__main__][INFO] - Phrases: car;car
+[2023-05-13 20:04:34,254][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:04:46,925][__main__][INFO] - Decode Image...
+[2023-05-13 20:04:47,114][__main__][INFO] - Inference
+[2023-05-13 20:04:47,114][__main__][INFO] - Prompt: Two cars on the street.
+[2023-05-13 20:04:47,114][__main__][INFO] - Phrases: car;car
+[2023-05-13 20:04:47,114][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:05:00,580][__main__][INFO] - Decode Image...
+[2023-05-13 20:05:00,751][__main__][INFO] - Inference
+[2023-05-13 20:05:00,752][__main__][INFO] - Prompt: Two cars on the street.
+[2023-05-13 20:05:00,752][__main__][INFO] - Phrases: car;car
+[2023-05-13 20:05:00,752][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:05:14,331][__main__][INFO] - Decode Image...
+[2023-05-13 20:05:14,487][__main__][INFO] - Inference
+[2023-05-13 20:05:14,487][__main__][INFO] - Prompt: Two cars on the street.
+[2023-05-13 20:05:14,487][__main__][INFO] - Phrases: car;car
+[2023-05-13 20:05:14,487][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:05:26,596][__main__][INFO] - Decode Image...
+[2023-05-13 20:05:26,782][__main__][INFO] - Inference
+[2023-05-13 20:05:26,782][__main__][INFO] - Prompt: Two cars on the street.
+[2023-05-13 20:05:26,782][__main__][INFO] - Phrases: car;car
+[2023-05-13 20:05:26,782][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:05:39,328][__main__][INFO] - Decode Image...
+[2023-05-13 20:05:39,533][__main__][INFO] - Inference
+[2023-05-13 20:05:39,533][__main__][INFO] - Prompt: Two cars on the street.
+[2023-05-13 20:05:39,533][__main__][INFO] - Phrases: car;car
+[2023-05-13 20:05:39,533][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:05:51,359][__main__][INFO] - Decode Image...
+[2023-05-13 20:05:51,517][__main__][INFO] - Inference
+[2023-05-13 20:05:51,517][__main__][INFO] - Prompt: Two cars on the street.
+[2023-05-13 20:05:51,517][__main__][INFO] - Phrases: car;car
+[2023-05-13 20:05:51,518][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:06:04,398][__main__][INFO] - Decode Image...
+[2023-05-13 20:06:04,585][__main__][INFO] - Inference
+[2023-05-13 20:06:04,585][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 20:06:04,585][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 20:06:04,585][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 20:06:22,109][__main__][INFO] - Decode Image...
+[2023-05-13 20:06:22,287][__main__][INFO] - Inference
+[2023-05-13 20:06:22,287][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 20:06:22,287][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 20:06:22,287][__main__][INFO] - Conver Phrases to Object Positions

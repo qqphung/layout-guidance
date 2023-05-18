@@ -1,0 +1,11 @@
+[2023-05-10 12:37:04,134][__main__][INFO] - {'general': {'save_path': './hrs_save/counting_remain', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-10 12:37:04,135][__main__][INFO] - save config to ./hrs_save/counting_remain/config.yaml
+[2023-05-10 12:37:04,164][__main__][INFO] - Inference
+[2023-05-10 12:37:04,165][__main__][INFO] - Prompt: a family of five is gathered around a dining table, enjoying a home-cooked meal and laughing together.
+[2023-05-10 12:37:04,165][__main__][INFO] - Phrases: 
+[2023-05-10 12:37:04,165][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:37:22,571][__main__][INFO] - Decode Image...
+[2023-05-10 12:37:22,769][__main__][INFO] - Inference
+[2023-05-10 12:37:22,769][__main__][INFO] - Prompt: two traffic lights are side by side, one red and one green, with cars waiting at the red light and passing through the green light.
+[2023-05-10 12:37:22,769][__main__][INFO] - Phrases: 
+[2023-05-10 12:37:22,769][__main__][INFO] - Conver Phrases to Object Positions

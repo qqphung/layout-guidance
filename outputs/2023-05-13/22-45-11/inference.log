@@ -1,0 +1,852 @@
+[2023-05-13 22:45:31,413][__main__][INFO] - {'general': {'save_path': './draw_bench/counting', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-13 22:45:31,414][__main__][INFO] - save config to ./draw_bench/counting/config.yaml
+[2023-05-13 22:45:31,426][__main__][INFO] - Inference
+[2023-05-13 22:45:31,426][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 22:45:31,426][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 22:45:31,426][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:45:55,703][__main__][INFO] - Decode Image...
+[2023-05-13 22:45:55,940][__main__][INFO] - Inference
+[2023-05-13 22:45:55,941][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 22:45:55,941][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 22:45:55,941][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:46:14,921][__main__][INFO] - Decode Image...
+[2023-05-13 22:46:15,087][__main__][INFO] - Inference
+[2023-05-13 22:46:15,088][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 22:46:15,088][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 22:46:15,088][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:46:32,134][__main__][INFO] - Decode Image...
+[2023-05-13 22:46:32,347][__main__][INFO] - Inference
+[2023-05-13 22:46:32,347][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 22:46:32,347][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 22:46:32,347][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:46:49,059][__main__][INFO] - Decode Image...
+[2023-05-13 22:46:49,265][__main__][INFO] - Inference
+[2023-05-13 22:46:49,266][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 22:46:49,266][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 22:46:49,266][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:47:08,143][__main__][INFO] - Decode Image...
+[2023-05-13 22:47:08,312][__main__][INFO] - Inference
+[2023-05-13 22:47:08,313][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 22:47:08,313][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 22:47:08,313][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:47:25,079][__main__][INFO] - Decode Image...
+[2023-05-13 22:47:25,276][__main__][INFO] - Inference
+[2023-05-13 22:47:25,276][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 22:47:25,276][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 22:47:25,276][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:47:43,887][__main__][INFO] - Decode Image...
+[2023-05-13 22:47:44,094][__main__][INFO] - Inference
+[2023-05-13 22:47:44,094][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 22:47:44,094][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 22:47:44,094][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:48:05,544][__main__][INFO] - Decode Image...
+[2023-05-13 22:48:05,725][__main__][INFO] - Inference
+[2023-05-13 22:48:05,725][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 22:48:05,725][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 22:48:05,725][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:48:28,431][__main__][INFO] - Decode Image...
+[2023-05-13 22:48:28,625][__main__][INFO] - Inference
+[2023-05-13 22:48:28,625][__main__][INFO] - Prompt: Three cars on the street.
+[2023-05-13 22:48:28,625][__main__][INFO] - Phrases: car;car;car
+[2023-05-13 22:48:28,625][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:48:47,950][__main__][INFO] - Decode Image...
+[2023-05-13 22:48:48,165][__main__][INFO] - Inference
+[2023-05-13 22:48:48,166][__main__][INFO] - Prompt: Four cars on the street.
+[2023-05-13 22:48:48,166][__main__][INFO] - Phrases: car;car;car;car
+[2023-05-13 22:48:48,166][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:49:01,573][__main__][INFO] - Decode Image...
+[2023-05-13 22:49:01,751][__main__][INFO] - Inference
+[2023-05-13 22:49:01,751][__main__][INFO] - Prompt: Four cars on the street.
+[2023-05-13 22:49:01,751][__main__][INFO] - Phrases: car;car;car;car
+[2023-05-13 22:49:01,751][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:49:14,246][__main__][INFO] - Decode Image...
+[2023-05-13 22:49:14,440][__main__][INFO] - Inference
+[2023-05-13 22:49:14,440][__main__][INFO] - Prompt: Four cars on the street.
+[2023-05-13 22:49:14,441][__main__][INFO] - Phrases: car;car;car;car
+[2023-05-13 22:49:14,441][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:49:27,847][__main__][INFO] - Decode Image...
+[2023-05-13 22:49:28,014][__main__][INFO] - Inference
+[2023-05-13 22:49:28,014][__main__][INFO] - Prompt: Four cars on the street.
+[2023-05-13 22:49:28,014][__main__][INFO] - Phrases: car;car;car;car
+[2023-05-13 22:49:28,014][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:49:41,630][__main__][INFO] - Decode Image...
+[2023-05-13 22:49:41,793][__main__][INFO] - Inference
+[2023-05-13 22:49:41,793][__main__][INFO] - Prompt: Four cars on the street.
+[2023-05-13 22:49:41,793][__main__][INFO] - Phrases: car;car;car;car
+[2023-05-13 22:49:41,793][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:49:57,664][__main__][INFO] - Decode Image...
+[2023-05-13 22:49:57,849][__main__][INFO] - Inference
+[2023-05-13 22:49:57,849][__main__][INFO] - Prompt: Four cars on the street.
+[2023-05-13 22:49:57,849][__main__][INFO] - Phrases: car;car;car;car
+[2023-05-13 22:49:57,849][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:50:11,232][__main__][INFO] - Decode Image...
+[2023-05-13 22:50:11,440][__main__][INFO] - Inference
+[2023-05-13 22:50:11,441][__main__][INFO] - Prompt: Four cars on the street.
+[2023-05-13 22:50:11,441][__main__][INFO] - Phrases: car;car;car;car
+[2023-05-13 22:50:11,441][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:50:24,468][__main__][INFO] - Decode Image...
+[2023-05-13 22:50:24,632][__main__][INFO] - Inference
+[2023-05-13 22:50:24,632][__main__][INFO] - Prompt: Four cars on the street.
+[2023-05-13 22:50:24,632][__main__][INFO] - Phrases: car;car;car;car
+[2023-05-13 22:50:24,632][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:50:37,495][__main__][INFO] - Decode Image...
+[2023-05-13 22:50:37,675][__main__][INFO] - Inference
+[2023-05-13 22:50:37,675][__main__][INFO] - Prompt: Four cars on the street.
+[2023-05-13 22:50:37,675][__main__][INFO] - Phrases: car;car;car;car
+[2023-05-13 22:50:37,675][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:50:52,479][__main__][INFO] - Decode Image...
+[2023-05-13 22:50:52,652][__main__][INFO] - Inference
+[2023-05-13 22:50:52,652][__main__][INFO] - Prompt: Four cars on the street.
+[2023-05-13 22:50:52,652][__main__][INFO] - Phrases: car;car;car;car
+[2023-05-13 22:50:52,652][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:51:05,155][__main__][INFO] - Decode Image...
+[2023-05-13 22:51:05,326][__main__][INFO] - Inference
+[2023-05-13 22:51:05,326][__main__][INFO] - Prompt: Five cars on the street.
+[2023-05-13 22:51:05,326][__main__][INFO] - Phrases: car;car;car;car;car
+[2023-05-13 22:51:05,326][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:51:32,199][__main__][INFO] - Decode Image...
+[2023-05-13 22:51:32,401][__main__][INFO] - Inference
+[2023-05-13 22:51:32,401][__main__][INFO] - Prompt: Five cars on the street.
+[2023-05-13 22:51:32,402][__main__][INFO] - Phrases: car;car;car;car;car
+[2023-05-13 22:51:32,402][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:51:59,670][__main__][INFO] - Decode Image...
+[2023-05-13 22:51:59,858][__main__][INFO] - Inference
+[2023-05-13 22:51:59,858][__main__][INFO] - Prompt: Five cars on the street.
+[2023-05-13 22:51:59,858][__main__][INFO] - Phrases: car;car;car;car;car
+[2023-05-13 22:51:59,858][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:52:27,070][__main__][INFO] - Decode Image...
+[2023-05-13 22:52:27,254][__main__][INFO] - Inference
+[2023-05-13 22:52:27,254][__main__][INFO] - Prompt: Five cars on the street.
+[2023-05-13 22:52:27,254][__main__][INFO] - Phrases: car;car;car;car;car
+[2023-05-13 22:52:27,254][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:52:55,233][__main__][INFO] - Decode Image...
+[2023-05-13 22:52:55,431][__main__][INFO] - Inference
+[2023-05-13 22:52:55,431][__main__][INFO] - Prompt: Five cars on the street.
+[2023-05-13 22:52:55,431][__main__][INFO] - Phrases: car;car;car;car;car
+[2023-05-13 22:52:55,431][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:53:19,040][__main__][INFO] - Decode Image...
+[2023-05-13 22:53:19,246][__main__][INFO] - Inference
+[2023-05-13 22:53:19,246][__main__][INFO] - Prompt: Five cars on the street.
+[2023-05-13 22:53:19,246][__main__][INFO] - Phrases: car;car;car;car;car
+[2023-05-13 22:53:19,246][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:53:46,649][__main__][INFO] - Decode Image...
+[2023-05-13 22:53:46,853][__main__][INFO] - Inference
+[2023-05-13 22:53:46,853][__main__][INFO] - Prompt: Five cars on the street.
+[2023-05-13 22:53:46,853][__main__][INFO] - Phrases: car;car;car;car;car
+[2023-05-13 22:53:46,853][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:54:12,109][__main__][INFO] - Decode Image...
+[2023-05-13 22:54:12,296][__main__][INFO] - Inference
+[2023-05-13 22:54:12,296][__main__][INFO] - Prompt: Five cars on the street.
+[2023-05-13 22:54:12,296][__main__][INFO] - Phrases: car;car;car;car;car
+[2023-05-13 22:54:12,296][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:54:42,409][__main__][INFO] - Decode Image...
+[2023-05-13 22:54:42,615][__main__][INFO] - Inference
+[2023-05-13 22:54:42,615][__main__][INFO] - Prompt: Five cars on the street.
+[2023-05-13 22:54:42,615][__main__][INFO] - Phrases: car;car;car;car;car
+[2023-05-13 22:54:42,615][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:55:05,393][__main__][INFO] - Decode Image...
+[2023-05-13 22:55:05,557][__main__][INFO] - Inference
+[2023-05-13 22:55:05,557][__main__][INFO] - Prompt: Five cars on the street.
+[2023-05-13 22:55:05,557][__main__][INFO] - Phrases: car;car;car;car;car
+[2023-05-13 22:55:05,557][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:55:33,883][__main__][INFO] - Decode Image...
+[2023-05-13 22:55:34,049][__main__][INFO] - Inference
+[2023-05-13 22:55:34,049][__main__][INFO] - Prompt: One dog on the street.
+[2023-05-13 22:55:34,049][__main__][INFO] - Phrases: dog;street
+[2023-05-13 22:55:34,049][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:55:56,206][__main__][INFO] - Decode Image...
+[2023-05-13 22:55:56,400][__main__][INFO] - Inference
+[2023-05-13 22:55:56,400][__main__][INFO] - Prompt: One dog on the street.
+[2023-05-13 22:55:56,400][__main__][INFO] - Phrases: dog;street
+[2023-05-13 22:55:56,400][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:56:19,080][__main__][INFO] - Decode Image...
+[2023-05-13 22:56:19,266][__main__][INFO] - Inference
+[2023-05-13 22:56:19,266][__main__][INFO] - Prompt: One dog on the street.
+[2023-05-13 22:56:19,266][__main__][INFO] - Phrases: dog;street
+[2023-05-13 22:56:19,266][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:56:44,094][__main__][INFO] - Decode Image...
+[2023-05-13 22:56:44,264][__main__][INFO] - Inference
+[2023-05-13 22:56:44,264][__main__][INFO] - Prompt: One dog on the street.
+[2023-05-13 22:56:44,264][__main__][INFO] - Phrases: dog;street
+[2023-05-13 22:56:44,264][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:57:07,980][__main__][INFO] - Decode Image...
+[2023-05-13 22:57:08,159][__main__][INFO] - Inference
+[2023-05-13 22:57:08,160][__main__][INFO] - Prompt: One dog on the street.
+[2023-05-13 22:57:08,160][__main__][INFO] - Phrases: dog;street
+[2023-05-13 22:57:08,160][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:57:35,755][__main__][INFO] - Decode Image...
+[2023-05-13 22:57:35,949][__main__][INFO] - Inference
+[2023-05-13 22:57:35,949][__main__][INFO] - Prompt: One dog on the street.
+[2023-05-13 22:57:35,949][__main__][INFO] - Phrases: dog;street
+[2023-05-13 22:57:35,949][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:57:58,999][__main__][INFO] - Decode Image...
+[2023-05-13 22:57:59,184][__main__][INFO] - Inference
+[2023-05-13 22:57:59,184][__main__][INFO] - Prompt: One dog on the street.
+[2023-05-13 22:57:59,184][__main__][INFO] - Phrases: dog;street
+[2023-05-13 22:57:59,184][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:58:25,878][__main__][INFO] - Decode Image...
+[2023-05-13 22:58:26,058][__main__][INFO] - Inference
+[2023-05-13 22:58:26,058][__main__][INFO] - Prompt: One dog on the street.
+[2023-05-13 22:58:26,058][__main__][INFO] - Phrases: dog;street
+[2023-05-13 22:58:26,058][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:58:50,911][__main__][INFO] - Decode Image...
+[2023-05-13 22:58:51,116][__main__][INFO] - Inference
+[2023-05-13 22:58:51,116][__main__][INFO] - Prompt: One dog on the street.
+[2023-05-13 22:58:51,116][__main__][INFO] - Phrases: dog;street
+[2023-05-13 22:58:51,116][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:59:20,904][__main__][INFO] - Decode Image...
+[2023-05-13 22:59:21,078][__main__][INFO] - Inference
+[2023-05-13 22:59:21,079][__main__][INFO] - Prompt: One dog on the street.
+[2023-05-13 22:59:21,079][__main__][INFO] - Phrases: dog;street
+[2023-05-13 22:59:21,079][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:59:43,065][__main__][INFO] - Decode Image...
+[2023-05-13 22:59:43,244][__main__][INFO] - Inference
+[2023-05-13 22:59:43,244][__main__][INFO] - Prompt: Two dogs on the street.
+[2023-05-13 22:59:43,244][__main__][INFO] - Phrases: dog;dog
+[2023-05-13 22:59:43,245][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 22:59:54,712][__main__][INFO] - Decode Image...
+[2023-05-13 22:59:54,872][__main__][INFO] - Inference
+[2023-05-13 22:59:54,872][__main__][INFO] - Prompt: Two dogs on the street.
+[2023-05-13 22:59:54,872][__main__][INFO] - Phrases: dog;dog
+[2023-05-13 22:59:54,872][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:00:07,179][__main__][INFO] - Decode Image...
+[2023-05-13 23:00:07,376][__main__][INFO] - Inference
+[2023-05-13 23:00:07,376][__main__][INFO] - Prompt: Two dogs on the street.
+[2023-05-13 23:00:07,376][__main__][INFO] - Phrases: dog;dog
+[2023-05-13 23:00:07,376][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:00:18,992][__main__][INFO] - Decode Image...
+[2023-05-13 23:00:19,172][__main__][INFO] - Inference
+[2023-05-13 23:00:19,172][__main__][INFO] - Prompt: Two dogs on the street.
+[2023-05-13 23:00:19,172][__main__][INFO] - Phrases: dog;dog
+[2023-05-13 23:00:19,173][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:00:30,797][__main__][INFO] - Decode Image...
+[2023-05-13 23:00:30,999][__main__][INFO] - Inference
+[2023-05-13 23:00:30,999][__main__][INFO] - Prompt: Two dogs on the street.
+[2023-05-13 23:00:30,999][__main__][INFO] - Phrases: dog;dog
+[2023-05-13 23:00:30,999][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:00:43,028][__main__][INFO] - Decode Image...
+[2023-05-13 23:00:43,216][__main__][INFO] - Inference
+[2023-05-13 23:00:43,216][__main__][INFO] - Prompt: Two dogs on the street.
+[2023-05-13 23:00:43,216][__main__][INFO] - Phrases: dog;dog
+[2023-05-13 23:00:43,216][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:00:53,936][__main__][INFO] - Decode Image...
+[2023-05-13 23:00:54,103][__main__][INFO] - Inference
+[2023-05-13 23:00:54,104][__main__][INFO] - Prompt: Two dogs on the street.
+[2023-05-13 23:00:54,104][__main__][INFO] - Phrases: dog;dog
+[2023-05-13 23:00:54,104][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:01:05,791][__main__][INFO] - Decode Image...
+[2023-05-13 23:01:05,995][__main__][INFO] - Inference
+[2023-05-13 23:01:05,995][__main__][INFO] - Prompt: Two dogs on the street.
+[2023-05-13 23:01:05,995][__main__][INFO] - Phrases: dog;dog
+[2023-05-13 23:01:05,995][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:01:17,884][__main__][INFO] - Decode Image...
+[2023-05-13 23:01:18,069][__main__][INFO] - Inference
+[2023-05-13 23:01:18,069][__main__][INFO] - Prompt: Two dogs on the street.
+[2023-05-13 23:01:18,069][__main__][INFO] - Phrases: dog;dog
+[2023-05-13 23:01:18,069][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:01:29,344][__main__][INFO] - Decode Image...
+[2023-05-13 23:01:29,518][__main__][INFO] - Inference
+[2023-05-13 23:01:29,518][__main__][INFO] - Prompt: Two dogs on the street.
+[2023-05-13 23:01:29,518][__main__][INFO] - Phrases: dog;dog
+[2023-05-13 23:01:29,518][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:01:41,213][__main__][INFO] - Decode Image...
+[2023-05-13 23:01:41,383][__main__][INFO] - Inference
+[2023-05-13 23:01:41,383][__main__][INFO] - Prompt: Three dogs on the street.
+[2023-05-13 23:01:41,384][__main__][INFO] - Phrases: dog;dog;dog
+[2023-05-13 23:01:41,384][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:01:51,619][__main__][INFO] - Decode Image...
+[2023-05-13 23:01:51,820][__main__][INFO] - Inference
+[2023-05-13 23:01:51,820][__main__][INFO] - Prompt: Three dogs on the street.
+[2023-05-13 23:01:51,820][__main__][INFO] - Phrases: dog;dog;dog
+[2023-05-13 23:01:51,820][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:02:02,566][__main__][INFO] - Decode Image...
+[2023-05-13 23:02:02,740][__main__][INFO] - Inference
+[2023-05-13 23:02:02,740][__main__][INFO] - Prompt: Three dogs on the street.
+[2023-05-13 23:02:02,740][__main__][INFO] - Phrases: dog;dog;dog
+[2023-05-13 23:02:02,741][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:02:12,929][__main__][INFO] - Decode Image...
+[2023-05-13 23:02:13,103][__main__][INFO] - Inference
+[2023-05-13 23:02:13,103][__main__][INFO] - Prompt: Three dogs on the street.
+[2023-05-13 23:02:13,103][__main__][INFO] - Phrases: dog;dog;dog
+[2023-05-13 23:02:13,103][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:02:23,332][__main__][INFO] - Decode Image...
+[2023-05-13 23:02:23,517][__main__][INFO] - Inference
+[2023-05-13 23:02:23,517][__main__][INFO] - Prompt: Three dogs on the street.
+[2023-05-13 23:02:23,517][__main__][INFO] - Phrases: dog;dog;dog
+[2023-05-13 23:02:23,517][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:02:34,209][__main__][INFO] - Decode Image...
+[2023-05-13 23:02:34,417][__main__][INFO] - Inference
+[2023-05-13 23:02:34,417][__main__][INFO] - Prompt: Three dogs on the street.
+[2023-05-13 23:02:34,417][__main__][INFO] - Phrases: dog;dog;dog
+[2023-05-13 23:02:34,418][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:02:44,259][__main__][INFO] - Decode Image...
+[2023-05-13 23:02:44,453][__main__][INFO] - Inference
+[2023-05-13 23:02:44,453][__main__][INFO] - Prompt: Three dogs on the street.
+[2023-05-13 23:02:44,453][__main__][INFO] - Phrases: dog;dog;dog
+[2023-05-13 23:02:44,453][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:02:54,813][__main__][INFO] - Decode Image...
+[2023-05-13 23:02:54,999][__main__][INFO] - Inference
+[2023-05-13 23:02:54,999][__main__][INFO] - Prompt: Three dogs on the street.
+[2023-05-13 23:02:55,000][__main__][INFO] - Phrases: dog;dog;dog
+[2023-05-13 23:02:55,000][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:03:04,834][__main__][INFO] - Decode Image...
+[2023-05-13 23:03:05,019][__main__][INFO] - Inference
+[2023-05-13 23:03:05,019][__main__][INFO] - Prompt: Three dogs on the street.
+[2023-05-13 23:03:05,019][__main__][INFO] - Phrases: dog;dog;dog
+[2023-05-13 23:03:05,019][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:03:15,596][__main__][INFO] - Decode Image...
+[2023-05-13 23:03:15,779][__main__][INFO] - Inference
+[2023-05-13 23:03:15,779][__main__][INFO] - Prompt: Three dogs on the street.
+[2023-05-13 23:03:15,779][__main__][INFO] - Phrases: dog;dog;dog
+[2023-05-13 23:03:15,779][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:03:26,801][__main__][INFO] - Decode Image...
+[2023-05-13 23:03:27,210][__main__][INFO] - Inference
+[2023-05-13 23:03:27,210][__main__][INFO] - Prompt: Four dogs on the street.
+[2023-05-13 23:03:27,210][__main__][INFO] - Phrases: dog;dog;dog;dog
+[2023-05-13 23:03:27,210][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:03:45,809][__main__][INFO] - Decode Image...
+[2023-05-13 23:03:46,011][__main__][INFO] - Inference
+[2023-05-13 23:03:46,011][__main__][INFO] - Prompt: Four dogs on the street.
+[2023-05-13 23:03:46,011][__main__][INFO] - Phrases: dog;dog;dog;dog
+[2023-05-13 23:03:46,011][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:04:01,624][__main__][INFO] - Decode Image...
+[2023-05-13 23:04:01,783][__main__][INFO] - Inference
+[2023-05-13 23:04:01,783][__main__][INFO] - Prompt: Four dogs on the street.
+[2023-05-13 23:04:01,783][__main__][INFO] - Phrases: dog;dog;dog;dog
+[2023-05-13 23:04:01,783][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:04:16,147][__main__][INFO] - Decode Image...
+[2023-05-13 23:04:16,347][__main__][INFO] - Inference
+[2023-05-13 23:04:16,347][__main__][INFO] - Prompt: Four dogs on the street.
+[2023-05-13 23:04:16,347][__main__][INFO] - Phrases: dog;dog;dog;dog
+[2023-05-13 23:04:16,347][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:04:34,467][__main__][INFO] - Decode Image...
+[2023-05-13 23:04:34,663][__main__][INFO] - Inference
+[2023-05-13 23:04:34,664][__main__][INFO] - Prompt: Four dogs on the street.
+[2023-05-13 23:04:34,664][__main__][INFO] - Phrases: dog;dog;dog;dog
+[2023-05-13 23:04:34,664][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:04:52,079][__main__][INFO] - Decode Image...
+[2023-05-13 23:04:52,292][__main__][INFO] - Inference
+[2023-05-13 23:04:52,292][__main__][INFO] - Prompt: Four dogs on the street.
+[2023-05-13 23:04:52,292][__main__][INFO] - Phrases: dog;dog;dog;dog
+[2023-05-13 23:04:52,292][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:05:16,033][__main__][INFO] - Decode Image...
+[2023-05-13 23:05:16,203][__main__][INFO] - Inference
+[2023-05-13 23:05:16,203][__main__][INFO] - Prompt: Four dogs on the street.
+[2023-05-13 23:05:16,203][__main__][INFO] - Phrases: dog;dog;dog;dog
+[2023-05-13 23:05:16,203][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:05:31,776][__main__][INFO] - Decode Image...
+[2023-05-13 23:05:31,991][__main__][INFO] - Inference
+[2023-05-13 23:05:31,991][__main__][INFO] - Prompt: Four dogs on the street.
+[2023-05-13 23:05:31,991][__main__][INFO] - Phrases: dog;dog;dog;dog
+[2023-05-13 23:05:31,991][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:05:45,804][__main__][INFO] - Decode Image...
+[2023-05-13 23:05:45,987][__main__][INFO] - Inference
+[2023-05-13 23:05:45,987][__main__][INFO] - Prompt: Four dogs on the street.
+[2023-05-13 23:05:45,987][__main__][INFO] - Phrases: dog;dog;dog;dog
+[2023-05-13 23:05:45,987][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:06:06,864][__main__][INFO] - Decode Image...
+[2023-05-13 23:06:07,047][__main__][INFO] - Inference
+[2023-05-13 23:06:07,047][__main__][INFO] - Prompt: Four dogs on the street.
+[2023-05-13 23:06:07,047][__main__][INFO] - Phrases: dog;dog;dog;dog
+[2023-05-13 23:06:07,047][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:06:21,919][__main__][INFO] - Decode Image...
+[2023-05-13 23:06:22,097][__main__][INFO] - Inference
+[2023-05-13 23:06:22,097][__main__][INFO] - Prompt: Five dogs on the street.
+[2023-05-13 23:06:22,098][__main__][INFO] - Phrases: dog;dog;dog;dog;dog
+[2023-05-13 23:06:22,098][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:06:33,922][__main__][INFO] - Decode Image...
+[2023-05-13 23:06:34,101][__main__][INFO] - Inference
+[2023-05-13 23:06:34,101][__main__][INFO] - Prompt: Five dogs on the street.
+[2023-05-13 23:06:34,101][__main__][INFO] - Phrases: dog;dog;dog;dog;dog
+[2023-05-13 23:06:34,101][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:06:45,365][__main__][INFO] - Decode Image...
+[2023-05-13 23:06:45,541][__main__][INFO] - Inference
+[2023-05-13 23:06:45,541][__main__][INFO] - Prompt: Five dogs on the street.
+[2023-05-13 23:06:45,541][__main__][INFO] - Phrases: dog;dog;dog;dog;dog
+[2023-05-13 23:06:45,541][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:06:56,810][__main__][INFO] - Decode Image...
+[2023-05-13 23:06:56,994][__main__][INFO] - Inference
+[2023-05-13 23:06:56,994][__main__][INFO] - Prompt: Five dogs on the street.
+[2023-05-13 23:06:56,994][__main__][INFO] - Phrases: dog;dog;dog;dog;dog
+[2023-05-13 23:06:56,994][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:07:08,571][__main__][INFO] - Decode Image...
+[2023-05-13 23:07:08,743][__main__][INFO] - Inference
+[2023-05-13 23:07:08,743][__main__][INFO] - Prompt: Five dogs on the street.
+[2023-05-13 23:07:08,744][__main__][INFO] - Phrases: dog;dog;dog;dog;dog
+[2023-05-13 23:07:08,744][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:07:20,384][__main__][INFO] - Decode Image...
+[2023-05-13 23:07:20,594][__main__][INFO] - Inference
+[2023-05-13 23:07:20,594][__main__][INFO] - Prompt: Five dogs on the street.
+[2023-05-13 23:07:20,594][__main__][INFO] - Phrases: dog;dog;dog;dog;dog
+[2023-05-13 23:07:20,594][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:07:30,949][__main__][INFO] - Decode Image...
+[2023-05-13 23:07:31,143][__main__][INFO] - Inference
+[2023-05-13 23:07:31,143][__main__][INFO] - Prompt: Five dogs on the street.
+[2023-05-13 23:07:31,143][__main__][INFO] - Phrases: dog;dog;dog;dog;dog
+[2023-05-13 23:07:31,143][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:07:41,220][__main__][INFO] - Decode Image...
+[2023-05-13 23:07:41,416][__main__][INFO] - Inference
+[2023-05-13 23:07:41,416][__main__][INFO] - Prompt: Five dogs on the street.
+[2023-05-13 23:07:41,417][__main__][INFO] - Phrases: dog;dog;dog;dog;dog
+[2023-05-13 23:07:41,417][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:07:52,107][__main__][INFO] - Decode Image...
+[2023-05-13 23:07:52,298][__main__][INFO] - Inference
+[2023-05-13 23:07:52,298][__main__][INFO] - Prompt: Five dogs on the street.
+[2023-05-13 23:07:52,298][__main__][INFO] - Phrases: dog;dog;dog;dog;dog
+[2023-05-13 23:07:52,298][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:08:02,533][__main__][INFO] - Decode Image...
+[2023-05-13 23:08:02,696][__main__][INFO] - Inference
+[2023-05-13 23:08:02,696][__main__][INFO] - Prompt: Five dogs on the street.
+[2023-05-13 23:08:02,696][__main__][INFO] - Phrases: dog;dog;dog;dog;dog
+[2023-05-13 23:08:02,697][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:08:12,718][__main__][INFO] - Decode Image...
+[2023-05-13 23:08:12,909][__main__][INFO] - Inference
+[2023-05-13 23:08:12,909][__main__][INFO] - Prompt: One cat and one dog sitting on the grass.
+[2023-05-13 23:08:12,909][__main__][INFO] - Phrases: cat;dog
+[2023-05-13 23:08:12,909][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:08:44,896][__main__][INFO] - Decode Image...
+[2023-05-13 23:08:45,074][__main__][INFO] - Inference
+[2023-05-13 23:08:45,074][__main__][INFO] - Prompt: One cat and one dog sitting on the grass.
+[2023-05-13 23:08:45,074][__main__][INFO] - Phrases: cat;dog
+[2023-05-13 23:08:45,074][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:09:39,917][__main__][INFO] - Decode Image...
+[2023-05-13 23:09:40,129][__main__][INFO] - Inference
+[2023-05-13 23:09:40,129][__main__][INFO] - Prompt: One cat and one dog sitting on the grass.
+[2023-05-13 23:09:40,129][__main__][INFO] - Phrases: cat;dog
+[2023-05-13 23:09:40,129][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:10:34,913][__main__][INFO] - Decode Image...
+[2023-05-13 23:10:35,088][__main__][INFO] - Inference
+[2023-05-13 23:10:35,088][__main__][INFO] - Prompt: One cat and one dog sitting on the grass.
+[2023-05-13 23:10:35,088][__main__][INFO] - Phrases: cat;dog
+[2023-05-13 23:10:35,088][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:11:29,882][__main__][INFO] - Decode Image...
+[2023-05-13 23:11:30,103][__main__][INFO] - Inference
+[2023-05-13 23:11:30,103][__main__][INFO] - Prompt: One cat and one dog sitting on the grass.
+[2023-05-13 23:11:30,103][__main__][INFO] - Phrases: cat;dog
+[2023-05-13 23:11:30,103][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:12:24,933][__main__][INFO] - Decode Image...
+[2023-05-13 23:12:25,102][__main__][INFO] - Inference
+[2023-05-13 23:12:25,102][__main__][INFO] - Prompt: One cat and one dog sitting on the grass.
+[2023-05-13 23:12:25,102][__main__][INFO] - Phrases: cat;dog
+[2023-05-13 23:12:25,102][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:13:19,899][__main__][INFO] - Decode Image...
+[2023-05-13 23:13:20,080][__main__][INFO] - Inference
+[2023-05-13 23:13:20,081][__main__][INFO] - Prompt: One cat and one dog sitting on the grass.
+[2023-05-13 23:13:20,081][__main__][INFO] - Phrases: cat;dog
+[2023-05-13 23:13:20,081][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:14:14,887][__main__][INFO] - Decode Image...
+[2023-05-13 23:14:15,079][__main__][INFO] - Inference
+[2023-05-13 23:14:15,079][__main__][INFO] - Prompt: One cat and one dog sitting on the grass.
+[2023-05-13 23:14:15,079][__main__][INFO] - Phrases: cat;dog
+[2023-05-13 23:14:15,079][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:15:09,913][__main__][INFO] - Decode Image...
+[2023-05-13 23:15:10,129][__main__][INFO] - Inference
+[2023-05-13 23:15:10,130][__main__][INFO] - Prompt: One cat and one dog sitting on the grass.
+[2023-05-13 23:15:10,130][__main__][INFO] - Phrases: cat;dog
+[2023-05-13 23:15:10,130][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:16:06,849][__main__][INFO] - Decode Image...
+[2023-05-13 23:16:07,069][__main__][INFO] - Inference
+[2023-05-13 23:16:07,069][__main__][INFO] - Prompt: One cat and one dog sitting on the grass.
+[2023-05-13 23:16:07,069][__main__][INFO] - Phrases: cat;dog
+[2023-05-13 23:16:07,069][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:17:05,451][__main__][INFO] - Decode Image...
+[2023-05-13 23:17:05,645][__main__][INFO] - Inference
+[2023-05-13 23:17:05,645][__main__][INFO] - Prompt: One cat and two dogs sitting on the grass.
+[2023-05-13 23:17:05,645][__main__][INFO] - Phrases: cat;dog;dog
+[2023-05-13 23:17:05,645][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:18:00,428][__main__][INFO] - Decode Image...
+[2023-05-13 23:18:00,650][__main__][INFO] - Inference
+[2023-05-13 23:18:00,650][__main__][INFO] - Prompt: One cat and two dogs sitting on the grass.
+[2023-05-13 23:18:00,650][__main__][INFO] - Phrases: cat;dog;dog
+[2023-05-13 23:18:00,650][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:18:55,449][__main__][INFO] - Decode Image...
+[2023-05-13 23:18:55,654][__main__][INFO] - Inference
+[2023-05-13 23:18:55,654][__main__][INFO] - Prompt: One cat and two dogs sitting on the grass.
+[2023-05-13 23:18:55,654][__main__][INFO] - Phrases: cat;dog;dog
+[2023-05-13 23:18:55,654][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:19:37,582][__main__][INFO] - Decode Image...
+[2023-05-13 23:19:37,751][__main__][INFO] - Inference
+[2023-05-13 23:19:37,751][__main__][INFO] - Prompt: One cat and two dogs sitting on the grass.
+[2023-05-13 23:19:37,751][__main__][INFO] - Phrases: cat;dog;dog
+[2023-05-13 23:19:37,751][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:20:32,644][__main__][INFO] - Decode Image...
+[2023-05-13 23:20:32,839][__main__][INFO] - Inference
+[2023-05-13 23:20:32,839][__main__][INFO] - Prompt: One cat and two dogs sitting on the grass.
+[2023-05-13 23:20:32,839][__main__][INFO] - Phrases: cat;dog;dog
+[2023-05-13 23:20:32,839][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:21:06,586][__main__][INFO] - Decode Image...
+[2023-05-13 23:21:06,779][__main__][INFO] - Inference
+[2023-05-13 23:21:06,779][__main__][INFO] - Prompt: One cat and two dogs sitting on the grass.
+[2023-05-13 23:21:06,779][__main__][INFO] - Phrases: cat;dog;dog
+[2023-05-13 23:21:06,779][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:21:45,816][__main__][INFO] - Decode Image...
+[2023-05-13 23:21:46,011][__main__][INFO] - Inference
+[2023-05-13 23:21:46,011][__main__][INFO] - Prompt: One cat and two dogs sitting on the grass.
+[2023-05-13 23:21:46,011][__main__][INFO] - Phrases: cat;dog;dog
+[2023-05-13 23:21:46,011][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:22:40,856][__main__][INFO] - Decode Image...
+[2023-05-13 23:22:41,056][__main__][INFO] - Inference
+[2023-05-13 23:22:41,056][__main__][INFO] - Prompt: One cat and two dogs sitting on the grass.
+[2023-05-13 23:22:41,056][__main__][INFO] - Phrases: cat;dog;dog
+[2023-05-13 23:22:41,056][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:23:23,161][__main__][INFO] - Decode Image...
+[2023-05-13 23:23:23,371][__main__][INFO] - Inference
+[2023-05-13 23:23:23,371][__main__][INFO] - Prompt: One cat and two dogs sitting on the grass.
+[2023-05-13 23:23:23,371][__main__][INFO] - Phrases: cat;dog;dog
+[2023-05-13 23:23:23,371][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:23:56,310][__main__][INFO] - Decode Image...
+[2023-05-13 23:23:56,477][__main__][INFO] - Inference
+[2023-05-13 23:23:56,477][__main__][INFO] - Prompt: One cat and two dogs sitting on the grass.
+[2023-05-13 23:23:56,477][__main__][INFO] - Phrases: cat;dog;dog
+[2023-05-13 23:23:56,477][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:24:56,655][__main__][INFO] - Decode Image...
+[2023-05-13 23:24:56,863][__main__][INFO] - Inference
+[2023-05-13 23:24:56,863][__main__][INFO] - Prompt: One cat and three dogs sitting on the grass.
+[2023-05-13 23:24:56,864][__main__][INFO] - Phrases: cat;dog;dog;dog
+[2023-05-13 23:24:56,864][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:25:52,167][__main__][INFO] - Decode Image...
+[2023-05-13 23:25:52,326][__main__][INFO] - Inference
+[2023-05-13 23:25:52,326][__main__][INFO] - Prompt: One cat and three dogs sitting on the grass.
+[2023-05-13 23:25:52,326][__main__][INFO] - Phrases: cat;dog;dog;dog
+[2023-05-13 23:25:52,326][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:26:31,563][__main__][INFO] - Decode Image...
+[2023-05-13 23:26:31,724][__main__][INFO] - Inference
+[2023-05-13 23:26:31,724][__main__][INFO] - Prompt: One cat and three dogs sitting on the grass.
+[2023-05-13 23:26:31,724][__main__][INFO] - Phrases: cat;dog;dog;dog
+[2023-05-13 23:26:31,724][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:27:26,590][__main__][INFO] - Decode Image...
+[2023-05-13 23:27:26,771][__main__][INFO] - Inference
+[2023-05-13 23:27:26,771][__main__][INFO] - Prompt: One cat and three dogs sitting on the grass.
+[2023-05-13 23:27:26,771][__main__][INFO] - Phrases: cat;dog;dog;dog
+[2023-05-13 23:27:26,771][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:28:21,646][__main__][INFO] - Decode Image...
+[2023-05-13 23:28:21,821][__main__][INFO] - Inference
+[2023-05-13 23:28:21,821][__main__][INFO] - Prompt: One cat and three dogs sitting on the grass.
+[2023-05-13 23:28:21,821][__main__][INFO] - Phrases: cat;dog;dog;dog
+[2023-05-13 23:28:21,821][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:29:16,644][__main__][INFO] - Decode Image...
+[2023-05-13 23:29:16,839][__main__][INFO] - Inference
+[2023-05-13 23:29:16,839][__main__][INFO] - Prompt: One cat and three dogs sitting on the grass.
+[2023-05-13 23:29:16,839][__main__][INFO] - Phrases: cat;dog;dog;dog
+[2023-05-13 23:29:16,839][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:30:11,593][__main__][INFO] - Decode Image...
+[2023-05-13 23:30:11,786][__main__][INFO] - Inference
+[2023-05-13 23:30:11,786][__main__][INFO] - Prompt: One cat and three dogs sitting on the grass.
+[2023-05-13 23:30:11,786][__main__][INFO] - Phrases: cat;dog;dog;dog
+[2023-05-13 23:30:11,786][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:31:06,593][__main__][INFO] - Decode Image...
+[2023-05-13 23:31:06,770][__main__][INFO] - Inference
+[2023-05-13 23:31:06,770][__main__][INFO] - Prompt: One cat and three dogs sitting on the grass.
+[2023-05-13 23:31:06,770][__main__][INFO] - Phrases: cat;dog;dog;dog
+[2023-05-13 23:31:06,770][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:32:01,612][__main__][INFO] - Decode Image...
+[2023-05-13 23:32:01,787][__main__][INFO] - Inference
+[2023-05-13 23:32:01,787][__main__][INFO] - Prompt: One cat and three dogs sitting on the grass.
+[2023-05-13 23:32:01,787][__main__][INFO] - Phrases: cat;dog;dog;dog
+[2023-05-13 23:32:01,787][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:32:56,669][__main__][INFO] - Decode Image...
+[2023-05-13 23:32:56,840][__main__][INFO] - Inference
+[2023-05-13 23:32:56,840][__main__][INFO] - Prompt: One cat and three dogs sitting on the grass.
+[2023-05-13 23:32:56,840][__main__][INFO] - Phrases: cat;dog;dog;dog
+[2023-05-13 23:32:56,840][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:33:51,653][__main__][INFO] - Decode Image...
+[2023-05-13 23:33:51,841][__main__][INFO] - Inference
+[2023-05-13 23:33:51,841][__main__][INFO] - Prompt: Two cats and one dog sitting on the grass.
+[2023-05-13 23:33:51,841][__main__][INFO] - Phrases: cat;cat;dog
+[2023-05-13 23:33:51,841][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:34:24,915][__main__][INFO] - Decode Image...
+[2023-05-13 23:34:25,094][__main__][INFO] - Inference
+[2023-05-13 23:34:25,095][__main__][INFO] - Prompt: Two cats and one dog sitting on the grass.
+[2023-05-13 23:34:25,095][__main__][INFO] - Phrases: cat;cat;dog
+[2023-05-13 23:34:25,095][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:35:08,146][__main__][INFO] - Decode Image...
+[2023-05-13 23:35:08,310][__main__][INFO] - Inference
+[2023-05-13 23:35:08,310][__main__][INFO] - Prompt: Two cats and one dog sitting on the grass.
+[2023-05-13 23:35:08,310][__main__][INFO] - Phrases: cat;cat;dog
+[2023-05-13 23:35:08,310][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:35:42,135][__main__][INFO] - Decode Image...
+[2023-05-13 23:35:42,308][__main__][INFO] - Inference
+[2023-05-13 23:35:42,308][__main__][INFO] - Prompt: Two cats and one dog sitting on the grass.
+[2023-05-13 23:35:42,308][__main__][INFO] - Phrases: cat;cat;dog
+[2023-05-13 23:35:42,308][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:36:18,105][__main__][INFO] - Decode Image...
+[2023-05-13 23:36:18,273][__main__][INFO] - Inference
+[2023-05-13 23:36:18,273][__main__][INFO] - Prompt: Two cats and one dog sitting on the grass.
+[2023-05-13 23:36:18,274][__main__][INFO] - Phrases: cat;cat;dog
+[2023-05-13 23:36:18,274][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:37:13,192][__main__][INFO] - Decode Image...
+[2023-05-13 23:37:13,401][__main__][INFO] - Inference
+[2023-05-13 23:37:13,401][__main__][INFO] - Prompt: Two cats and one dog sitting on the grass.
+[2023-05-13 23:37:13,401][__main__][INFO] - Phrases: cat;cat;dog
+[2023-05-13 23:37:13,401][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:38:08,824][__main__][INFO] - Decode Image...
+[2023-05-13 23:38:09,034][__main__][INFO] - Inference
+[2023-05-13 23:38:09,035][__main__][INFO] - Prompt: Two cats and one dog sitting on the grass.
+[2023-05-13 23:38:09,035][__main__][INFO] - Phrases: cat;cat;dog
+[2023-05-13 23:38:09,035][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:39:03,772][__main__][INFO] - Decode Image...
+[2023-05-13 23:39:03,947][__main__][INFO] - Inference
+[2023-05-13 23:39:03,947][__main__][INFO] - Prompt: Two cats and one dog sitting on the grass.
+[2023-05-13 23:39:03,947][__main__][INFO] - Phrases: cat;cat;dog
+[2023-05-13 23:39:03,947][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:39:58,665][__main__][INFO] - Decode Image...
+[2023-05-13 23:39:58,877][__main__][INFO] - Inference
+[2023-05-13 23:39:58,877][__main__][INFO] - Prompt: Two cats and one dog sitting on the grass.
+[2023-05-13 23:39:58,877][__main__][INFO] - Phrases: cat;cat;dog
+[2023-05-13 23:39:58,877][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:40:40,790][__main__][INFO] - Decode Image...
+[2023-05-13 23:40:40,959][__main__][INFO] - Inference
+[2023-05-13 23:40:40,959][__main__][INFO] - Prompt: Two cats and one dog sitting on the grass.
+[2023-05-13 23:40:40,959][__main__][INFO] - Phrases: cat;cat;dog
+[2023-05-13 23:40:40,959][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:41:35,896][__main__][INFO] - Decode Image...
+[2023-05-13 23:41:36,081][__main__][INFO] - Inference
+[2023-05-13 23:41:36,082][__main__][INFO] - Prompt: Two cats and two dogs sitting on the grass.
+[2023-05-13 23:41:36,082][__main__][INFO] - Phrases: cat;cat;dog;dog
+[2023-05-13 23:41:36,082][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:42:00,998][__main__][INFO] - Decode Image...
+[2023-05-13 23:42:01,178][__main__][INFO] - Inference
+[2023-05-13 23:42:01,178][__main__][INFO] - Prompt: Two cats and two dogs sitting on the grass.
+[2023-05-13 23:42:01,178][__main__][INFO] - Phrases: cat;cat;dog;dog
+[2023-05-13 23:42:01,178][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:42:29,427][__main__][INFO] - Decode Image...
+[2023-05-13 23:42:29,614][__main__][INFO] - Inference
+[2023-05-13 23:42:29,614][__main__][INFO] - Prompt: Two cats and two dogs sitting on the grass.
+[2023-05-13 23:42:29,614][__main__][INFO] - Phrases: cat;cat;dog;dog
+[2023-05-13 23:42:29,614][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:43:00,495][__main__][INFO] - Decode Image...
+[2023-05-13 23:43:00,708][__main__][INFO] - Inference
+[2023-05-13 23:43:00,708][__main__][INFO] - Prompt: Two cats and two dogs sitting on the grass.
+[2023-05-13 23:43:00,708][__main__][INFO] - Phrases: cat;cat;dog;dog
+[2023-05-13 23:43:00,708][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:43:24,348][__main__][INFO] - Decode Image...
+[2023-05-13 23:43:24,512][__main__][INFO] - Inference
+[2023-05-13 23:43:24,512][__main__][INFO] - Prompt: Two cats and two dogs sitting on the grass.
+[2023-05-13 23:43:24,512][__main__][INFO] - Phrases: cat;cat;dog;dog
+[2023-05-13 23:43:24,512][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:43:54,242][__main__][INFO] - Decode Image...
+[2023-05-13 23:43:54,421][__main__][INFO] - Inference
+[2023-05-13 23:43:54,422][__main__][INFO] - Prompt: Two cats and two dogs sitting on the grass.
+[2023-05-13 23:43:54,422][__main__][INFO] - Phrases: cat;cat;dog;dog
+[2023-05-13 23:43:54,422][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:44:22,436][__main__][INFO] - Decode Image...
+[2023-05-13 23:44:22,623][__main__][INFO] - Inference
+[2023-05-13 23:44:22,623][__main__][INFO] - Prompt: Two cats and two dogs sitting on the grass.
+[2023-05-13 23:44:22,623][__main__][INFO] - Phrases: cat;cat;dog;dog
+[2023-05-13 23:44:22,623][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:44:49,182][__main__][INFO] - Decode Image...
+[2023-05-13 23:44:49,350][__main__][INFO] - Inference
+[2023-05-13 23:44:49,350][__main__][INFO] - Prompt: Two cats and two dogs sitting on the grass.
+[2023-05-13 23:44:49,350][__main__][INFO] - Phrases: cat;cat;dog;dog
+[2023-05-13 23:44:49,350][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:45:15,029][__main__][INFO] - Decode Image...
+[2023-05-13 23:45:15,199][__main__][INFO] - Inference
+[2023-05-13 23:45:15,200][__main__][INFO] - Prompt: Two cats and two dogs sitting on the grass.
+[2023-05-13 23:45:15,200][__main__][INFO] - Phrases: cat;cat;dog;dog
+[2023-05-13 23:45:15,200][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:45:42,655][__main__][INFO] - Decode Image...
+[2023-05-13 23:45:42,843][__main__][INFO] - Inference
+[2023-05-13 23:45:42,843][__main__][INFO] - Prompt: Two cats and two dogs sitting on the grass.
+[2023-05-13 23:45:42,843][__main__][INFO] - Phrases: cat;cat;dog;dog
+[2023-05-13 23:45:42,843][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:46:12,613][__main__][INFO] - Decode Image...
+[2023-05-13 23:46:12,782][__main__][INFO] - Inference
+[2023-05-13 23:46:12,783][__main__][INFO] - Prompt: Two cats and three dogs sitting on the grass.
+[2023-05-13 23:46:12,783][__main__][INFO] - Phrases: cat;cat;dog;dog;dog
+[2023-05-13 23:46:12,783][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:46:43,165][__main__][INFO] - Decode Image...
+[2023-05-13 23:46:43,365][__main__][INFO] - Inference
+[2023-05-13 23:46:43,365][__main__][INFO] - Prompt: Two cats and three dogs sitting on the grass.
+[2023-05-13 23:46:43,365][__main__][INFO] - Phrases: cat;cat;dog;dog;dog
+[2023-05-13 23:46:43,365][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:47:38,194][__main__][INFO] - Decode Image...
+[2023-05-13 23:47:38,368][__main__][INFO] - Inference
+[2023-05-13 23:47:38,368][__main__][INFO] - Prompt: Two cats and three dogs sitting on the grass.
+[2023-05-13 23:47:38,368][__main__][INFO] - Phrases: cat;cat;dog;dog;dog
+[2023-05-13 23:47:38,368][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:48:33,660][__main__][INFO] - Decode Image...
+[2023-05-13 23:48:33,842][__main__][INFO] - Inference
+[2023-05-13 23:48:33,842][__main__][INFO] - Prompt: Two cats and three dogs sitting on the grass.
+[2023-05-13 23:48:33,842][__main__][INFO] - Phrases: cat;cat;dog;dog;dog
+[2023-05-13 23:48:33,842][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:49:06,172][__main__][INFO] - Decode Image...
+[2023-05-13 23:49:06,355][__main__][INFO] - Inference
+[2023-05-13 23:49:06,355][__main__][INFO] - Prompt: Two cats and three dogs sitting on the grass.
+[2023-05-13 23:49:06,355][__main__][INFO] - Phrases: cat;cat;dog;dog;dog
+[2023-05-13 23:49:06,355][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:50:01,253][__main__][INFO] - Decode Image...
+[2023-05-13 23:50:01,433][__main__][INFO] - Inference
+[2023-05-13 23:50:01,433][__main__][INFO] - Prompt: Two cats and three dogs sitting on the grass.
+[2023-05-13 23:50:01,434][__main__][INFO] - Phrases: cat;cat;dog;dog;dog
+[2023-05-13 23:50:01,434][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:50:41,854][__main__][INFO] - Decode Image...
+[2023-05-13 23:50:42,026][__main__][INFO] - Inference
+[2023-05-13 23:50:42,026][__main__][INFO] - Prompt: Two cats and three dogs sitting on the grass.
+[2023-05-13 23:50:42,026][__main__][INFO] - Phrases: cat;cat;dog;dog;dog
+[2023-05-13 23:50:42,026][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:51:36,916][__main__][INFO] - Decode Image...
+[2023-05-13 23:51:37,119][__main__][INFO] - Inference
+[2023-05-13 23:51:37,119][__main__][INFO] - Prompt: Two cats and three dogs sitting on the grass.
+[2023-05-13 23:51:37,119][__main__][INFO] - Phrases: cat;cat;dog;dog;dog
+[2023-05-13 23:51:37,119][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:52:32,029][__main__][INFO] - Decode Image...
+[2023-05-13 23:52:32,242][__main__][INFO] - Inference
+[2023-05-13 23:52:32,242][__main__][INFO] - Prompt: Two cats and three dogs sitting on the grass.
+[2023-05-13 23:52:32,242][__main__][INFO] - Phrases: cat;cat;dog;dog;dog
+[2023-05-13 23:52:32,242][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:53:08,730][__main__][INFO] - Decode Image...
+[2023-05-13 23:53:08,891][__main__][INFO] - Inference
+[2023-05-13 23:53:08,891][__main__][INFO] - Prompt: Two cats and three dogs sitting on the grass.
+[2023-05-13 23:53:08,891][__main__][INFO] - Phrases: cat;cat;dog;dog;dog
+[2023-05-13 23:53:08,891][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:53:53,818][__main__][INFO] - Decode Image...
+[2023-05-13 23:53:53,993][__main__][INFO] - Inference
+[2023-05-13 23:53:53,993][__main__][INFO] - Prompt: Three cats and one dog sitting on the grass.
+[2023-05-13 23:53:53,993][__main__][INFO] - Phrases: dog
+[2023-05-13 23:53:53,993][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:54:21,377][__main__][INFO] - Decode Image...
+[2023-05-13 23:54:21,581][__main__][INFO] - Inference
+[2023-05-13 23:54:21,581][__main__][INFO] - Prompt: Three cats and one dog sitting on the grass.
+[2023-05-13 23:54:21,581][__main__][INFO] - Phrases: dog
+[2023-05-13 23:54:21,581][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:54:44,704][__main__][INFO] - Decode Image...
+[2023-05-13 23:54:44,890][__main__][INFO] - Inference
+[2023-05-13 23:54:44,890][__main__][INFO] - Prompt: Three cats and one dog sitting on the grass.
+[2023-05-13 23:54:44,890][__main__][INFO] - Phrases: dog
+[2023-05-13 23:54:44,890][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:55:12,484][__main__][INFO] - Decode Image...
+[2023-05-13 23:55:12,687][__main__][INFO] - Inference
+[2023-05-13 23:55:12,687][__main__][INFO] - Prompt: Three cats and one dog sitting on the grass.
+[2023-05-13 23:55:12,687][__main__][INFO] - Phrases: dog
+[2023-05-13 23:55:12,687][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:55:37,209][__main__][INFO] - Decode Image...
+[2023-05-13 23:55:37,409][__main__][INFO] - Inference
+[2023-05-13 23:55:37,409][__main__][INFO] - Prompt: Three cats and one dog sitting on the grass.
+[2023-05-13 23:55:37,409][__main__][INFO] - Phrases: dog
+[2023-05-13 23:55:37,409][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:56:01,039][__main__][INFO] - Decode Image...
+[2023-05-13 23:56:01,241][__main__][INFO] - Inference
+[2023-05-13 23:56:01,241][__main__][INFO] - Prompt: Three cats and one dog sitting on the grass.
+[2023-05-13 23:56:01,241][__main__][INFO] - Phrases: dog
+[2023-05-13 23:56:01,241][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:56:29,428][__main__][INFO] - Decode Image...
+[2023-05-13 23:56:29,614][__main__][INFO] - Inference
+[2023-05-13 23:56:29,614][__main__][INFO] - Prompt: Three cats and one dog sitting on the grass.
+[2023-05-13 23:56:29,615][__main__][INFO] - Phrases: dog
+[2023-05-13 23:56:29,615][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:56:52,682][__main__][INFO] - Decode Image...
+[2023-05-13 23:56:52,904][__main__][INFO] - Inference
+[2023-05-13 23:56:52,905][__main__][INFO] - Prompt: Three cats and one dog sitting on the grass.
+[2023-05-13 23:56:52,905][__main__][INFO] - Phrases: dog
+[2023-05-13 23:56:52,905][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:57:20,314][__main__][INFO] - Decode Image...
+[2023-05-13 23:57:20,519][__main__][INFO] - Inference
+[2023-05-13 23:57:20,519][__main__][INFO] - Prompt: Three cats and one dog sitting on the grass.
+[2023-05-13 23:57:20,519][__main__][INFO] - Phrases: dog
+[2023-05-13 23:57:20,519][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:57:49,802][__main__][INFO] - Decode Image...
+[2023-05-13 23:57:50,029][__main__][INFO] - Inference
+[2023-05-13 23:57:50,029][__main__][INFO] - Prompt: Three cats and one dog sitting on the grass.
+[2023-05-13 23:57:50,029][__main__][INFO] - Phrases: dog
+[2023-05-13 23:57:50,029][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:58:13,076][__main__][INFO] - Decode Image...
+[2023-05-13 23:58:13,294][__main__][INFO] - Inference
+[2023-05-13 23:58:13,294][__main__][INFO] - Prompt: Three cats and two dogs sitting on the grass.
+[2023-05-13 23:58:13,294][__main__][INFO] - Phrases: cat;cat;cat;dog;dog
+[2023-05-13 23:58:13,294][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:58:43,677][__main__][INFO] - Decode Image...
+[2023-05-13 23:58:43,849][__main__][INFO] - Inference
+[2023-05-13 23:58:43,849][__main__][INFO] - Prompt: Three cats and two dogs sitting on the grass.
+[2023-05-13 23:58:43,849][__main__][INFO] - Phrases: cat;cat;cat;dog;dog
+[2023-05-13 23:58:43,849][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:59:08,726][__main__][INFO] - Decode Image...
+[2023-05-13 23:59:08,899][__main__][INFO] - Inference
+[2023-05-13 23:59:08,899][__main__][INFO] - Prompt: Three cats and two dogs sitting on the grass.
+[2023-05-13 23:59:08,899][__main__][INFO] - Phrases: cat;cat;cat;dog;dog
+[2023-05-13 23:59:08,899][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 23:59:35,254][__main__][INFO] - Decode Image...
+[2023-05-13 23:59:35,426][__main__][INFO] - Inference
+[2023-05-13 23:59:35,426][__main__][INFO] - Prompt: Three cats and two dogs sitting on the grass.
+[2023-05-13 23:59:35,426][__main__][INFO] - Phrases: cat;cat;cat;dog;dog
+[2023-05-13 23:59:35,427][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:00:02,008][__main__][INFO] - Decode Image...
+[2023-05-14 00:00:02,187][__main__][INFO] - Inference
+[2023-05-14 00:00:02,187][__main__][INFO] - Prompt: Three cats and two dogs sitting on the grass.
+[2023-05-14 00:00:02,187][__main__][INFO] - Phrases: cat;cat;cat;dog;dog
+[2023-05-14 00:00:02,187][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:00:27,854][__main__][INFO] - Decode Image...
+[2023-05-14 00:00:28,017][__main__][INFO] - Inference
+[2023-05-14 00:00:28,017][__main__][INFO] - Prompt: Three cats and two dogs sitting on the grass.
+[2023-05-14 00:00:28,017][__main__][INFO] - Phrases: cat;cat;cat;dog;dog
+[2023-05-14 00:00:28,017][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:00:53,697][__main__][INFO] - Decode Image...
+[2023-05-14 00:00:53,867][__main__][INFO] - Inference
+[2023-05-14 00:00:53,867][__main__][INFO] - Prompt: Three cats and two dogs sitting on the grass.
+[2023-05-14 00:00:53,867][__main__][INFO] - Phrases: cat;cat;cat;dog;dog
+[2023-05-14 00:00:53,867][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:01:21,304][__main__][INFO] - Decode Image...
+[2023-05-14 00:01:21,471][__main__][INFO] - Inference
+[2023-05-14 00:01:21,471][__main__][INFO] - Prompt: Three cats and two dogs sitting on the grass.
+[2023-05-14 00:01:21,472][__main__][INFO] - Phrases: cat;cat;cat;dog;dog
+[2023-05-14 00:01:21,472][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:01:51,509][__main__][INFO] - Decode Image...
+[2023-05-14 00:01:51,674][__main__][INFO] - Inference
+[2023-05-14 00:01:51,674][__main__][INFO] - Prompt: Three cats and two dogs sitting on the grass.
+[2023-05-14 00:01:51,674][__main__][INFO] - Phrases: cat;cat;cat;dog;dog
+[2023-05-14 00:01:51,674][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:02:17,497][__main__][INFO] - Decode Image...
+[2023-05-14 00:02:17,666][__main__][INFO] - Inference
+[2023-05-14 00:02:17,666][__main__][INFO] - Prompt: Three cats and two dogs sitting on the grass.
+[2023-05-14 00:02:17,666][__main__][INFO] - Phrases: cat;cat;cat;dog;dog
+[2023-05-14 00:02:17,666][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:02:47,821][__main__][INFO] - Decode Image...
+[2023-05-14 00:02:47,987][__main__][INFO] - Inference
+[2023-05-14 00:02:47,987][__main__][INFO] - Prompt: Three cats and three dogs sitting on the grass.
+[2023-05-14 00:02:47,987][__main__][INFO] - Phrases: cat;cat;cat;dog;dog;dog
+[2023-05-14 00:02:47,987][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:03:21,620][__main__][INFO] - Decode Image...
+[2023-05-14 00:03:21,793][__main__][INFO] - Inference
+[2023-05-14 00:03:21,794][__main__][INFO] - Prompt: Three cats and three dogs sitting on the grass.
+[2023-05-14 00:03:21,794][__main__][INFO] - Phrases: cat;cat;cat;dog;dog;dog
+[2023-05-14 00:03:21,794][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:04:16,759][__main__][INFO] - Decode Image...
+[2023-05-14 00:04:16,968][__main__][INFO] - Inference
+[2023-05-14 00:04:16,968][__main__][INFO] - Prompt: Three cats and three dogs sitting on the grass.
+[2023-05-14 00:04:16,968][__main__][INFO] - Phrases: cat;cat;cat;dog;dog;dog
+[2023-05-14 00:04:16,968][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:04:50,750][__main__][INFO] - Decode Image...
+[2023-05-14 00:04:50,946][__main__][INFO] - Inference
+[2023-05-14 00:04:50,946][__main__][INFO] - Prompt: Three cats and three dogs sitting on the grass.
+[2023-05-14 00:04:50,946][__main__][INFO] - Phrases: cat;cat;cat;dog;dog;dog
+[2023-05-14 00:04:50,946][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:05:45,734][__main__][INFO] - Decode Image...
+[2023-05-14 00:05:45,906][__main__][INFO] - Inference
+[2023-05-14 00:05:45,906][__main__][INFO] - Prompt: Three cats and three dogs sitting on the grass.
+[2023-05-14 00:05:45,906][__main__][INFO] - Phrases: cat;cat;cat;dog;dog;dog
+[2023-05-14 00:05:45,906][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:06:28,867][__main__][INFO] - Decode Image...
+[2023-05-14 00:06:29,048][__main__][INFO] - Inference
+[2023-05-14 00:06:29,048][__main__][INFO] - Prompt: Three cats and three dogs sitting on the grass.
+[2023-05-14 00:06:29,048][__main__][INFO] - Phrases: cat;cat;cat;dog;dog;dog
+[2023-05-14 00:06:29,048][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:07:23,926][__main__][INFO] - Decode Image...
+[2023-05-14 00:07:24,104][__main__][INFO] - Inference
+[2023-05-14 00:07:24,104][__main__][INFO] - Prompt: Three cats and three dogs sitting on the grass.
+[2023-05-14 00:07:24,104][__main__][INFO] - Phrases: cat;cat;cat;dog;dog;dog
+[2023-05-14 00:07:24,104][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:08:18,952][__main__][INFO] - Decode Image...
+[2023-05-14 00:08:19,137][__main__][INFO] - Inference
+[2023-05-14 00:08:19,137][__main__][INFO] - Prompt: Three cats and three dogs sitting on the grass.
+[2023-05-14 00:08:19,137][__main__][INFO] - Phrases: cat;cat;cat;dog;dog;dog
+[2023-05-14 00:08:19,137][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:08:52,847][__main__][INFO] - Decode Image...
+[2023-05-14 00:08:53,001][__main__][INFO] - Inference
+[2023-05-14 00:08:53,001][__main__][INFO] - Prompt: Three cats and three dogs sitting on the grass.
+[2023-05-14 00:08:53,002][__main__][INFO] - Phrases: cat;cat;cat;dog;dog;dog
+[2023-05-14 00:08:53,002][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:09:47,898][__main__][INFO] - Decode Image...
+[2023-05-14 00:09:48,073][__main__][INFO] - Inference
+[2023-05-14 00:09:48,073][__main__][INFO] - Prompt: Three cats and three dogs sitting on the grass.
+[2023-05-14 00:09:48,073][__main__][INFO] - Phrases: cat;cat;cat;dog;dog;dog
+[2023-05-14 00:09:48,073][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:10:42,965][__main__][INFO] - Decode Image...

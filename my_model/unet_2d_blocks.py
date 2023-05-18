@@ -579,6 +579,7 @@ class CrossAttnDownBlock2D(nn.Module):
     def forward(self, hidden_states, temb=None, encoder_hidden_states=None):
         output_states = ()
         cross_attn_prob_list = []
+        # import pdb; pdb.set_trace()
         for layer_idx, (resnet, attn) in enumerate(zip(self.resnets, self.attentions)):
             if self.training and self.gradient_checkpointing:
 

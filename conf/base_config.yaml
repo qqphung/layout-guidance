@@ -1,6 +1,6 @@
 
 general:
-  save_path:  './example_output'
+  save_path:  './hrs_save/color'
   model_path: 'runwayml/stable-diffusion-v1-5'
   unet_config: './conf/unet/config.json'
 
@@ -12,7 +12,7 @@ inference:
   max_index_step: 10
   timesteps: 51
   classifier_free_guidance: 7.5
-  rand_seed: 445
+  rand_seed: 100
 
 noise_schedule:
   beta_start: 0.00085

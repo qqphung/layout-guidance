@@ -1,0 +1,61 @@
+[2023-04-20 11:02:40,971][__main__][INFO] - {'general': {'save_path': './hrs_save/spatial', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-04-20 11:02:40,971][__main__][INFO] - save config to ./hrs_save/spatial/config.yaml
+[2023-04-20 11:02:40,988][__main__][INFO] - Inference
+[2023-04-20 11:02:40,988][__main__][INFO] - Prompt: a horse above a airplane.
+[2023-04-20 11:02:40,989][__main__][INFO] - Phrases: horse;airplane
+[2023-04-20 11:02:40,989][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:02:59,275][__main__][INFO] - Decode Image...
+[2023-04-20 11:02:59,487][__main__][INFO] - Inference
+[2023-04-20 11:02:59,487][__main__][INFO] - Prompt: a cat over a person.
+[2023-04-20 11:02:59,487][__main__][INFO] - Phrases: cat;person
+[2023-04-20 11:02:59,487][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:03:16,967][__main__][INFO] - Decode Image...
+[2023-04-20 11:03:17,171][__main__][INFO] - Inference
+[2023-04-20 11:03:17,171][__main__][INFO] - Prompt: a horse above a cat.
+[2023-04-20 11:03:17,171][__main__][INFO] - Phrases: horse;cat
+[2023-04-20 11:03:17,171][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:03:34,646][__main__][INFO] - Decode Image...
+[2023-04-20 11:03:34,854][__main__][INFO] - Inference
+[2023-04-20 11:03:34,855][__main__][INFO] - Prompt: a car on a cat.
+[2023-04-20 11:03:34,855][__main__][INFO] - Phrases: car;cat
+[2023-04-20 11:03:34,855][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:03:52,369][__main__][INFO] - Decode Image...
+[2023-04-20 11:03:52,566][__main__][INFO] - Inference
+[2023-04-20 11:03:52,566][__main__][INFO] - Prompt: a cat below a chair.
+[2023-04-20 11:03:52,566][__main__][INFO] - Phrases: cat;chair
+[2023-04-20 11:03:52,566][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:04:10,169][__main__][INFO] - Decode Image...
+[2023-04-20 11:04:10,391][__main__][INFO] - Inference
+[2023-04-20 11:04:10,391][__main__][INFO] - Prompt: a cat over a airplane.
+[2023-04-20 11:04:10,391][__main__][INFO] - Phrases: cat;airplane
+[2023-04-20 11:04:10,391][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:04:26,896][__main__][INFO] - Decode Image...
+[2023-04-20 11:04:27,107][__main__][INFO] - Inference
+[2023-04-20 11:04:27,107][__main__][INFO] - Prompt: a banana on a horse.
+[2023-04-20 11:04:27,107][__main__][INFO] - Phrases: banana;horse
+[2023-04-20 11:04:27,107][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:04:44,825][__main__][INFO] - Decode Image...
+[2023-04-20 11:04:45,024][__main__][INFO] - Inference
+[2023-04-20 11:04:45,024][__main__][INFO] - Prompt: a person under a car.
+[2023-04-20 11:04:45,024][__main__][INFO] - Phrases: person;car
+[2023-04-20 11:04:45,024][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:05:02,364][__main__][INFO] - Decode Image...
+[2023-04-20 11:05:02,545][__main__][INFO] - Inference
+[2023-04-20 11:05:02,545][__main__][INFO] - Prompt: a airplane under a person.
+[2023-04-20 11:05:02,546][__main__][INFO] - Phrases: airplane;person
+[2023-04-20 11:05:02,546][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:05:20,229][__main__][INFO] - Decode Image...
+[2023-04-20 11:05:20,454][__main__][INFO] - Inference
+[2023-04-20 11:05:20,454][__main__][INFO] - Prompt: a car on the left of a airplane.
+[2023-04-20 11:05:20,454][__main__][INFO] - Phrases: car;airplane
+[2023-04-20 11:05:20,454][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:05:38,146][__main__][INFO] - Decode Image...
+[2023-04-20 11:05:38,362][__main__][INFO] - Inference
+[2023-04-20 11:05:38,362][__main__][INFO] - Prompt: a cat on the right of a airplane.
+[2023-04-20 11:05:38,362][__main__][INFO] - Phrases: cat;airplane
+[2023-04-20 11:05:38,363][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:05:56,029][__main__][INFO] - Decode Image...
+[2023-04-20 11:05:56,237][__main__][INFO] - Inference
+[2023-04-20 11:05:56,237][__main__][INFO] - Prompt: a airplane above a chair.
+[2023-04-20 11:05:56,237][__main__][INFO] - Phrases: airplane;chair
+[2023-04-20 11:05:56,237][__main__][INFO] - Conver Phrases to Object Positions

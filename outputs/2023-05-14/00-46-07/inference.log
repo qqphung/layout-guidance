@@ -1,0 +1,86 @@
+[2023-05-14 00:46:15,588][__main__][INFO] - {'general': {'save_path': './draw_bench/spatial', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-14 00:46:15,588][__main__][INFO] - save config to ./draw_bench/spatial/config.yaml
+[2023-05-14 00:46:15,595][__main__][INFO] - Inference
+[2023-05-14 00:46:15,595][__main__][INFO] - Prompt: A bicycle on top of a boat.
+[2023-05-14 00:46:15,595][__main__][INFO] - Phrases: bicycle;boat
+[2023-05-14 00:46:15,595][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:46:47,936][__main__][INFO] - Decode Image...
+[2023-05-14 00:46:48,139][__main__][INFO] - Inference
+[2023-05-14 00:46:48,139][__main__][INFO] - Prompt: A bicycle on top of a boat.
+[2023-05-14 00:46:48,139][__main__][INFO] - Phrases: bicycle;boat
+[2023-05-14 00:46:48,140][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:47:23,946][__main__][INFO] - Decode Image...
+[2023-05-14 00:47:24,125][__main__][INFO] - Inference
+[2023-05-14 00:47:24,125][__main__][INFO] - Prompt: A bicycle on top of a boat.
+[2023-05-14 00:47:24,125][__main__][INFO] - Phrases: bicycle;boat
+[2023-05-14 00:47:24,125][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:47:50,442][__main__][INFO] - Decode Image...
+[2023-05-14 00:47:50,616][__main__][INFO] - Inference
+[2023-05-14 00:47:50,617][__main__][INFO] - Prompt: A bicycle on top of a boat.
+[2023-05-14 00:47:50,617][__main__][INFO] - Phrases: bicycle;boat
+[2023-05-14 00:47:50,617][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:48:25,943][__main__][INFO] - Decode Image...
+[2023-05-14 00:48:26,117][__main__][INFO] - Inference
+[2023-05-14 00:48:26,118][__main__][INFO] - Prompt: A bicycle on top of a boat.
+[2023-05-14 00:48:26,118][__main__][INFO] - Phrases: bicycle;boat
+[2023-05-14 00:48:26,118][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:48:53,189][__main__][INFO] - Decode Image...
+[2023-05-14 00:48:53,379][__main__][INFO] - Inference
+[2023-05-14 00:48:53,379][__main__][INFO] - Prompt: A bicycle on top of a boat.
+[2023-05-14 00:48:53,379][__main__][INFO] - Phrases: bicycle;boat
+[2023-05-14 00:48:53,379][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:49:24,205][__main__][INFO] - Decode Image...
+[2023-05-14 00:49:24,423][__main__][INFO] - Inference
+[2023-05-14 00:49:24,423][__main__][INFO] - Prompt: A bicycle on top of a boat.
+[2023-05-14 00:49:24,423][__main__][INFO] - Phrases: bicycle;boat
+[2023-05-14 00:49:24,423][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:49:51,460][__main__][INFO] - Decode Image...
+[2023-05-14 00:49:51,648][__main__][INFO] - Inference
+[2023-05-14 00:49:51,649][__main__][INFO] - Prompt: A bicycle on top of a boat.
+[2023-05-14 00:49:51,649][__main__][INFO] - Phrases: bicycle;boat
+[2023-05-14 00:49:51,649][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:50:24,155][__main__][INFO] - Decode Image...
+[2023-05-14 00:50:24,334][__main__][INFO] - Inference
+[2023-05-14 00:50:24,334][__main__][INFO] - Prompt: A bicycle on top of a boat.
+[2023-05-14 00:50:24,334][__main__][INFO] - Phrases: bicycle;boat
+[2023-05-14 00:50:24,334][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:51:02,030][__main__][INFO] - Decode Image...
+[2023-05-14 00:51:02,192][__main__][INFO] - Inference
+[2023-05-14 00:51:02,192][__main__][INFO] - Prompt: A bicycle on top of a boat.
+[2023-05-14 00:51:02,192][__main__][INFO] - Phrases: bicycle;boat
+[2023-05-14 00:51:02,192][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:51:30,377][__main__][INFO] - Decode Image...
+[2023-05-14 00:51:30,553][__main__][INFO] - Inference
+[2023-05-14 00:51:30,553][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 00:51:30,553][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 00:51:30,554][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:52:25,063][__main__][INFO] - Decode Image...
+[2023-05-14 00:52:25,249][__main__][INFO] - Inference
+[2023-05-14 00:52:25,250][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 00:52:25,250][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 00:52:25,250][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:53:02,493][__main__][INFO] - Decode Image...
+[2023-05-14 00:53:02,677][__main__][INFO] - Inference
+[2023-05-14 00:53:02,677][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 00:53:02,677][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 00:53:02,677][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:53:57,447][__main__][INFO] - Decode Image...
+[2023-05-14 00:53:57,652][__main__][INFO] - Inference
+[2023-05-14 00:53:57,652][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 00:53:57,652][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 00:53:57,652][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:54:53,520][__main__][INFO] - Decode Image...
+[2023-05-14 00:54:53,708][__main__][INFO] - Inference
+[2023-05-14 00:54:53,708][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 00:54:53,708][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 00:54:53,708][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:55:48,517][__main__][INFO] - Decode Image...
+[2023-05-14 00:55:48,689][__main__][INFO] - Inference
+[2023-05-14 00:55:48,690][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 00:55:48,690][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 00:55:48,690][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 00:56:43,553][__main__][INFO] - Decode Image...
+[2023-05-14 00:56:43,743][__main__][INFO] - Inference
+[2023-05-14 00:56:43,743][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 00:56:43,743][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 00:56:43,743][__main__][INFO] - Conver Phrases to Object Positions

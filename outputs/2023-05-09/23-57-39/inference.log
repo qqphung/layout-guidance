@@ -1,0 +1,2 @@
+[2023-05-09 23:57:47,241][__main__][INFO] - {'general': {'save_path': './hrs_save/countingl', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-09 23:57:47,242][__main__][INFO] - save config to ./hrs_save/countingl/config.yaml

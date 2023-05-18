@@ -1,0 +1,782 @@
+[2023-05-10 12:37:34,246][__main__][INFO] - {'general': {'save_path': './hrs_save/counting_remain', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-10 12:37:34,247][__main__][INFO] - save config to ./hrs_save/counting_remain/config.yaml
+[2023-05-10 12:37:34,276][__main__][INFO] - Inference
+[2023-05-10 12:37:34,276][__main__][INFO] - Prompt: a family of five is gathered around a dining table, enjoying a home-cooked meal and laughing together.
+[2023-05-10 12:37:34,276][__main__][INFO] - Phrases: 
+[2023-05-10 12:37:34,276][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:37:47,982][__main__][INFO] - Decode Image...
+[2023-05-10 12:37:48,182][__main__][INFO] - Inference
+[2023-05-10 12:37:48,182][__main__][INFO] - Prompt: two traffic lights are side by side, one red and one green, with cars waiting at the red light and passing through the green light.
+[2023-05-10 12:37:48,182][__main__][INFO] - Phrases: 
+[2023-05-10 12:37:48,182][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:38:43,957][__main__][INFO] - Decode Image...
+[2023-05-10 12:38:44,133][__main__][INFO] - Inference
+[2023-05-10 12:38:44,133][__main__][INFO] - Prompt: a robin is perched on a branch, singing its cheerful morning song.
+[2023-05-10 12:38:44,133][__main__][INFO] - Phrases: robin;branch
+[2023-05-10 12:38:44,133][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:39:38,062][__main__][INFO] - Decode Image...
+[2023-05-10 12:39:38,255][__main__][INFO] - Inference
+[2023-05-10 12:39:38,255][__main__][INFO] - Prompt: two broccoli stalks are sitting side by side in a bowl of steaming hot water, ready to be cooked.
+[2023-05-10 12:39:38,255][__main__][INFO] - Phrases: bowl
+[2023-05-10 12:39:38,255][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:39:53,304][__main__][INFO] - Decode Image...
+[2023-05-10 12:39:53,494][__main__][INFO] - Inference
+[2023-05-10 12:39:53,494][__main__][INFO] - Prompt: a young boy stands in the outfield, proudly wearing his new baseball glove, ready to catch any ball that comes his way.
+[2023-05-10 12:39:53,494][__main__][INFO] - Phrases: outfield
+[2023-05-10 12:39:53,494][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:40:48,917][__main__][INFO] - Decode Image...
+[2023-05-10 12:40:49,113][__main__][INFO] - Inference
+[2023-05-10 12:40:49,113][__main__][INFO] - Prompt: a beautiful chestnut horse is trotting gracefully across a sun-dappled meadow.
+[2023-05-10 12:40:49,113][__main__][INFO] - Phrases: 
+[2023-05-10 12:40:49,113][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:41:09,456][__main__][INFO] - Decode Image...
+[2023-05-10 12:41:09,634][__main__][INFO] - Inference
+[2023-05-10 12:41:09,634][__main__][INFO] - Prompt: two televisions are side by side on a television stand in a living room, both displaying different programs.
+[2023-05-10 12:41:09,634][__main__][INFO] - Phrases: 
+[2023-05-10 12:41:09,634][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:41:34,382][__main__][INFO] - Decode Image...
+[2023-05-10 12:41:34,597][__main__][INFO] - Inference
+[2023-05-10 12:41:34,597][__main__][INFO] - Prompt: a single clear glass bottle filled with water sits on a wooden table in a sunlit room.
+[2023-05-10 12:41:34,597][__main__][INFO] - Phrases: 
+[2023-05-10 12:41:34,597][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:42:12,202][__main__][INFO] - Decode Image...
+[2023-05-10 12:42:12,410][__main__][INFO] - Inference
+[2023-05-10 12:42:12,410][__main__][INFO] - Prompt: two apples sit side-by-side on a wooden table, the bright red of one contrasting with the green of the other.
+[2023-05-10 12:42:12,410][__main__][INFO] - Phrases: 
+[2023-05-10 12:42:12,410][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:43:07,124][__main__][INFO] - Decode Image...
+[2023-05-10 12:43:07,308][__main__][INFO] - Inference
+[2023-05-10 12:43:07,308][__main__][INFO] - Prompt: a skier is gliding down a snowy mountain, the sun shining brightly as they carve through the powdery snow.
+[2023-05-10 12:43:07,308][__main__][INFO] - Phrases: skier;sun
+[2023-05-10 12:43:07,308][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:44:03,341][__main__][INFO] - Decode Image...
+[2023-05-10 12:44:03,537][__main__][INFO] - Inference
+[2023-05-10 12:44:03,537][__main__][INFO] - Prompt: a lone baseball glove sits in the grass, its leather worn and its laces frayed from years of use.
+[2023-05-10 12:44:03,537][__main__][INFO] - Phrases: 
+[2023-05-10 12:44:03,537][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:44:26,305][__main__][INFO] - Decode Image...
+[2023-05-10 12:44:26,508][__main__][INFO] - Inference
+[2023-05-10 12:44:26,508][__main__][INFO] - Prompt: a baseball glove sits on the ground, its leather worn and its laces frayed, waiting to be picked up and used to catch a ball.
+[2023-05-10 12:44:26,508][__main__][INFO] - Phrases: ground;ball
+[2023-05-10 12:44:26,508][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:45:23,117][__main__][INFO] - Decode Image...
+[2023-05-10 12:45:23,326][__main__][INFO] - Inference
+[2023-05-10 12:45:23,327][__main__][INFO] - Prompt: a lone motorcycle is rumbling down a winding country road, its engine echoing off the surrounding hills.
+[2023-05-10 12:45:23,327][__main__][INFO] - Phrases: motorcycle
+[2023-05-10 12:45:23,327][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:46:19,447][__main__][INFO] - Decode Image...
+[2023-05-10 12:46:19,630][__main__][INFO] - Inference
+[2023-05-10 12:46:19,630][__main__][INFO] - Prompt: a single wooden chair sits in the corner of a room, its legs slightly worn from years of use.
+[2023-05-10 12:46:19,630][__main__][INFO] - Phrases: 
+[2023-05-10 12:46:19,630][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:47:14,432][__main__][INFO] - Decode Image...
+[2023-05-10 12:47:14,661][__main__][INFO] - Inference
+[2023-05-10 12:47:14,662][__main__][INFO] - Prompt: a steaming mug of coffee sits on the kitchen counter, releasing a pleasant aroma as the steam swirls from the cup.
+[2023-05-10 12:47:14,662][__main__][INFO] - Phrases: steam
+[2023-05-10 12:47:14,662][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:48:10,807][__main__][INFO] - Decode Image...
+[2023-05-10 12:48:11,016][__main__][INFO] - Inference
+[2023-05-10 12:48:11,016][__main__][INFO] - Prompt: two hot dogs are sizzling on the grill, with steam rising into the air as they cook.
+[2023-05-10 12:48:11,017][__main__][INFO] - Phrases: steam
+[2023-05-10 12:48:11,017][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:49:06,402][__main__][INFO] - Decode Image...
+[2023-05-10 12:49:06,577][__main__][INFO] - Inference
+[2023-05-10 12:49:06,578][__main__][INFO] - Prompt: two clocks ticking in unison on opposite sides of a room, creating a steady rhythm.
+[2023-05-10 12:49:06,578][__main__][INFO] - Phrases: clock;clock
+[2023-05-10 12:49:06,578][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:49:19,261][__main__][INFO] - Decode Image...
+[2023-05-10 12:49:19,475][__main__][INFO] - Inference
+[2023-05-10 12:49:19,475][__main__][INFO] - Prompt: a single kite is soaring in the sky, with its bright colors reflecting the sunlight and its tail fluttering in the wind.
+[2023-05-10 12:49:19,475][__main__][INFO] - Phrases: kite
+[2023-05-10 12:49:19,475][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:49:35,576][__main__][INFO] - Decode Image...
+[2023-05-10 12:49:35,748][__main__][INFO] - Inference
+[2023-05-10 12:49:35,748][__main__][INFO] - Prompt: a small potted plant sits on a windowsill, its leaves reaching out towards the sunlight streaming through the window.
+[2023-05-10 12:49:35,748][__main__][INFO] - Phrases: window;sunlight
+[2023-05-10 12:49:35,748][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:50:31,351][__main__][INFO] - Decode Image...
+[2023-05-10 12:50:31,554][__main__][INFO] - Inference
+[2023-05-10 12:50:31,554][__main__][INFO] - Prompt: a white ceramic mug full of steaming hot coffee sits on a wooden table in a sun-filled kitchen.
+[2023-05-10 12:50:31,554][__main__][INFO] - Phrases: mug;coffee;table;kitchen
+[2023-05-10 12:50:31,554][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:51:27,067][__main__][INFO] - Decode Image...
+[2023-05-10 12:51:27,277][__main__][INFO] - Inference
+[2023-05-10 12:51:27,277][__main__][INFO] - Prompt: at one o'clock, the sun is shining brightly, birds are chirping, and people are going about their day.
+[2023-05-10 12:51:27,277][__main__][INFO] - Phrases: sun;bird
+[2023-05-10 12:51:27,277][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:52:21,886][__main__][INFO] - Decode Image...
+[2023-05-10 12:52:22,090][__main__][INFO] - Inference
+[2023-05-10 12:52:22,090][__main__][INFO] - Prompt: a shiny, wooden baseball bat lies on the grass at the edge of a baseball field, ready to be swung by an eager player.
+[2023-05-10 12:52:22,090][__main__][INFO] - Phrases: grass
+[2023-05-10 12:52:22,090][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:52:58,313][__main__][INFO] - Decode Image...
+[2023-05-10 12:52:58,483][__main__][INFO] - Inference
+[2023-05-10 12:52:58,483][__main__][INFO] - Prompt: the sun is shining through the window as a young girl sits on her bed, engrossed in the pages of a fantasy novel.
+[2023-05-10 12:52:58,483][__main__][INFO] - Phrases: sun;window;bed
+[2023-05-10 12:52:58,483][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:53:55,443][__main__][INFO] - Decode Image...
+[2023-05-10 12:53:55,652][__main__][INFO] - Inference
+[2023-05-10 12:53:55,652][__main__][INFO] - Prompt: a surfer is paddling out to the waves on a bright blue surfboard, ready to catch some waves.
+[2023-05-10 12:53:55,652][__main__][INFO] - Phrases: surfer;surfboard;waves
+[2023-05-10 12:53:55,652][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:54:50,833][__main__][INFO] - Decode Image...
+[2023-05-10 12:54:51,055][__main__][INFO] - Inference
+[2023-05-10 12:54:51,055][__main__][INFO] - Prompt: a single yellow banana sits on a kitchen counter, its smooth skin glinting in the sunlight.
+[2023-05-10 12:54:51,055][__main__][INFO] - Phrases: banana;sunlight
+[2023-05-10 12:54:51,055][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:55:46,702][__main__][INFO] - Decode Image...
+[2023-05-10 12:55:46,870][__main__][INFO] - Inference
+[2023-05-10 12:55:46,871][__main__][INFO] - Prompt: a teenage boy is skateboarding down the street, doing tricks and jumps as he goes.
+[2023-05-10 12:55:46,871][__main__][INFO] - Phrases: skateboard;street;trick;jump
+[2023-05-10 12:55:46,871][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:56:42,862][__main__][INFO] - Decode Image...
+[2023-05-10 12:56:43,077][__main__][INFO] - Inference
+[2023-05-10 12:56:43,077][__main__][INFO] - Prompt: two spoons are clinking together as they stir a steaming pot of soup on the stove.
+[2023-05-10 12:56:43,077][__main__][INFO] - Phrases: stove
+[2023-05-10 12:56:43,077][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:57:08,040][__main__][INFO] - Decode Image...
+[2023-05-10 12:57:08,260][__main__][INFO] - Inference
+[2023-05-10 12:57:08,260][__main__][INFO] - Prompt: two trains are passing each other on a long stretch of track, their horns blaring and their lights flashing in the night.
+[2023-05-10 12:57:08,260][__main__][INFO] - Phrases: track
+[2023-05-10 12:57:08,260][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:58:03,387][__main__][INFO] - Decode Image...
+[2023-05-10 12:58:03,579][__main__][INFO] - Inference
+[2023-05-10 12:58:03,579][__main__][INFO] - Prompt: two teddy bears are sitting side-by-side on a couch, cuddling and looking out the window at the rain.
+[2023-05-10 12:58:03,579][__main__][INFO] - Phrases: couch;window;rain
+[2023-05-10 12:58:03,579][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:58:40,534][__main__][INFO] - Decode Image...
+[2023-05-10 12:58:40,723][__main__][INFO] - Inference
+[2023-05-10 12:58:40,723][__main__][INFO] - Prompt: two snowboarders are standing atop a snowy mountain, preparing to carve down the slopes together.
+[2023-05-10 12:58:40,723][__main__][INFO] - Phrases: snowboarder;mountain;snowboarder
+[2023-05-10 12:58:40,723][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:58:55,995][__main__][INFO] - Decode Image...
+[2023-05-10 12:58:56,188][__main__][INFO] - Inference
+[2023-05-10 12:58:56,188][__main__][INFO] - Prompt: two kites are soaring through the sky, their colorful strings intertwining in the wind.
+[2023-05-10 12:58:56,188][__main__][INFO] - Phrases: kite;kite;strings
+[2023-05-10 12:58:56,188][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 12:59:50,940][__main__][INFO] - Decode Image...
+[2023-05-10 12:59:51,187][__main__][INFO] - Inference
+[2023-05-10 12:59:51,187][__main__][INFO] - Prompt: a young boy is standing in the middle of a baseball diamond, throwing a ball up in the air and catching it in a bright red, worn-in baseball glove.
+[2023-05-10 12:59:51,187][__main__][INFO] - Phrases: baseball
+[2023-05-10 12:59:51,187][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:00:47,587][__main__][INFO] - Decode Image...
+[2023-05-10 13:00:47,784][__main__][INFO] - Inference
+[2023-05-10 13:00:47,784][__main__][INFO] - Prompt: a bright orange sits on a white plate, its glossy skin reflecting the sun's rays.
+[2023-05-10 13:00:47,784][__main__][INFO] - Phrases: plate;orange;sun
+[2023-05-10 13:00:47,784][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:01:13,193][__main__][INFO] - Decode Image...
+[2023-05-10 13:01:13,364][__main__][INFO] - Inference
+[2023-05-10 13:01:13,365][__main__][INFO] - Prompt: two hot dogs are sizzling on a hot grill, with droplets of water bouncing off the buns.
+[2023-05-10 13:01:13,365][__main__][INFO] - Phrases: grill
+[2023-05-10 13:01:13,365][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:02:09,092][__main__][INFO] - Decode Image...
+[2023-05-10 13:02:09,295][__main__][INFO] - Inference
+[2023-05-10 13:02:09,295][__main__][INFO] - Prompt: a small brown mouse scurries across the kitchen floor, its whiskers twitching as it searches for food.
+[2023-05-10 13:02:09,295][__main__][INFO] - Phrases: mouse;whiskers
+[2023-05-10 13:02:09,295][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:03:04,196][__main__][INFO] - Decode Image...
+[2023-05-10 13:03:04,397][__main__][INFO] - Inference
+[2023-05-10 13:03:04,397][__main__][INFO] - Prompt: two refrigerators stand side-by-side in a kitchen, their shelves stocked with a variety of food and drinks.
+[2023-05-10 13:03:04,397][__main__][INFO] - Phrases: refrigerator;refrigerator;food;food;food;drink
+[2023-05-10 13:03:04,397][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:03:59,728][__main__][INFO] - Decode Image...
+[2023-05-10 13:03:59,938][__main__][INFO] - Inference
+[2023-05-10 13:03:59,938][__main__][INFO] - Prompt: a snowboarder is carving down a freshly powdered mountain, the sun glinting off the board's bright blue base as snowflakes drift around them.
+[2023-05-10 13:03:59,938][__main__][INFO] - Phrases: sun;snowboarder;snowflakes;mountain;snowboard
+[2023-05-10 13:03:59,938][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:04:55,686][__main__][INFO] - Decode Image...
+[2023-05-10 13:04:55,885][__main__][INFO] - Inference
+[2023-05-10 13:04:55,885][__main__][INFO] - Prompt: a single silver fork sits atop a white plate on a wooden table, surrounded by the remnants of a delicious meal.
+[2023-05-10 13:04:55,885][__main__][INFO] - Phrases: fork
+[2023-05-10 13:04:55,885][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:05:53,792][__main__][INFO] - Decode Image...
+[2023-05-10 13:05:53,984][__main__][INFO] - Inference
+[2023-05-10 13:05:53,984][__main__][INFO] - Prompt: two white sheep are standing in a grassy meadow, peacefully munching on clover.
+[2023-05-10 13:05:53,984][__main__][INFO] - Phrases: sheep;sheep
+[2023-05-10 13:05:53,984][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:06:15,778][__main__][INFO] - Decode Image...
+[2023-05-10 13:06:15,964][__main__][INFO] - Inference
+[2023-05-10 13:06:15,964][__main__][INFO] - Prompt: a bright yellow canary is perched atop a tree branch, chirping happily in the warm summer sun.
+[2023-05-10 13:06:15,964][__main__][INFO] - Phrases: canary;sun
+[2023-05-10 13:06:15,964][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:07:11,577][__main__][INFO] - Decode Image...
+[2023-05-10 13:07:11,795][__main__][INFO] - Inference
+[2023-05-10 13:07:11,795][__main__][INFO] - Prompt: a small fishing boat sits peacefully in a calm bay, its sails gently flapping in the breeze.
+[2023-05-10 13:07:11,796][__main__][INFO] - Phrases: sail;breeze
+[2023-05-10 13:07:11,796][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:08:08,196][__main__][INFO] - Decode Image...
+[2023-05-10 13:08:08,393][__main__][INFO] - Inference
+[2023-05-10 13:08:08,393][__main__][INFO] - Prompt: two bright red fire hydrants stand side-by-side in a grassy park, their tops gleaming in the sunlight.
+[2023-05-10 13:08:08,393][__main__][INFO] - Phrases: 
+[2023-05-10 13:08:08,393][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:08:28,188][__main__][INFO] - Decode Image...
+[2023-05-10 13:08:28,358][__main__][INFO] - Inference
+[2023-05-10 13:08:28,358][__main__][INFO] - Prompt: two dogs are running and playing together in a grassy field, barking and chasing each other.
+[2023-05-10 13:08:28,358][__main__][INFO] - Phrases: dog;dog
+[2023-05-10 13:08:28,358][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:08:43,521][__main__][INFO] - Decode Image...
+[2023-05-10 13:08:43,700][__main__][INFO] - Inference
+[2023-05-10 13:08:43,700][__main__][INFO] - Prompt: a bright red stop sign with white lettering stands alone in the middle of an empty intersection.
+[2023-05-10 13:08:43,700][__main__][INFO] - Phrases: 
+[2023-05-10 13:08:43,700][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:09:19,316][__main__][INFO] - Decode Image...
+[2023-05-10 13:09:19,496][__main__][INFO] - Inference
+[2023-05-10 13:09:19,496][__main__][INFO] - Prompt: two hot dogs are sizzling on the grill, with the smell of onions and mustard wafting through the air.
+[2023-05-10 13:09:19,496][__main__][INFO] - Phrases: onions;mustard
+[2023-05-10 13:09:19,496][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:10:15,288][__main__][INFO] - Decode Image...
+[2023-05-10 13:10:15,477][__main__][INFO] - Inference
+[2023-05-10 13:10:15,478][__main__][INFO] - Prompt: two hot dogs sizzle on the grill, their aroma wafting through the air.
+[2023-05-10 13:10:15,478][__main__][INFO] - Phrases: grill
+[2023-05-10 13:10:15,478][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:11:10,814][__main__][INFO] - Decode Image...
+[2023-05-10 13:11:10,991][__main__][INFO] - Inference
+[2023-05-10 13:11:10,991][__main__][INFO] - Prompt: a large, steaming hot pizza with melted cheese, pepperoni, and mushrooms sits on the table, ready to be devoured.
+[2023-05-10 13:11:10,991][__main__][INFO] - Phrases: pizza;pepperoni;mushrooms;table
+[2023-05-10 13:11:10,991][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:12:07,495][__main__][INFO] - Decode Image...
+[2023-05-10 13:12:07,697][__main__][INFO] - Inference
+[2023-05-10 13:12:07,697][__main__][INFO] - Prompt: two friends are playing frisbee in a park on a sunny day, laughing and enjoying each other's company.
+[2023-05-10 13:12:07,697][__main__][INFO] - Phrases: frisbee;park
+[2023-05-10 13:12:07,697][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:13:03,905][__main__][INFO] - Decode Image...
+[2023-05-10 13:13:04,094][__main__][INFO] - Inference
+[2023-05-10 13:13:04,094][__main__][INFO] - Prompt: a man is cruising down a winding road on his black harley-davidson motorcycle, wind in his hair, feeling the freedom of the open road.
+[2023-05-10 13:13:04,095][__main__][INFO] - Phrases: man;wind
+[2023-05-10 13:13:04,095][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:14:00,342][__main__][INFO] - Decode Image...
+[2023-05-10 13:14:00,542][__main__][INFO] - Inference
+[2023-05-10 13:14:00,542][__main__][INFO] - Prompt: two bowls filled with steaming hot soup are sitting on the kitchen counter.
+[2023-05-10 13:14:00,542][__main__][INFO] - Phrases: bowl;bowl
+[2023-05-10 13:14:00,542][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:14:26,963][__main__][INFO] - Decode Image...
+[2023-05-10 13:14:27,161][__main__][INFO] - Inference
+[2023-05-10 13:14:27,161][__main__][INFO] - Prompt: two people are sitting at a cafe, each enjoying a freshly-made sandwich and chatting.
+[2023-05-10 13:14:27,161][__main__][INFO] - Phrases: 
+[2023-05-10 13:14:27,161][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:15:21,981][__main__][INFO] - Decode Image...
+[2023-05-10 13:15:22,190][__main__][INFO] - Inference
+[2023-05-10 13:15:22,190][__main__][INFO] - Prompt: two toilets sit side-by-side in a public restroom, both with freshly-cleaned bowls and shiny chrome handles.
+[2023-05-10 13:15:22,190][__main__][INFO] - Phrases: 
+[2023-05-10 13:15:22,190][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:16:17,406][__main__][INFO] - Decode Image...
+[2023-05-10 13:16:17,632][__main__][INFO] - Inference
+[2023-05-10 13:16:17,632][__main__][INFO] - Prompt: a large, freshly-made pizza with pepperoni and mushrooms is sitting on a kitchen counter, steam rising from its cheesy surface.
+[2023-05-10 13:16:17,632][__main__][INFO] - Phrases: pizza;pepperoni;pepperoni;pepperoni;mushroom;mushroom;steam
+[2023-05-10 13:16:17,633][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:17:14,101][__main__][INFO] - Decode Image...
+[2023-05-10 13:17:14,267][__main__][INFO] - Inference
+[2023-05-10 13:17:14,267][__main__][INFO] - Prompt: a single, empty wine glass sits on a white tablecloth, its delicate stem glinting in the light.
+[2023-05-10 13:17:14,267][__main__][INFO] - Phrases: 
+[2023-05-10 13:17:14,267][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:18:09,783][__main__][INFO] - Decode Image...
+[2023-05-10 13:18:09,963][__main__][INFO] - Inference
+[2023-05-10 13:18:09,963][__main__][INFO] - Prompt: a lone parking meter stands in the middle of an empty parking lot, its red light blinking in the darkness.
+[2023-05-10 13:18:09,963][__main__][INFO] - Phrases: 
+[2023-05-10 13:18:09,963][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:19:06,387][__main__][INFO] - Decode Image...
+[2023-05-10 13:19:06,603][__main__][INFO] - Inference
+[2023-05-10 13:19:06,603][__main__][INFO] - Prompt: two parking meters stand side-by-side on the street, each displaying a flashing "expired" sign.
+[2023-05-10 13:19:06,603][__main__][INFO] - Phrases: 
+[2023-05-10 13:19:06,603][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:20:01,739][__main__][INFO] - Decode Image...
+[2023-05-10 13:20:01,924][__main__][INFO] - Inference
+[2023-05-10 13:20:01,924][__main__][INFO] - Prompt: a lone wooden bench sits in a grassy park, providing a peaceful spot for people to rest and enjoy the outdoors.
+[2023-05-10 13:20:01,924][__main__][INFO] - Phrases: bench;grass
+[2023-05-10 13:20:01,924][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:20:13,518][__main__][INFO] - Decode Image...
+[2023-05-10 13:20:13,680][__main__][INFO] - Inference
+[2023-05-10 13:20:13,680][__main__][INFO] - Prompt: a white vase with pink and yellow flowers is standing on a wooden table in a sunlit room.
+[2023-05-10 13:20:13,680][__main__][INFO] - Phrases: vase;flowers
+[2023-05-10 13:20:13,680][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:21:10,119][__main__][INFO] - Decode Image...
+[2023-05-10 13:21:10,330][__main__][INFO] - Inference
+[2023-05-10 13:21:10,330][__main__][INFO] - Prompt: two airplanes can be seen flying in the sky, their engines roaring as they soar through the clouds.
+[2023-05-10 13:21:10,330][__main__][INFO] - Phrases: airplane;airplane
+[2023-05-10 13:21:10,330][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:21:28,819][__main__][INFO] - Decode Image...
+[2023-05-10 13:21:29,048][__main__][INFO] - Inference
+[2023-05-10 13:21:29,048][__main__][INFO] - Prompt: two parking meters stand side by side on the sidewalk, their digital displays blinking in the midday sun.
+[2023-05-10 13:21:29,048][__main__][INFO] - Phrases: 
+[2023-05-10 13:21:29,048][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:22:00,092][__main__][INFO] - Decode Image...
+[2023-05-10 13:22:00,278][__main__][INFO] - Inference
+[2023-05-10 13:22:00,278][__main__][INFO] - Prompt: two large trucks are parked side-by-side in a lot, their engines rumbling as they await their next delivery.
+[2023-05-10 13:22:00,278][__main__][INFO] - Phrases: truck;truck
+[2023-05-10 13:22:00,278][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:22:09,365][__main__][INFO] - Decode Image...
+[2023-05-10 13:22:09,564][__main__][INFO] - Inference
+[2023-05-10 13:22:09,564][__main__][INFO] - Prompt: a single zebra is standing in a grassy field, its black and white stripes contrasting against the green backdrop.
+[2023-05-10 13:22:09,564][__main__][INFO] - Phrases: zebra
+[2023-05-10 13:22:09,564][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:22:20,144][__main__][INFO] - Decode Image...
+[2023-05-10 13:22:20,342][__main__][INFO] - Inference
+[2023-05-10 13:22:20,343][__main__][INFO] - Prompt: a bright blue kite is soaring high in the sky, its tail streaming behind it in the wind.
+[2023-05-10 13:22:20,343][__main__][INFO] - Phrases: kite;tail
+[2023-05-10 13:22:20,343][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:23:15,049][__main__][INFO] - Decode Image...
+[2023-05-10 13:23:15,207][__main__][INFO] - Inference
+[2023-05-10 13:23:15,207][__main__][INFO] - Prompt: a single chocolate cake with white frosting and colorful sprinkles sits on a white plate surrounded by four lit candles.
+[2023-05-10 13:23:15,207][__main__][INFO] - Phrases: 
+[2023-05-10 13:23:15,207][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:24:13,046][__main__][INFO] - Decode Image...
+[2023-05-10 13:24:13,260][__main__][INFO] - Inference
+[2023-05-10 13:24:13,260][__main__][INFO] - Prompt: one cake sits on a white plate in the middle of a kitchen counter, surrounded by colorful sprinkles and topped with a single lit candle.
+[2023-05-10 13:24:13,260][__main__][INFO] - Phrases: sprinkles;candle
+[2023-05-10 13:24:13,260][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:25:10,134][__main__][INFO] - Decode Image...
+[2023-05-10 13:25:10,330][__main__][INFO] - Inference
+[2023-05-10 13:25:10,331][__main__][INFO] - Prompt: two stainless steel sinks sit side by side on a white marble countertop, with a window above them letting in natural light.
+[2023-05-10 13:25:10,331][__main__][INFO] - Phrases: sink;sink;countertop;window
+[2023-05-10 13:25:10,331][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:26:06,034][__main__][INFO] - Decode Image...
+[2023-05-10 13:26:06,244][__main__][INFO] - Inference
+[2023-05-10 13:26:06,244][__main__][INFO] - Prompt: two buses are stopped at a bus stop, with passengers getting off and on.
+[2023-05-10 13:26:06,244][__main__][INFO] - Phrases: bus;bus;passenger;passenger;passenger;passenger
+[2023-05-10 13:26:06,244][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:26:50,549][__main__][INFO] - Decode Image...
+[2023-05-10 13:26:50,739][__main__][INFO] - Inference
+[2023-05-10 13:26:50,740][__main__][INFO] - Prompt: a group of friends are throwing a frisbee back and forth in a park on a sunny day.
+[2023-05-10 13:26:50,740][__main__][INFO] - Phrases: frisbee;park;sun
+[2023-05-10 13:26:50,740][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:27:46,044][__main__][INFO] - Decode Image...
+[2023-05-10 13:27:46,211][__main__][INFO] - Inference
+[2023-05-10 13:27:46,212][__main__][INFO] - Prompt: a brown and white spotted cow is grazing in a lush, green meadow on a sunny day.
+[2023-05-10 13:27:46,212][__main__][INFO] - Phrases: cow;meadow;sun
+[2023-05-10 13:27:46,212][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:27:55,104][__main__][INFO] - Decode Image...
+[2023-05-10 13:27:55,301][__main__][INFO] - Inference
+[2023-05-10 13:27:55,301][__main__][INFO] - Prompt: two large semi-trucks are parked side by side in a truck stop, their engines idling as the drivers take a break.
+[2023-05-10 13:27:55,301][__main__][INFO] - Phrases: 
+[2023-05-10 13:27:55,301][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:28:04,199][__main__][INFO] - Decode Image...
+[2023-05-10 13:28:04,414][__main__][INFO] - Inference
+[2023-05-10 13:28:04,415][__main__][INFO] - Prompt: a freshly-made sandwich with melted cheese, tomatoes, and lettuce, served on toasted wheat bread with a side of chips.
+[2023-05-10 13:28:04,415][__main__][INFO] - Phrases: sandwich;tomatoes;lettuce;chips
+[2023-05-10 13:28:04,415][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:29:01,860][__main__][INFO] - Decode Image...
+[2023-05-10 13:29:02,035][__main__][INFO] - Inference
+[2023-05-10 13:29:02,035][__main__][INFO] - Prompt: two chairs are sitting side-by-side in a sunny living room, both with a cozy blanket draped over the back.
+[2023-05-10 13:29:02,035][__main__][INFO] - Phrases: chair;chair;blanket;blanket
+[2023-05-10 13:29:02,035][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:29:39,168][__main__][INFO] - Decode Image...
+[2023-05-10 13:29:39,346][__main__][INFO] - Inference
+[2023-05-10 13:29:39,346][__main__][INFO] - Prompt: a small boat is peacefully bobbing in the water, its sail gently flapping in the breeze.
+[2023-05-10 13:29:39,346][__main__][INFO] - Phrases: boat;water;sail
+[2023-05-10 13:29:39,346][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:30:34,674][__main__][INFO] - Decode Image...
+[2023-05-10 13:30:34,896][__main__][INFO] - Inference
+[2023-05-10 13:30:34,896][__main__][INFO] - Prompt: two potted plants are sitting side-by-side on a sunny windowsill, their vibrant green leaves swaying gently in the breeze.
+[2023-05-10 13:30:34,896][__main__][INFO] - Phrases: 
+[2023-05-10 13:30:34,896][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:30:50,164][__main__][INFO] - Decode Image...
+[2023-05-10 13:30:50,365][__main__][INFO] - Inference
+[2023-05-10 13:30:50,365][__main__][INFO] - Prompt: at a busy intersection, a red traffic light illuminates the sky, signaling drivers to stop and wait for the green light to proceed.
+[2023-05-10 13:30:50,365][__main__][INFO] - Phrases: intersection;sky
+[2023-05-10 13:30:50,365][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:31:46,472][__main__][INFO] - Decode Image...
+[2023-05-10 13:31:46,662][__main__][INFO] - Inference
+[2023-05-10 13:31:46,662][__main__][INFO] - Prompt: two baseball gloves are sitting side by side in a grassy field, ready to be used for a game of catch.
+[2023-05-10 13:31:46,663][__main__][INFO] - Phrases: 
+[2023-05-10 13:31:46,663][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:32:12,393][__main__][INFO] - Decode Image...
+[2023-05-10 13:32:12,606][__main__][INFO] - Inference
+[2023-05-10 13:32:12,606][__main__][INFO] - Prompt: two snowboarders are carving down a snowy mountain, enjoying the fresh powder and the beautiful winter landscape.
+[2023-05-10 13:32:12,606][__main__][INFO] - Phrases: snowboarder
+[2023-05-10 13:32:12,606][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:32:45,486][__main__][INFO] - Decode Image...
+[2023-05-10 13:32:45,670][__main__][INFO] - Inference
+[2023-05-10 13:32:45,671][__main__][INFO] - Prompt: two apples sit side by side on a kitchen counter, their red and green skins shining in the sunlight.
+[2023-05-10 13:32:45,671][__main__][INFO] - Phrases: apple;apple
+[2023-05-10 13:32:45,671][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:33:06,271][__main__][INFO] - Decode Image...
+[2023-05-10 13:33:06,490][__main__][INFO] - Inference
+[2023-05-10 13:33:06,490][__main__][INFO] - Prompt: a blue kite with a yellow tail is soaring high in the sky, with the wind carrying it away.
+[2023-05-10 13:33:06,490][__main__][INFO] - Phrases: kite;tail
+[2023-05-10 13:33:06,490][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:33:43,871][__main__][INFO] - Decode Image...
+[2023-05-10 13:33:44,040][__main__][INFO] - Inference
+[2023-05-10 13:33:44,040][__main__][INFO] - Prompt: a man is carefully knotting a navy blue tie around his neck in preparation for a job interview.
+[2023-05-10 13:33:44,040][__main__][INFO] - Phrases: man;tie;neck;interview
+[2023-05-10 13:33:44,040][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:34:39,656][__main__][INFO] - Decode Image...
+[2023-05-10 13:34:39,865][__main__][INFO] - Inference
+[2023-05-10 13:34:39,865][__main__][INFO] - Prompt: a tall, spotted giraffe is standing in a grassy field, its long neck reaching up to nibble on the leaves of the trees above.
+[2023-05-10 13:34:39,865][__main__][INFO] - Phrases: giraffe;field;tree;leaves
+[2023-05-10 13:34:39,865][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:35:35,342][__main__][INFO] - Decode Image...
+[2023-05-10 13:35:35,536][__main__][INFO] - Inference
+[2023-05-10 13:35:35,536][__main__][INFO] - Prompt: two televisions side by side in a living room, both playing different shows.
+[2023-05-10 13:35:35,536][__main__][INFO] - Phrases: television;television
+[2023-05-10 13:35:35,536][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:35:50,350][__main__][INFO] - Decode Image...
+[2023-05-10 13:35:50,561][__main__][INFO] - Inference
+[2023-05-10 13:35:50,561][__main__][INFO] - Prompt: two cars are stopped at a red light, waiting for it to turn green.
+[2023-05-10 13:35:50,561][__main__][INFO] - Phrases: car;car
+[2023-05-10 13:35:50,561][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:36:31,476][__main__][INFO] - Decode Image...
+[2023-05-10 13:36:31,694][__main__][INFO] - Inference
+[2023-05-10 13:36:31,694][__main__][INFO] - Prompt: two books are sitting side by side on a bookshelf in a cozy library, waiting to be read.
+[2023-05-10 13:36:31,694][__main__][INFO] - Phrases: book;book
+[2023-05-10 13:36:31,694][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:36:49,052][__main__][INFO] - Decode Image...
+[2023-05-10 13:36:49,251][__main__][INFO] - Inference
+[2023-05-10 13:36:49,251][__main__][INFO] - Prompt: two cats are lounging in the sun on a windowsill, contentedly purring.
+[2023-05-10 13:36:49,251][__main__][INFO] - Phrases: cat;cat;windowsill;sun
+[2023-05-10 13:36:49,251][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:37:44,514][__main__][INFO] - Decode Image...
+[2023-05-10 13:37:44,682][__main__][INFO] - Inference
+[2023-05-10 13:37:44,682][__main__][INFO] - Prompt: two people sit on a park bench in the sunshine, talking and laughing.
+[2023-05-10 13:37:44,682][__main__][INFO] - Phrases: 
+[2023-05-10 13:37:44,682][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:38:03,243][__main__][INFO] - Decode Image...
+[2023-05-10 13:38:03,410][__main__][INFO] - Inference
+[2023-05-10 13:38:03,410][__main__][INFO] - Prompt: two white porcelain sinks sit side-by-side on a white marble countertop, with a chrome faucet and handles gleaming in the light.
+[2023-05-10 13:38:03,410][__main__][INFO] - Phrases: sink;sink;faucet;faucet;handle;handle;handle;handle
+[2023-05-10 13:38:03,410][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:38:58,695][__main__][INFO] - Decode Image...
+[2023-05-10 13:38:58,905][__main__][INFO] - Inference
+[2023-05-10 13:38:58,905][__main__][INFO] - Prompt: a group of friends are playing catch with a bright yellow frisbee in a grassy park on a sunny day.
+[2023-05-10 13:38:58,905][__main__][INFO] - Phrases: friends;friends;friends;frisbee;park;sunny
+[2023-05-10 13:38:58,905][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:39:54,545][__main__][INFO] - Decode Image...
+[2023-05-10 13:39:54,712][__main__][INFO] - Inference
+[2023-05-10 13:39:54,712][__main__][INFO] - Prompt: at one o'clock, the sun is shining brightly and birds are chirping in the trees as people go about their daily activities.
+[2023-05-10 13:39:54,712][__main__][INFO] - Phrases: sun;birds;trees;people
+[2023-05-10 13:39:54,712][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:40:50,224][__main__][INFO] - Decode Image...
+[2023-05-10 13:40:50,422][__main__][INFO] - Inference
+[2023-05-10 13:40:50,422][__main__][INFO] - Prompt: two forks are resting side-by-side on a dinner plate, ready to be used for a meal.
+[2023-05-10 13:40:50,423][__main__][INFO] - Phrases: fork;fork
+[2023-05-10 13:40:50,423][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:41:17,811][__main__][INFO] - Decode Image...
+[2023-05-10 13:41:17,982][__main__][INFO] - Inference
+[2023-05-10 13:41:17,982][__main__][INFO] - Prompt: a steaming mug of coffee sits on a wooden table, the aroma of its freshly-brewed contents filling the room.
+[2023-05-10 13:41:17,982][__main__][INFO] - Phrases: 
+[2023-05-10 13:41:17,982][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:41:54,146][__main__][INFO] - Decode Image...
+[2023-05-10 13:41:54,358][__main__][INFO] - Inference
+[2023-05-10 13:41:54,358][__main__][INFO] - Prompt: a shiny silver toaster sits on the kitchen counter, its two slots ready to make a perfect piece of toast.
+[2023-05-10 13:41:54,358][__main__][INFO] - Phrases: toaster
+[2023-05-10 13:41:54,358][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:42:49,674][__main__][INFO] - Decode Image...
+[2023-05-10 13:42:49,866][__main__][INFO] - Inference
+[2023-05-10 13:42:49,866][__main__][INFO] - Prompt: two carrots sit side-by-side in a garden, their bright orange color standing out against the green grass.
+[2023-05-10 13:42:49,866][__main__][INFO] - Phrases: carrot;carrot
+[2023-05-10 13:42:49,866][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:43:09,985][__main__][INFO] - Decode Image...
+[2023-05-10 13:43:10,190][__main__][INFO] - Inference
+[2023-05-10 13:43:10,190][__main__][INFO] - Prompt: two carrots lay side-by-side in a garden bed, their bright orange color standing out against the green grass.
+[2023-05-10 13:43:10,190][__main__][INFO] - Phrases: carrot;carrot
+[2023-05-10 13:43:10,190][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:43:32,947][__main__][INFO] - Decode Image...
+[2023-05-10 13:43:33,138][__main__][INFO] - Inference
+[2023-05-10 13:43:33,138][__main__][INFO] - Prompt: a lone bench sits in a park, overlooking a tranquil pond and surrounded by lush green trees.
+[2023-05-10 13:43:33,138][__main__][INFO] - Phrases: bench;pond
+[2023-05-10 13:43:33,138][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:44:28,486][__main__][INFO] - Decode Image...
+[2023-05-10 13:44:28,657][__main__][INFO] - Inference
+[2023-05-10 13:44:28,657][__main__][INFO] - Prompt: a bright yellow kite is soaring through the sky, its long tail streaming behind it in the gentle breeze.
+[2023-05-10 13:44:28,657][__main__][INFO] - Phrases: kite;tail
+[2023-05-10 13:44:28,657][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:45:01,570][__main__][INFO] - Decode Image...
+[2023-05-10 13:45:01,743][__main__][INFO] - Inference
+[2023-05-10 13:45:01,743][__main__][INFO] - Prompt: a white and brown spotted golden retriever is running through a field of tall grass, its tail wagging happily.
+[2023-05-10 13:45:01,743][__main__][INFO] - Phrases: 
+[2023-05-10 13:45:01,743][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:45:58,266][__main__][INFO] - Decode Image...
+[2023-05-10 13:45:58,472][__main__][INFO] - Inference
+[2023-05-10 13:45:58,472][__main__][INFO] - Prompt: a black and white cat is perched atop a windowsill, watching birds in the yard below.
+[2023-05-10 13:45:58,472][__main__][INFO] - Phrases: cat;windowsill;birds
+[2023-05-10 13:45:58,472][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:46:53,634][__main__][INFO] - Decode Image...
+[2023-05-10 13:46:53,861][__main__][INFO] - Inference
+[2023-05-10 13:46:53,861][__main__][INFO] - Prompt: two spoons are sitting side-by-side on a kitchen counter, reflecting the morning sunlight.
+[2023-05-10 13:46:53,861][__main__][INFO] - Phrases: spoon;spoon
+[2023-05-10 13:46:53,861][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:47:21,242][__main__][INFO] - Decode Image...
+[2023-05-10 13:47:21,412][__main__][INFO] - Inference
+[2023-05-10 13:47:21,412][__main__][INFO] - Prompt: a single bus is stopped at a bus stop, with people of all ages waiting to board.
+[2023-05-10 13:47:21,412][__main__][INFO] - Phrases: bus;people
+[2023-05-10 13:47:21,412][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:48:16,701][__main__][INFO] - Decode Image...
+[2023-05-10 13:48:16,905][__main__][INFO] - Inference
+[2023-05-10 13:48:16,905][__main__][INFO] - Prompt: one bright red apple sits atop a wooden table, its glossy skin glimmering in the sunlight.
+[2023-05-10 13:48:16,905][__main__][INFO] - Phrases: apple;sunlight
+[2023-05-10 13:48:16,905][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:49:12,543][__main__][INFO] - Decode Image...
+[2023-05-10 13:49:12,747][__main__][INFO] - Inference
+[2023-05-10 13:49:12,747][__main__][INFO] - Prompt: a blue sedan is parked on the side of the road, its engine idling as its driver waits for their passenger to arrive.
+[2023-05-10 13:49:12,747][__main__][INFO] - Phrases: driver;road
+[2023-05-10 13:49:12,747][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:50:08,582][__main__][INFO] - Decode Image...
+[2023-05-10 13:50:08,759][__main__][INFO] - Inference
+[2023-05-10 13:50:08,759][__main__][INFO] - Prompt: a woman is walking down the street, carrying a bright blue umbrella to protect herself from the rain.
+[2023-05-10 13:50:08,759][__main__][INFO] - Phrases: woman;umbrella;rain
+[2023-05-10 13:50:08,759][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:50:43,739][__main__][INFO] - Decode Image...
+[2023-05-10 13:50:43,928][__main__][INFO] - Inference
+[2023-05-10 13:50:43,928][__main__][INFO] - Prompt: two slices of pizza are sitting on a plate, with steam rising from them, ready to be enjoyed.
+[2023-05-10 13:50:43,928][__main__][INFO] - Phrases: plate;steam
+[2023-05-10 13:50:43,928][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:51:39,983][__main__][INFO] - Decode Image...
+[2023-05-10 13:51:40,170][__main__][INFO] - Inference
+[2023-05-10 13:51:40,170][__main__][INFO] - Prompt: two birds are perched atop a tree, chirping and flapping their wings in the bright morning sun.
+[2023-05-10 13:51:40,170][__main__][INFO] - Phrases: bird;bird;tree;sun
+[2023-05-10 13:51:40,170][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:52:35,274][__main__][INFO] - Decode Image...
+[2023-05-10 13:52:35,461][__main__][INFO] - Inference
+[2023-05-10 13:52:35,461][__main__][INFO] - Prompt: two mice scurrying around a kitchen floor, searching for crumbs and scraps of food.
+[2023-05-10 13:52:35,461][__main__][INFO] - Phrases: crumbs
+[2023-05-10 13:52:35,461][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:53:31,023][__main__][INFO] - Decode Image...
+[2023-05-10 13:53:31,185][__main__][INFO] - Inference
+[2023-05-10 13:53:31,185][__main__][INFO] - Prompt: two wooden dining tables with white tablecloths, surrounded by chairs, are set up in a cozy dining room, with a chandelier hanging overhead and a window overlooking the garden.
+[2023-05-10 13:53:31,185][__main__][INFO] - Phrases: chair;chair;chair;chair;chandelier;window
+[2023-05-10 13:53:31,185][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:54:28,055][__main__][INFO] - Decode Image...
+[2023-05-10 13:54:28,257][__main__][INFO] - Inference
+[2023-05-10 13:54:28,257][__main__][INFO] - Prompt: two skiers are gliding down a snowy mountain, their skis carving tracks in the fresh powder.
+[2023-05-10 13:54:28,257][__main__][INFO] - Phrases: skier;skier;mountain
+[2023-05-10 13:54:28,257][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:55:23,974][__main__][INFO] - Decode Image...
+[2023-05-10 13:55:24,181][__main__][INFO] - Inference
+[2023-05-10 13:55:24,181][__main__][INFO] - Prompt: a bright red apple sits atop a wooden table, its glossy skin glimmering in the sunlight.
+[2023-05-10 13:55:24,181][__main__][INFO] - Phrases: apple;sunlight
+[2023-05-10 13:55:24,181][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:56:19,767][__main__][INFO] - Decode Image...
+[2023-05-10 13:56:19,969][__main__][INFO] - Inference
+[2023-05-10 13:56:19,970][__main__][INFO] - Prompt: a group of friends are gathered in a park, throwing a frisbee back and forth in the sunshine.
+[2023-05-10 13:56:19,970][__main__][INFO] - Phrases: friend;friend;friend;friend;frisbee;sunshine
+[2023-05-10 13:56:19,970][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:57:15,150][__main__][INFO] - Decode Image...
+[2023-05-10 13:57:15,327][__main__][INFO] - Inference
+[2023-05-10 13:57:15,328][__main__][INFO] - Prompt: two traffic lights are side by side at an intersection, one red and one green, signaling cars to stop and go.
+[2023-05-10 13:57:15,328][__main__][INFO] - Phrases: 
+[2023-05-10 13:57:15,328][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:58:10,896][__main__][INFO] - Decode Image...
+[2023-05-10 13:58:11,099][__main__][INFO] - Inference
+[2023-05-10 13:58:11,099][__main__][INFO] - Prompt: a young boy is standing in the grass, proudly holding a brand new baseball glove up in the air with a huge smile on his face.
+[2023-05-10 13:58:11,099][__main__][INFO] - Phrases: grass;smile
+[2023-05-10 13:58:11,099][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:59:07,467][__main__][INFO] - Decode Image...
+[2023-05-10 13:59:07,670][__main__][INFO] - Inference
+[2023-05-10 13:59:07,670][__main__][INFO] - Prompt: an elephant is standing in a grassy field, its trunk swaying gently as it surveys its surroundings.
+[2023-05-10 13:59:07,670][__main__][INFO] - Phrases: elephant
+[2023-05-10 13:59:07,670][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:59:16,562][__main__][INFO] - Decode Image...
+[2023-05-10 13:59:16,757][__main__][INFO] - Inference
+[2023-05-10 13:59:16,757][__main__][INFO] - Prompt: two refrigerators stand side-by-side in a kitchen, their cold temperatures keeping food fresh and their shelves stocked with various snacks and meals.
+[2023-05-10 13:59:16,757][__main__][INFO] - Phrases: refrigerator;refrigerator
+[2023-05-10 13:59:16,757][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:59:25,636][__main__][INFO] - Decode Image...
+[2023-05-10 13:59:25,830][__main__][INFO] - Inference
+[2023-05-10 13:59:25,830][__main__][INFO] - Prompt: two chairs sit side-by-side in a cozy living room, inviting people to sit and relax.
+[2023-05-10 13:59:25,830][__main__][INFO] - Phrases: chair;chair
+[2023-05-10 13:59:25,830][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 13:59:55,058][__main__][INFO] - Decode Image...
+[2023-05-10 13:59:55,245][__main__][INFO] - Inference
+[2023-05-10 13:59:55,245][__main__][INFO] - Prompt: two hot dogs are sizzling on a grill, with steam rising and the smell of spices wafting through the air.
+[2023-05-10 13:59:55,245][__main__][INFO] - Phrases: steam;steam
+[2023-05-10 13:59:55,245][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:00:51,865][__main__][INFO] - Decode Image...
+[2023-05-10 14:00:52,051][__main__][INFO] - Inference
+[2023-05-10 14:00:52,051][__main__][INFO] - Prompt: two people are standing in a room, looking at each other with ties around their necks, both of them dressed up for a formal event.
+[2023-05-10 14:00:52,051][__main__][INFO] - Phrases: tie;tie
+[2023-05-10 14:00:52,051][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:01:46,556][__main__][INFO] - Decode Image...
+[2023-05-10 14:01:46,770][__main__][INFO] - Inference
+[2023-05-10 14:01:46,770][__main__][INFO] - Prompt: a large red pickup truck is parked in a gravel lot, its engine idling and exhaust fumes rising into the air.
+[2023-05-10 14:01:46,770][__main__][INFO] - Phrases: 
+[2023-05-10 14:01:46,770][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:02:43,285][__main__][INFO] - Decode Image...
+[2023-05-10 14:02:43,482][__main__][INFO] - Inference
+[2023-05-10 14:02:43,482][__main__][INFO] - Prompt: a single mouse scurries across the floor, searching for food in the darkness of the night.
+[2023-05-10 14:02:43,482][__main__][INFO] - Phrases: mouse
+[2023-05-10 14:02:43,482][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:03:37,815][__main__][INFO] - Decode Image...
+[2023-05-10 14:03:37,998][__main__][INFO] - Inference
+[2023-05-10 14:03:37,998][__main__][INFO] - Prompt: a teenage boy is skateboarding down a sidewalk, doing tricks and enjoying the warm summer sun.
+[2023-05-10 14:03:37,998][__main__][INFO] - Phrases: boy;skateboard;sidewalk
+[2023-05-10 14:03:37,998][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:04:33,606][__main__][INFO] - Decode Image...
+[2023-05-10 14:04:33,789][__main__][INFO] - Inference
+[2023-05-10 14:04:33,789][__main__][INFO] - Prompt: a single, empty wine glass sits on a table, its crystal surface catching the light of the room.
+[2023-05-10 14:04:33,789][__main__][INFO] - Phrases: table;light
+[2023-05-10 14:04:33,789][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:05:29,351][__main__][INFO] - Decode Image...
+[2023-05-10 14:05:29,547][__main__][INFO] - Inference
+[2023-05-10 14:05:29,547][__main__][INFO] - Prompt: two books are sitting side by side on a bookshelf, with one being a hardcover and the other being a paperback.
+[2023-05-10 14:05:29,547][__main__][INFO] - Phrases: 
+[2023-05-10 14:05:29,547][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:06:24,654][__main__][INFO] - Decode Image...
+[2023-05-10 14:06:24,862][__main__][INFO] - Inference
+[2023-05-10 14:06:24,862][__main__][INFO] - Prompt: two remote workers sit side by side in their respective homes, connected by video chat, discussing their project progress.
+[2023-05-10 14:06:24,862][__main__][INFO] - Phrases: 
+[2023-05-10 14:06:24,862][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:07:21,315][__main__][INFO] - Decode Image...
+[2023-05-10 14:07:21,523][__main__][INFO] - Inference
+[2023-05-10 14:07:21,523][__main__][INFO] - Prompt: two apples sit side by side on a wooden table, one a bright red, the other a pale green.
+[2023-05-10 14:07:21,523][__main__][INFO] - Phrases: 
+[2023-05-10 14:07:21,523][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:08:16,560][__main__][INFO] - Decode Image...
+[2023-05-10 14:08:16,740][__main__][INFO] - Inference
+[2023-05-10 14:08:16,740][__main__][INFO] - Prompt: a single silver fork is resting on a white plate, surrounded by a few crumbs from a recently eaten meal.
+[2023-05-10 14:08:16,740][__main__][INFO] - Phrases: fork;plate;crumbs
+[2023-05-10 14:08:16,740][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:09:11,884][__main__][INFO] - Decode Image...
+[2023-05-10 14:09:12,076][__main__][INFO] - Inference
+[2023-05-10 14:09:12,076][__main__][INFO] - Prompt: two airplanes are flying in the sky side-by-side, leaving trails of white smoke in the air.
+[2023-05-10 14:09:12,076][__main__][INFO] - Phrases: airplane;airplane
+[2023-05-10 14:09:12,076][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:09:47,052][__main__][INFO] - Decode Image...
+[2023-05-10 14:09:47,238][__main__][INFO] - Inference
+[2023-05-10 14:09:47,238][__main__][INFO] - Prompt: two people are sitting at their respective homes, video chatting on their computers while discussing a project they are working on remotely.
+[2023-05-10 14:09:47,239][__main__][INFO] - Phrases: 
+[2023-05-10 14:09:47,239][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:10:06,343][__main__][INFO] - Decode Image...
+[2023-05-10 14:10:06,536][__main__][INFO] - Inference
+[2023-05-10 14:10:06,536][__main__][INFO] - Prompt: a large brown bear is standing amongst the trees in a forest, looking around curiously.
+[2023-05-10 14:10:06,536][__main__][INFO] - Phrases: bear;tree;tree;tree;tree;tree
+[2023-05-10 14:10:06,536][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:10:41,387][__main__][INFO] - Decode Image...
+[2023-05-10 14:10:41,539][__main__][INFO] - Inference
+[2023-05-10 14:10:41,539][__main__][INFO] - Prompt: a group of friends are playing frisbee in a park on a sunny day, laughing and smiling as they throw the frisbee back and forth.
+[2023-05-10 14:10:41,539][__main__][INFO] - Phrases: frisbee;park;sun
+[2023-05-10 14:10:41,539][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:11:36,930][__main__][INFO] - Decode Image...
+[2023-05-10 14:11:37,103][__main__][INFO] - Inference
+[2023-05-10 14:11:37,103][__main__][INFO] - Prompt: two friends are playing frisbee in a park, laughing and having a good time.
+[2023-05-10 14:11:37,103][__main__][INFO] - Phrases: frisbee;park
+[2023-05-10 14:11:37,103][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:12:32,416][__main__][INFO] - Decode Image...
+[2023-05-10 14:12:32,614][__main__][INFO] - Inference
+[2023-05-10 14:12:32,615][__main__][INFO] - Prompt: a single broccoli sits on a cutting board, its green florets standing tall and its stalks ready to be chopped.
+[2023-05-10 14:12:32,615][__main__][INFO] - Phrases: broccoli
+[2023-05-10 14:12:32,615][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:12:43,904][__main__][INFO] - Decode Image...
+[2023-05-10 14:12:44,101][__main__][INFO] - Inference
+[2023-05-10 14:12:44,102][__main__][INFO] - Prompt: a single shining knife sits atop a wooden cutting board, its sharp blade glinting in the light.
+[2023-05-10 14:12:44,102][__main__][INFO] - Phrases: knife
+[2023-05-10 14:12:44,102][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:13:01,621][__main__][INFO] - Decode Image...
+[2023-05-10 14:13:01,789][__main__][INFO] - Inference
+[2023-05-10 14:13:01,789][__main__][INFO] - Prompt: a bright green potted plant sits in the corner of the room, its leaves gently swaying in the breeze from the open window.
+[2023-05-10 14:13:01,789][__main__][INFO] - Phrases: 
+[2023-05-10 14:13:01,789][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:13:57,520][__main__][INFO] - Decode Image...
+[2023-05-10 14:13:57,728][__main__][INFO] - Inference
+[2023-05-10 14:13:57,728][__main__][INFO] - Prompt: two ceramic cups filled with steaming hot coffee sit on a kitchen table, steam rising from their surfaces.
+[2023-05-10 14:13:57,728][__main__][INFO] - Phrases: steam;steam
+[2023-05-10 14:13:57,728][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:14:54,444][__main__][INFO] - Decode Image...
+[2023-05-10 14:14:54,669][__main__][INFO] - Inference
+[2023-05-10 14:14:54,669][__main__][INFO] - Prompt: a lone bench sits in a quiet park, surrounded by lush green grass and tall trees.
+[2023-05-10 14:14:54,669][__main__][INFO] - Phrases: bench;grass;tree;tree;tree
+[2023-05-10 14:14:54,669][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:15:32,482][__main__][INFO] - Decode Image...
+[2023-05-10 14:15:32,657][__main__][INFO] - Inference
+[2023-05-10 14:15:32,657][__main__][INFO] - Prompt: two spoons are resting side-by-side on a white linen napkin beside a half-empty cup of coffee.
+[2023-05-10 14:15:32,657][__main__][INFO] - Phrases: spoon;spoon;napkin
+[2023-05-10 14:15:32,657][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:16:28,220][__main__][INFO] - Decode Image...
+[2023-05-10 14:16:28,434][__main__][INFO] - Inference
+[2023-05-10 14:16:28,434][__main__][INFO] - Prompt: two forks are sitting side by side on a dinner plate, ready to be used to eat a meal.
+[2023-05-10 14:16:28,434][__main__][INFO] - Phrases: fork;fork
+[2023-05-10 14:16:28,434][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:16:52,169][__main__][INFO] - Decode Image...
+[2023-05-10 14:16:52,353][__main__][INFO] - Inference
+[2023-05-10 14:16:52,353][__main__][INFO] - Prompt: two families are gathered around a large dining table, enjoying a meal and conversation together.
+[2023-05-10 14:16:52,353][__main__][INFO] - Phrases: 
+[2023-05-10 14:16:52,354][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:17:08,699][__main__][INFO] - Decode Image...
+[2023-05-10 14:17:08,896][__main__][INFO] - Inference
+[2023-05-10 14:17:08,896][__main__][INFO] - Prompt: a bright red convertible sports car is parked in a sunny lot, glimmering in the sunlight.
+[2023-05-10 14:17:08,896][__main__][INFO] - Phrases: sunlight
+[2023-05-10 14:17:08,896][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:17:25,441][__main__][INFO] - Decode Image...
+[2023-05-10 14:17:25,622][__main__][INFO] - Inference
+[2023-05-10 14:17:25,623][__main__][INFO] - Prompt: a single motorcycle is parked on the side of the road, its engine still warm from a recent ride.
+[2023-05-10 14:17:25,623][__main__][INFO] - Phrases: motorcycle
+[2023-05-10 14:17:25,623][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:17:46,452][__main__][INFO] - Decode Image...
+[2023-05-10 14:17:46,669][__main__][INFO] - Inference
+[2023-05-10 14:17:46,669][__main__][INFO] - Prompt: two families are sitting around two separate tables in a cozy restaurant, laughing and enjoying each other's company while they eat their meals.
+[2023-05-10 14:17:46,669][__main__][INFO] - Phrases: 
+[2023-05-10 14:17:46,669][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:18:12,134][__main__][INFO] - Decode Image...
+[2023-05-10 14:18:12,324][__main__][INFO] - Inference
+[2023-05-10 14:18:12,324][__main__][INFO] - Prompt: a white refrigerator hums in the corner of a kitchen, its shelves stocked with food and drinks.
+[2023-05-10 14:18:12,324][__main__][INFO] - Phrases: refrigerator;food;drinks
+[2023-05-10 14:18:12,324][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:18:39,938][__main__][INFO] - Decode Image...
+[2023-05-10 14:18:40,144][__main__][INFO] - Inference
+[2023-05-10 14:18:40,144][__main__][INFO] - Prompt: two people are standing in a kitchen, one holding a knife in each hand and arguing heatedly.
+[2023-05-10 14:18:40,144][__main__][INFO] - Phrases: kitchen
+[2023-05-10 14:18:40,144][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:19:09,173][__main__][INFO] - Decode Image...
+[2023-05-10 14:19:09,370][__main__][INFO] - Inference
+[2023-05-10 14:19:09,370][__main__][INFO] - Prompt: a black leather handbag with gold hardware is sitting on a wooden table, its contents spilling out onto the floor.
+[2023-05-10 14:19:09,371][__main__][INFO] - Phrases: handbag
+[2023-05-10 14:19:09,371][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:20:05,758][__main__][INFO] - Decode Image...
+[2023-05-10 14:20:05,920][__main__][INFO] - Inference
+[2023-05-10 14:20:05,920][__main__][INFO] - Prompt: two horses are running together in a meadow, their manes and tails flowing in the wind.
+[2023-05-10 14:20:05,920][__main__][INFO] - Phrases: horse;horse
+[2023-05-10 14:20:05,920][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:20:15,172][__main__][INFO] - Decode Image...
+[2023-05-10 14:20:15,367][__main__][INFO] - Inference
+[2023-05-10 14:20:15,368][__main__][INFO] - Prompt: a white ceramic mug filled with steaming hot coffee sits on a wooden table, steam rising from the cup's rim.
+[2023-05-10 14:20:15,368][__main__][INFO] - Phrases: steam
+[2023-05-10 14:20:15,368][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:21:11,280][__main__][INFO] - Decode Image...
+[2023-05-10 14:21:11,495][__main__][INFO] - Inference
+[2023-05-10 14:21:11,495][__main__][INFO] - Prompt: two toasters sitting side by side on a kitchen counter, each with a slice of bread in it, toasting away.
+[2023-05-10 14:21:11,495][__main__][INFO] - Phrases: toaster;toaster
+[2023-05-10 14:21:11,495][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:22:07,075][__main__][INFO] - Decode Image...
+[2023-05-10 14:22:07,286][__main__][INFO] - Inference
+[2023-05-10 14:22:07,286][__main__][INFO] - Prompt: two vases sit side by side on a wooden table, each filled with a colorful array of fresh flowers.
+[2023-05-10 14:22:07,286][__main__][INFO] - Phrases: vase;vase
+[2023-05-10 14:22:07,287][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:23:03,323][__main__][INFO] - Decode Image...
+[2023-05-10 14:23:03,520][__main__][INFO] - Inference
+[2023-05-10 14:23:03,521][__main__][INFO] - Prompt: a woman is using a powerful, hot pink hair dryer to quickly dry her long, dark hair.
+[2023-05-10 14:23:03,521][__main__][INFO] - Phrases: woman
+[2023-05-10 14:23:03,521][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:23:59,479][__main__][INFO] - Decode Image...
+[2023-05-10 14:23:59,686][__main__][INFO] - Inference
+[2023-05-10 14:23:59,687][__main__][INFO] - Prompt: two people are riding their bicycles side-by-side down a sunny street, chatting and enjoying the pleasant day.
+[2023-05-10 14:23:59,687][__main__][INFO] - Phrases: bicycle;bicycle
+[2023-05-10 14:23:59,687][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:24:08,573][__main__][INFO] - Decode Image...
+[2023-05-10 14:24:08,752][__main__][INFO] - Inference
+[2023-05-10 14:24:08,752][__main__][INFO] - Prompt: a snowboarder is carving down a freshly powdered mountain, leaving a trail of snow in their wake.
+[2023-05-10 14:24:08,752][__main__][INFO] - Phrases: snowboarder;mountain
+[2023-05-10 14:24:08,752][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:25:04,802][__main__][INFO] - Decode Image...
+[2023-05-10 14:25:05,039][__main__][INFO] - Inference
+[2023-05-10 14:25:05,039][__main__][INFO] - Prompt: a large brown bear is standing on its hind legs, sniffing the air and looking around curiously.
+[2023-05-10 14:25:05,039][__main__][INFO] - Phrases: 
+[2023-05-10 14:25:05,039][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:25:23,883][__main__][INFO] - Decode Image...
+[2023-05-10 14:25:24,081][__main__][INFO] - Inference
+[2023-05-10 14:25:24,081][__main__][INFO] - Prompt: two airplanes soar across the sky, their wings glinting in the sunlight.
+[2023-05-10 14:25:24,081][__main__][INFO] - Phrases: airplane;airplane
+[2023-05-10 14:25:24,081][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:25:34,807][__main__][INFO] - Decode Image...
+[2023-05-10 14:25:35,013][__main__][INFO] - Inference
+[2023-05-10 14:25:35,014][__main__][INFO] - Prompt: two mice scurrying around the kitchen floor, searching for crumbs of food.
+[2023-05-10 14:25:35,014][__main__][INFO] - Phrases: 
+[2023-05-10 14:25:35,014][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:25:56,794][__main__][INFO] - Decode Image...
+[2023-05-10 14:25:56,991][__main__][INFO] - Inference
+[2023-05-10 14:25:56,991][__main__][INFO] - Prompt: a single white sheep is grazing in a lush green meadow, its wool glinting in the sunlight.
+[2023-05-10 14:25:56,991][__main__][INFO] - Phrases: sheep;meadow;sunlight
+[2023-05-10 14:25:56,991][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:26:52,241][__main__][INFO] - Decode Image...
+[2023-05-10 14:26:52,420][__main__][INFO] - Inference
+[2023-05-10 14:26:52,420][__main__][INFO] - Prompt: two books are sitting side-by-side on a shelf, silently waiting to be read.
+[2023-05-10 14:26:52,420][__main__][INFO] - Phrases: book;book
+[2023-05-10 14:26:52,420][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-10 14:27:06,017][__main__][INFO] - Decode Image...

@@ -1,0 +1,6 @@
+[2023-05-09 20:20:36,656][__main__][INFO] - {'general': {'save_path': './hrs_save/spatial', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 3, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-09 20:20:36,656][__main__][INFO] - save config to ./hrs_save/spatial/config.yaml
+[2023-05-09 20:20:36,675][__main__][INFO] - Inference
+[2023-05-09 20:20:36,675][__main__][INFO] - Prompt: a banana on the left of a person and on the right of a car.
+[2023-05-09 20:20:36,675][__main__][INFO] - Phrases: banana;person;car
+[2023-05-09 20:20:36,675][__main__][INFO] - Conver Phrases to Object Positions

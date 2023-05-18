@@ -1,0 +1,32 @@
+[2023-04-11 17:06:35,367][__main__][INFO] - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-04-11 17:06:35,368][__main__][INFO] - save config to ./chair_example/config.yaml
+[2023-04-11 17:06:40,986][__main__][INFO] - Inference
+[2023-04-11 17:06:40,986][__main__][INFO] - Prompt: A train on top of a surfboard.
+[2023-04-11 17:06:40,986][__main__][INFO] - Phrases: train;surfboard
+[2023-04-11 17:06:40,986][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-11 17:07:00,857][__main__][INFO] - Decode Image...
+[2023-04-11 17:07:00,971][__main__][INFO] - save example image to ./chair_example/A_train_on_top_of_a_surfboard.example_0.png
+[2023-04-11 17:07:05,926][__main__][INFO] - Inference
+[2023-04-11 17:07:05,926][__main__][INFO] - Prompt: A wine glass on top of a dog.
+[2023-04-11 17:07:05,926][__main__][INFO] - Phrases: glass;dog
+[2023-04-11 17:07:05,926][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-11 17:07:24,982][__main__][INFO] - Decode Image...
+[2023-04-11 17:07:25,099][__main__][INFO] - save example image to ./chair_example/A_wine_glass_on_top_of_a_dog.example_0.png
+[2023-04-11 17:07:30,068][__main__][INFO] - Inference
+[2023-04-11 17:07:30,068][__main__][INFO] - Prompt: A bicycle on top of a boat.
+[2023-04-11 17:07:30,068][__main__][INFO] - Phrases: bicycle;boat
+[2023-04-11 17:07:30,068][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-11 17:07:49,405][__main__][INFO] - Decode Image...
+[2023-04-11 17:07:49,519][__main__][INFO] - save example image to ./chair_example/A_bicycle_on_top_of_a_boat.example_0.png
+[2023-04-11 17:07:55,269][__main__][INFO] - Inference
+[2023-04-11 17:07:55,269][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-04-11 17:07:55,269][__main__][INFO] - Phrases: umbrella;spoon
+[2023-04-11 17:07:55,269][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-11 17:08:14,732][__main__][INFO] - Decode Image...
+[2023-04-11 17:08:14,846][__main__][INFO] - save example image to ./chair_example/An_umbrella_on_top_of_a_spoon.example_0.png
+[2023-04-11 17:08:19,975][__main__][INFO] - Inference
+[2023-04-11 17:08:19,975][__main__][INFO] - Prompt: A laptop on top of a teddy bear.
+[2023-04-11 17:08:19,975][__main__][INFO] - Phrases: laptop;bear
+[2023-04-11 17:08:19,975][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-11 17:08:39,399][__main__][INFO] - Decode Image...
+[2023-04-11 17:08:39,513][__main__][INFO] - save example image to ./chair_example/A_laptop_on_top_of_a_teddy_bear.example_0.png

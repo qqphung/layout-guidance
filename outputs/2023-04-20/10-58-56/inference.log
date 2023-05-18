@@ -1,0 +1,31 @@
+[2023-04-20 10:59:04,529][__main__][INFO] - {'general': {'save_path': './hrs_save/spatial', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-04-20 10:59:04,529][__main__][INFO] - save config to ./hrs_save/spatial/config.yaml
+[2023-04-20 10:59:04,544][__main__][INFO] - Inference
+[2023-04-20 10:59:04,545][__main__][INFO] - Prompt: a horse below a car.
+[2023-04-20 10:59:04,545][__main__][INFO] - Phrases: horse;car
+[2023-04-20 10:59:04,545][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 10:59:34,422][__main__][INFO] - Decode Image...
+[2023-04-20 10:59:34,866][__main__][INFO] - Inference
+[2023-04-20 10:59:34,867][__main__][INFO] - Prompt: a dog on a banana.
+[2023-04-20 10:59:34,867][__main__][INFO] - Phrases: dog;banana
+[2023-04-20 10:59:34,867][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:00:04,020][__main__][INFO] - Decode Image...
+[2023-04-20 11:00:04,439][__main__][INFO] - Inference
+[2023-04-20 11:00:04,439][__main__][INFO] - Prompt: a chair below a horse.
+[2023-04-20 11:00:04,439][__main__][INFO] - Phrases: chair;horse
+[2023-04-20 11:00:04,439][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:00:30,457][__main__][INFO] - Decode Image...
+[2023-04-20 11:00:30,888][__main__][INFO] - Inference
+[2023-04-20 11:00:30,888][__main__][INFO] - Prompt: a dog under a airplane.
+[2023-04-20 11:00:30,888][__main__][INFO] - Phrases: dog;airplane
+[2023-04-20 11:00:30,888][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:01:00,314][__main__][INFO] - Decode Image...
+[2023-04-20 11:01:00,754][__main__][INFO] - Inference
+[2023-04-20 11:01:00,754][__main__][INFO] - Prompt: a airplane under a horse.
+[2023-04-20 11:01:00,754][__main__][INFO] - Phrases: airplane;horse
+[2023-04-20 11:01:00,754][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-20 11:01:30,193][__main__][INFO] - Decode Image...
+[2023-04-20 11:01:30,661][__main__][INFO] - Inference
+[2023-04-20 11:01:30,661][__main__][INFO] - Prompt: a horse above a airplane.
+[2023-04-20 11:01:30,661][__main__][INFO] - Phrases: horse;airplane
+[2023-04-20 11:01:30,661][__main__][INFO] - Conver Phrases to Object Positions

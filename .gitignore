@@ -33,3 +33,6 @@ venv.bak/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.png
+*jpg
+logs/*

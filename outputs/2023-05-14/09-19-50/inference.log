@@ -1,0 +1,952 @@
+[2023-05-14 09:20:01,133][__main__][INFO] - {'general': {'save_path': './draw_bench/spatial', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-14 09:20:01,134][__main__][INFO] - save config to ./draw_bench/spatial/config.yaml
+[2023-05-14 09:20:01,142][__main__][INFO] - Inference
+[2023-05-14 09:20:01,142][__main__][INFO] - Prompt: A train on top of a surfboard.
+[2023-05-14 09:20:01,142][__main__][INFO] - Phrases: train;surfboard
+[2023-05-14 09:20:01,142][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:20:23,744][__main__][INFO] - Decode Image...
+[2023-05-14 09:20:23,946][__main__][INFO] - Inference
+[2023-05-14 09:20:23,946][__main__][INFO] - Prompt: A train on top of a surfboard.
+[2023-05-14 09:20:23,946][__main__][INFO] - Phrases: train;surfboard
+[2023-05-14 09:20:23,946][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:20:39,189][__main__][INFO] - Decode Image...
+[2023-05-14 09:20:39,379][__main__][INFO] - Inference
+[2023-05-14 09:20:39,379][__main__][INFO] - Prompt: A train on top of a surfboard.
+[2023-05-14 09:20:39,379][__main__][INFO] - Phrases: train;surfboard
+[2023-05-14 09:20:39,379][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:20:58,431][__main__][INFO] - Decode Image...
+[2023-05-14 09:20:58,622][__main__][INFO] - Inference
+[2023-05-14 09:20:58,623][__main__][INFO] - Prompt: A train on top of a surfboard.
+[2023-05-14 09:20:58,623][__main__][INFO] - Phrases: train;surfboard
+[2023-05-14 09:20:58,623][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:21:14,146][__main__][INFO] - Decode Image...
+[2023-05-14 09:21:14,337][__main__][INFO] - Inference
+[2023-05-14 09:21:14,337][__main__][INFO] - Prompt: A train on top of a surfboard.
+[2023-05-14 09:21:14,337][__main__][INFO] - Phrases: train;surfboard
+[2023-05-14 09:21:14,337][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:21:28,981][__main__][INFO] - Decode Image...
+[2023-05-14 09:21:29,165][__main__][INFO] - Inference
+[2023-05-14 09:21:29,166][__main__][INFO] - Prompt: A train on top of a surfboard.
+[2023-05-14 09:21:29,166][__main__][INFO] - Phrases: train;surfboard
+[2023-05-14 09:21:29,166][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:21:46,446][__main__][INFO] - Decode Image...
+[2023-05-14 09:21:46,647][__main__][INFO] - Inference
+[2023-05-14 09:21:46,647][__main__][INFO] - Prompt: A train on top of a surfboard.
+[2023-05-14 09:21:46,647][__main__][INFO] - Phrases: train;surfboard
+[2023-05-14 09:21:46,647][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:22:03,015][__main__][INFO] - Decode Image...
+[2023-05-14 09:22:03,213][__main__][INFO] - Inference
+[2023-05-14 09:22:03,213][__main__][INFO] - Prompt: A train on top of a surfboard.
+[2023-05-14 09:22:03,213][__main__][INFO] - Phrases: train;surfboard
+[2023-05-14 09:22:03,213][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:22:19,408][__main__][INFO] - Decode Image...
+[2023-05-14 09:22:19,606][__main__][INFO] - Inference
+[2023-05-14 09:22:19,606][__main__][INFO] - Prompt: A train on top of a surfboard.
+[2023-05-14 09:22:19,606][__main__][INFO] - Phrases: train;surfboard
+[2023-05-14 09:22:19,606][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:22:33,083][__main__][INFO] - Decode Image...
+[2023-05-14 09:22:33,270][__main__][INFO] - Inference
+[2023-05-14 09:22:33,270][__main__][INFO] - Prompt: A train on top of a surfboard.
+[2023-05-14 09:22:33,270][__main__][INFO] - Phrases: train;surfboard
+[2023-05-14 09:22:33,270][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:22:47,798][__main__][INFO] - Decode Image...
+[2023-05-14 09:22:47,979][__main__][INFO] - Inference
+[2023-05-14 09:22:47,979][__main__][INFO] - Prompt: A wine glass on top of a dog.
+[2023-05-14 09:22:47,979][__main__][INFO] - Phrases: wine;glass;dog
+[2023-05-14 09:22:47,979][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:23:43,709][__main__][INFO] - Decode Image...
+[2023-05-14 09:23:43,907][__main__][INFO] - Inference
+[2023-05-14 09:23:43,908][__main__][INFO] - Prompt: A wine glass on top of a dog.
+[2023-05-14 09:23:43,908][__main__][INFO] - Phrases: wine;glass;dog
+[2023-05-14 09:23:43,908][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:24:24,811][__main__][INFO] - Decode Image...
+[2023-05-14 09:24:24,987][__main__][INFO] - Inference
+[2023-05-14 09:24:24,987][__main__][INFO] - Prompt: A wine glass on top of a dog.
+[2023-05-14 09:24:24,987][__main__][INFO] - Phrases: wine;glass;dog
+[2023-05-14 09:24:24,987][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:25:00,218][__main__][INFO] - Decode Image...
+[2023-05-14 09:25:00,379][__main__][INFO] - Inference
+[2023-05-14 09:25:00,379][__main__][INFO] - Prompt: A wine glass on top of a dog.
+[2023-05-14 09:25:00,379][__main__][INFO] - Phrases: wine;glass;dog
+[2023-05-14 09:25:00,379][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:25:30,900][__main__][INFO] - Decode Image...
+[2023-05-14 09:25:31,088][__main__][INFO] - Inference
+[2023-05-14 09:25:31,088][__main__][INFO] - Prompt: A wine glass on top of a dog.
+[2023-05-14 09:25:31,088][__main__][INFO] - Phrases: wine;glass;dog
+[2023-05-14 09:25:31,088][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:26:02,585][__main__][INFO] - Decode Image...
+[2023-05-14 09:26:02,741][__main__][INFO] - Inference
+[2023-05-14 09:26:02,742][__main__][INFO] - Prompt: A wine glass on top of a dog.
+[2023-05-14 09:26:02,742][__main__][INFO] - Phrases: wine;glass;dog
+[2023-05-14 09:26:02,742][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:26:34,212][__main__][INFO] - Decode Image...
+[2023-05-14 09:26:34,419][__main__][INFO] - Inference
+[2023-05-14 09:26:34,419][__main__][INFO] - Prompt: A wine glass on top of a dog.
+[2023-05-14 09:26:34,419][__main__][INFO] - Phrases: wine;glass;dog
+[2023-05-14 09:26:34,419][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:27:30,098][__main__][INFO] - Decode Image...
+[2023-05-14 09:27:30,284][__main__][INFO] - Inference
+[2023-05-14 09:27:30,284][__main__][INFO] - Prompt: A wine glass on top of a dog.
+[2023-05-14 09:27:30,284][__main__][INFO] - Phrases: wine;glass;dog
+[2023-05-14 09:27:30,284][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:27:54,357][__main__][INFO] - Decode Image...
+[2023-05-14 09:27:54,580][__main__][INFO] - Inference
+[2023-05-14 09:27:54,580][__main__][INFO] - Prompt: A wine glass on top of a dog.
+[2023-05-14 09:27:54,580][__main__][INFO] - Phrases: wine;glass;dog
+[2023-05-14 09:27:54,580][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:28:25,998][__main__][INFO] - Decode Image...
+[2023-05-14 09:28:26,162][__main__][INFO] - Inference
+[2023-05-14 09:28:26,162][__main__][INFO] - Prompt: A wine glass on top of a dog.
+[2023-05-14 09:28:26,162][__main__][INFO] - Phrases: wine;glass;dog
+[2023-05-14 09:28:26,162][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:29:03,368][__main__][INFO] - Decode Image...
+[2023-05-14 09:29:03,585][__main__][INFO] - Inference
+[2023-05-14 09:29:03,585][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 09:29:03,585][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 09:29:03,585][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:29:58,846][__main__][INFO] - Decode Image...
+[2023-05-14 09:29:59,028][__main__][INFO] - Inference
+[2023-05-14 09:29:59,028][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 09:29:59,028][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 09:29:59,028][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:30:54,291][__main__][INFO] - Decode Image...
+[2023-05-14 09:30:54,452][__main__][INFO] - Inference
+[2023-05-14 09:30:54,452][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 09:30:54,452][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 09:30:54,452][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:31:34,133][__main__][INFO] - Decode Image...
+[2023-05-14 09:31:34,326][__main__][INFO] - Inference
+[2023-05-14 09:31:34,326][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 09:31:34,326][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 09:31:34,326][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:32:29,556][__main__][INFO] - Decode Image...
+[2023-05-14 09:32:29,793][__main__][INFO] - Inference
+[2023-05-14 09:32:29,793][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 09:32:29,793][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 09:32:29,793][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:33:24,963][__main__][INFO] - Decode Image...
+[2023-05-14 09:33:25,172][__main__][INFO] - Inference
+[2023-05-14 09:33:25,172][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 09:33:25,172][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 09:33:25,173][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:34:20,399][__main__][INFO] - Decode Image...
+[2023-05-14 09:34:20,600][__main__][INFO] - Inference
+[2023-05-14 09:34:20,600][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 09:34:20,600][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 09:34:20,600][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:35:15,778][__main__][INFO] - Decode Image...
+[2023-05-14 09:35:15,995][__main__][INFO] - Inference
+[2023-05-14 09:35:15,995][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 09:35:15,995][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 09:35:15,995][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:35:59,293][__main__][INFO] - Decode Image...
+[2023-05-14 09:35:59,523][__main__][INFO] - Inference
+[2023-05-14 09:35:59,523][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 09:35:59,523][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 09:35:59,523][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:36:41,972][__main__][INFO] - Decode Image...
+[2023-05-14 09:36:42,137][__main__][INFO] - Inference
+[2023-05-14 09:36:42,138][__main__][INFO] - Prompt: An umbrella on top of a spoon.
+[2023-05-14 09:36:42,138][__main__][INFO] - Phrases: umbrella;spoon
+[2023-05-14 09:36:42,138][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:37:22,709][__main__][INFO] - Decode Image...
+[2023-05-14 09:37:22,873][__main__][INFO] - Inference
+[2023-05-14 09:37:22,873][__main__][INFO] - Prompt: A laptop on top of a teddy bear.
+[2023-05-14 09:37:22,874][__main__][INFO] - Phrases: laptop;teddy;bear
+[2023-05-14 09:37:22,874][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:38:01,767][__main__][INFO] - Decode Image...
+[2023-05-14 09:38:01,932][__main__][INFO] - Inference
+[2023-05-14 09:38:01,933][__main__][INFO] - Prompt: A laptop on top of a teddy bear.
+[2023-05-14 09:38:01,933][__main__][INFO] - Phrases: laptop;teddy;bear
+[2023-05-14 09:38:01,933][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:38:57,615][__main__][INFO] - Decode Image...
+[2023-05-14 09:38:57,790][__main__][INFO] - Inference
+[2023-05-14 09:38:57,790][__main__][INFO] - Prompt: A laptop on top of a teddy bear.
+[2023-05-14 09:38:57,790][__main__][INFO] - Phrases: laptop;teddy;bear
+[2023-05-14 09:38:57,790][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:39:34,044][__main__][INFO] - Decode Image...
+[2023-05-14 09:39:34,248][__main__][INFO] - Inference
+[2023-05-14 09:39:34,248][__main__][INFO] - Prompt: A laptop on top of a teddy bear.
+[2023-05-14 09:39:34,248][__main__][INFO] - Phrases: laptop;teddy;bear
+[2023-05-14 09:39:34,248][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:40:19,692][__main__][INFO] - Decode Image...
+[2023-05-14 09:40:19,860][__main__][INFO] - Inference
+[2023-05-14 09:40:19,861][__main__][INFO] - Prompt: A laptop on top of a teddy bear.
+[2023-05-14 09:40:19,861][__main__][INFO] - Phrases: laptop;teddy;bear
+[2023-05-14 09:40:19,861][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:40:48,012][__main__][INFO] - Decode Image...
+[2023-05-14 09:40:48,198][__main__][INFO] - Inference
+[2023-05-14 09:40:48,198][__main__][INFO] - Prompt: A laptop on top of a teddy bear.
+[2023-05-14 09:40:48,198][__main__][INFO] - Phrases: laptop;teddy;bear
+[2023-05-14 09:40:48,198][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:41:20,838][__main__][INFO] - Decode Image...
+[2023-05-14 09:41:21,028][__main__][INFO] - Inference
+[2023-05-14 09:41:21,028][__main__][INFO] - Prompt: A laptop on top of a teddy bear.
+[2023-05-14 09:41:21,028][__main__][INFO] - Phrases: laptop;teddy;bear
+[2023-05-14 09:41:21,028][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:42:16,732][__main__][INFO] - Decode Image...
+[2023-05-14 09:42:16,952][__main__][INFO] - Inference
+[2023-05-14 09:42:16,952][__main__][INFO] - Prompt: A laptop on top of a teddy bear.
+[2023-05-14 09:42:16,952][__main__][INFO] - Phrases: laptop;teddy;bear
+[2023-05-14 09:42:16,952][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:43:12,674][__main__][INFO] - Decode Image...
+[2023-05-14 09:43:12,881][__main__][INFO] - Inference
+[2023-05-14 09:43:12,881][__main__][INFO] - Prompt: A laptop on top of a teddy bear.
+[2023-05-14 09:43:12,881][__main__][INFO] - Phrases: laptop;teddy;bear
+[2023-05-14 09:43:12,881][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:44:08,506][__main__][INFO] - Decode Image...
+[2023-05-14 09:44:08,700][__main__][INFO] - Inference
+[2023-05-14 09:44:08,700][__main__][INFO] - Prompt: A laptop on top of a teddy bear.
+[2023-05-14 09:44:08,700][__main__][INFO] - Phrases: laptop;teddy;bear
+[2023-05-14 09:44:08,700][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:45:04,325][__main__][INFO] - Decode Image...
+[2023-05-14 09:45:04,498][__main__][INFO] - Inference
+[2023-05-14 09:45:04,498][__main__][INFO] - Prompt: A giraffe underneath a microwave.
+[2023-05-14 09:45:04,498][__main__][INFO] - Phrases: giraffe;microwave
+[2023-05-14 09:45:04,498][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:45:28,618][__main__][INFO] - Decode Image...
+[2023-05-14 09:45:28,813][__main__][INFO] - Inference
+[2023-05-14 09:45:28,813][__main__][INFO] - Prompt: A giraffe underneath a microwave.
+[2023-05-14 09:45:28,813][__main__][INFO] - Phrases: giraffe;microwave
+[2023-05-14 09:45:28,813][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:45:45,643][__main__][INFO] - Decode Image...
+[2023-05-14 09:45:45,832][__main__][INFO] - Inference
+[2023-05-14 09:45:45,832][__main__][INFO] - Prompt: A giraffe underneath a microwave.
+[2023-05-14 09:45:45,832][__main__][INFO] - Phrases: giraffe;microwave
+[2023-05-14 09:45:45,832][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:46:17,103][__main__][INFO] - Decode Image...
+[2023-05-14 09:46:17,292][__main__][INFO] - Inference
+[2023-05-14 09:46:17,292][__main__][INFO] - Prompt: A giraffe underneath a microwave.
+[2023-05-14 09:46:17,292][__main__][INFO] - Phrases: giraffe;microwave
+[2023-05-14 09:46:17,292][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:46:34,943][__main__][INFO] - Decode Image...
+[2023-05-14 09:46:35,159][__main__][INFO] - Inference
+[2023-05-14 09:46:35,159][__main__][INFO] - Prompt: A giraffe underneath a microwave.
+[2023-05-14 09:46:35,159][__main__][INFO] - Phrases: giraffe;microwave
+[2023-05-14 09:46:35,159][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:46:56,012][__main__][INFO] - Decode Image...
+[2023-05-14 09:46:56,229][__main__][INFO] - Inference
+[2023-05-14 09:46:56,229][__main__][INFO] - Prompt: A giraffe underneath a microwave.
+[2023-05-14 09:46:56,229][__main__][INFO] - Phrases: giraffe;microwave
+[2023-05-14 09:46:56,229][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:47:13,075][__main__][INFO] - Decode Image...
+[2023-05-14 09:47:13,287][__main__][INFO] - Inference
+[2023-05-14 09:47:13,287][__main__][INFO] - Prompt: A giraffe underneath a microwave.
+[2023-05-14 09:47:13,287][__main__][INFO] - Phrases: giraffe;microwave
+[2023-05-14 09:47:13,287][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:47:30,705][__main__][INFO] - Decode Image...
+[2023-05-14 09:47:30,876][__main__][INFO] - Inference
+[2023-05-14 09:47:30,876][__main__][INFO] - Prompt: A giraffe underneath a microwave.
+[2023-05-14 09:47:30,876][__main__][INFO] - Phrases: giraffe;microwave
+[2023-05-14 09:47:30,876][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:47:45,510][__main__][INFO] - Decode Image...
+[2023-05-14 09:47:45,717][__main__][INFO] - Inference
+[2023-05-14 09:47:45,717][__main__][INFO] - Prompt: A giraffe underneath a microwave.
+[2023-05-14 09:47:45,717][__main__][INFO] - Phrases: giraffe;microwave
+[2023-05-14 09:47:45,717][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:48:08,633][__main__][INFO] - Decode Image...
+[2023-05-14 09:48:08,813][__main__][INFO] - Inference
+[2023-05-14 09:48:08,813][__main__][INFO] - Prompt: A giraffe underneath a microwave.
+[2023-05-14 09:48:08,813][__main__][INFO] - Phrases: giraffe;microwave
+[2023-05-14 09:48:08,813][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:48:30,149][__main__][INFO] - Decode Image...
+[2023-05-14 09:48:30,346][__main__][INFO] - Inference
+[2023-05-14 09:48:30,346][__main__][INFO] - Prompt: A donut underneath a toilet.
+[2023-05-14 09:48:30,346][__main__][INFO] - Phrases: donut;toilet
+[2023-05-14 09:48:30,346][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:48:54,294][__main__][INFO] - Decode Image...
+[2023-05-14 09:48:54,462][__main__][INFO] - Inference
+[2023-05-14 09:48:54,462][__main__][INFO] - Prompt: A donut underneath a toilet.
+[2023-05-14 09:48:54,462][__main__][INFO] - Phrases: donut;toilet
+[2023-05-14 09:48:54,462][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:49:15,880][__main__][INFO] - Decode Image...
+[2023-05-14 09:49:16,068][__main__][INFO] - Inference
+[2023-05-14 09:49:16,068][__main__][INFO] - Prompt: A donut underneath a toilet.
+[2023-05-14 09:49:16,068][__main__][INFO] - Phrases: donut;toilet
+[2023-05-14 09:49:16,068][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:49:33,334][__main__][INFO] - Decode Image...
+[2023-05-14 09:49:33,503][__main__][INFO] - Inference
+[2023-05-14 09:49:33,504][__main__][INFO] - Prompt: A donut underneath a toilet.
+[2023-05-14 09:49:33,504][__main__][INFO] - Phrases: donut;toilet
+[2023-05-14 09:49:33,504][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:49:52,021][__main__][INFO] - Decode Image...
+[2023-05-14 09:49:52,229][__main__][INFO] - Inference
+[2023-05-14 09:49:52,229][__main__][INFO] - Prompt: A donut underneath a toilet.
+[2023-05-14 09:49:52,229][__main__][INFO] - Phrases: donut;toilet
+[2023-05-14 09:49:52,229][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:50:09,102][__main__][INFO] - Decode Image...
+[2023-05-14 09:50:09,265][__main__][INFO] - Inference
+[2023-05-14 09:50:09,265][__main__][INFO] - Prompt: A donut underneath a toilet.
+[2023-05-14 09:50:09,265][__main__][INFO] - Phrases: donut;toilet
+[2023-05-14 09:50:09,265][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:50:30,520][__main__][INFO] - Decode Image...
+[2023-05-14 09:50:30,701][__main__][INFO] - Inference
+[2023-05-14 09:50:30,702][__main__][INFO] - Prompt: A donut underneath a toilet.
+[2023-05-14 09:50:30,702][__main__][INFO] - Phrases: donut;toilet
+[2023-05-14 09:50:30,702][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:50:54,506][__main__][INFO] - Decode Image...
+[2023-05-14 09:50:54,701][__main__][INFO] - Inference
+[2023-05-14 09:50:54,701][__main__][INFO] - Prompt: A donut underneath a toilet.
+[2023-05-14 09:50:54,701][__main__][INFO] - Phrases: donut;toilet
+[2023-05-14 09:50:54,701][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:51:11,375][__main__][INFO] - Decode Image...
+[2023-05-14 09:51:11,565][__main__][INFO] - Inference
+[2023-05-14 09:51:11,565][__main__][INFO] - Prompt: A donut underneath a toilet.
+[2023-05-14 09:51:11,565][__main__][INFO] - Phrases: donut;toilet
+[2023-05-14 09:51:11,565][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:51:40,366][__main__][INFO] - Decode Image...
+[2023-05-14 09:51:40,554][__main__][INFO] - Inference
+[2023-05-14 09:51:40,554][__main__][INFO] - Prompt: A donut underneath a toilet.
+[2023-05-14 09:51:40,554][__main__][INFO] - Phrases: donut;toilet
+[2023-05-14 09:51:40,554][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:52:01,092][__main__][INFO] - Decode Image...
+[2023-05-14 09:52:01,303][__main__][INFO] - Inference
+[2023-05-14 09:52:01,303][__main__][INFO] - Prompt: A hair drier underneath a sheep.
+[2023-05-14 09:52:01,303][__main__][INFO] - Phrases: hair;drier;sheep
+[2023-05-14 09:52:01,303][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:52:26,253][__main__][INFO] - Decode Image...
+[2023-05-14 09:52:26,481][__main__][INFO] - Inference
+[2023-05-14 09:52:26,481][__main__][INFO] - Prompt: A hair drier underneath a sheep.
+[2023-05-14 09:52:26,481][__main__][INFO] - Phrases: hair;drier;sheep
+[2023-05-14 09:52:26,481][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:53:06,567][__main__][INFO] - Decode Image...
+[2023-05-14 09:53:06,728][__main__][INFO] - Inference
+[2023-05-14 09:53:06,729][__main__][INFO] - Prompt: A hair drier underneath a sheep.
+[2023-05-14 09:53:06,729][__main__][INFO] - Phrases: hair;drier;sheep
+[2023-05-14 09:53:06,729][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:53:44,853][__main__][INFO] - Decode Image...
+[2023-05-14 09:53:45,030][__main__][INFO] - Inference
+[2023-05-14 09:53:45,030][__main__][INFO] - Prompt: A hair drier underneath a sheep.
+[2023-05-14 09:53:45,030][__main__][INFO] - Phrases: hair;drier;sheep
+[2023-05-14 09:53:45,030][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:54:09,140][__main__][INFO] - Decode Image...
+[2023-05-14 09:54:09,343][__main__][INFO] - Inference
+[2023-05-14 09:54:09,343][__main__][INFO] - Prompt: A hair drier underneath a sheep.
+[2023-05-14 09:54:09,343][__main__][INFO] - Phrases: hair;drier;sheep
+[2023-05-14 09:54:09,343][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:54:41,726][__main__][INFO] - Decode Image...
+[2023-05-14 09:54:41,895][__main__][INFO] - Inference
+[2023-05-14 09:54:41,895][__main__][INFO] - Prompt: A hair drier underneath a sheep.
+[2023-05-14 09:54:41,895][__main__][INFO] - Phrases: hair;drier;sheep
+[2023-05-14 09:54:41,896][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:54:59,370][__main__][INFO] - Decode Image...
+[2023-05-14 09:54:59,559][__main__][INFO] - Inference
+[2023-05-14 09:54:59,559][__main__][INFO] - Prompt: A hair drier underneath a sheep.
+[2023-05-14 09:54:59,559][__main__][INFO] - Phrases: hair;drier;sheep
+[2023-05-14 09:54:59,559][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:55:17,209][__main__][INFO] - Decode Image...
+[2023-05-14 09:55:17,399][__main__][INFO] - Inference
+[2023-05-14 09:55:17,399][__main__][INFO] - Prompt: A hair drier underneath a sheep.
+[2023-05-14 09:55:17,399][__main__][INFO] - Phrases: hair;drier;sheep
+[2023-05-14 09:55:17,399][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:55:57,402][__main__][INFO] - Decode Image...
+[2023-05-14 09:55:57,564][__main__][INFO] - Inference
+[2023-05-14 09:55:57,564][__main__][INFO] - Prompt: A hair drier underneath a sheep.
+[2023-05-14 09:55:57,564][__main__][INFO] - Phrases: hair;drier;sheep
+[2023-05-14 09:55:57,564][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:56:35,923][__main__][INFO] - Decode Image...
+[2023-05-14 09:56:36,093][__main__][INFO] - Inference
+[2023-05-14 09:56:36,093][__main__][INFO] - Prompt: A hair drier underneath a sheep.
+[2023-05-14 09:56:36,093][__main__][INFO] - Phrases: hair;drier;sheep
+[2023-05-14 09:56:36,093][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:57:08,744][__main__][INFO] - Decode Image...
+[2023-05-14 09:57:08,917][__main__][INFO] - Inference
+[2023-05-14 09:57:08,917][__main__][INFO] - Prompt: A tennis racket underneath a traffic light.
+[2023-05-14 09:57:08,917][__main__][INFO] - Phrases: tennis;racket;traffic;light
+[2023-05-14 09:57:08,917][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:58:04,960][__main__][INFO] - Decode Image...
+[2023-05-14 09:58:05,145][__main__][INFO] - Inference
+[2023-05-14 09:58:05,145][__main__][INFO] - Prompt: A tennis racket underneath a traffic light.
+[2023-05-14 09:58:05,145][__main__][INFO] - Phrases: tennis;racket;traffic;light
+[2023-05-14 09:58:05,145][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:58:38,506][__main__][INFO] - Decode Image...
+[2023-05-14 09:58:38,712][__main__][INFO] - Inference
+[2023-05-14 09:58:38,712][__main__][INFO] - Prompt: A tennis racket underneath a traffic light.
+[2023-05-14 09:58:38,713][__main__][INFO] - Phrases: tennis;racket;traffic;light
+[2023-05-14 09:58:38,713][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:59:15,258][__main__][INFO] - Decode Image...
+[2023-05-14 09:59:15,475][__main__][INFO] - Inference
+[2023-05-14 09:59:15,476][__main__][INFO] - Prompt: A tennis racket underneath a traffic light.
+[2023-05-14 09:59:15,476][__main__][INFO] - Phrases: tennis;racket;traffic;light
+[2023-05-14 09:59:15,476][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 09:59:53,935][__main__][INFO] - Decode Image...
+[2023-05-14 09:59:54,126][__main__][INFO] - Inference
+[2023-05-14 09:59:54,126][__main__][INFO] - Prompt: A tennis racket underneath a traffic light.
+[2023-05-14 09:59:54,126][__main__][INFO] - Phrases: tennis;racket;traffic;light
+[2023-05-14 09:59:54,126][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:00:29,601][__main__][INFO] - Decode Image...
+[2023-05-14 10:00:29,809][__main__][INFO] - Inference
+[2023-05-14 10:00:29,810][__main__][INFO] - Prompt: A tennis racket underneath a traffic light.
+[2023-05-14 10:00:29,810][__main__][INFO] - Phrases: tennis;racket;traffic;light
+[2023-05-14 10:00:29,810][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:01:06,399][__main__][INFO] - Decode Image...
+[2023-05-14 10:01:06,616][__main__][INFO] - Inference
+[2023-05-14 10:01:06,616][__main__][INFO] - Prompt: A tennis racket underneath a traffic light.
+[2023-05-14 10:01:06,616][__main__][INFO] - Phrases: tennis;racket;traffic;light
+[2023-05-14 10:01:06,616][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:01:39,067][__main__][INFO] - Decode Image...
+[2023-05-14 10:01:39,256][__main__][INFO] - Inference
+[2023-05-14 10:01:39,256][__main__][INFO] - Prompt: A tennis racket underneath a traffic light.
+[2023-05-14 10:01:39,256][__main__][INFO] - Phrases: tennis;racket;traffic;light
+[2023-05-14 10:01:39,256][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:02:35,341][__main__][INFO] - Decode Image...
+[2023-05-14 10:02:35,548][__main__][INFO] - Inference
+[2023-05-14 10:02:35,548][__main__][INFO] - Prompt: A tennis racket underneath a traffic light.
+[2023-05-14 10:02:35,548][__main__][INFO] - Phrases: tennis;racket;traffic;light
+[2023-05-14 10:02:35,548][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:03:31,602][__main__][INFO] - Decode Image...
+[2023-05-14 10:03:31,778][__main__][INFO] - Inference
+[2023-05-14 10:03:31,778][__main__][INFO] - Prompt: A tennis racket underneath a traffic light.
+[2023-05-14 10:03:31,778][__main__][INFO] - Phrases: tennis;racket;traffic;light
+[2023-05-14 10:03:31,778][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:04:12,985][__main__][INFO] - Decode Image...
+[2023-05-14 10:04:13,163][__main__][INFO] - Inference
+[2023-05-14 10:04:13,163][__main__][INFO] - Prompt: A zebra underneath a broccoli.
+[2023-05-14 10:04:13,163][__main__][INFO] - Phrases: zebra;broccoli
+[2023-05-14 10:04:13,163][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:04:31,840][__main__][INFO] - Decode Image...
+[2023-05-14 10:04:32,031][__main__][INFO] - Inference
+[2023-05-14 10:04:32,031][__main__][INFO] - Prompt: A zebra underneath a broccoli.
+[2023-05-14 10:04:32,031][__main__][INFO] - Phrases: zebra;broccoli
+[2023-05-14 10:04:32,031][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:05:04,234][__main__][INFO] - Decode Image...
+[2023-05-14 10:05:04,404][__main__][INFO] - Inference
+[2023-05-14 10:05:04,404][__main__][INFO] - Prompt: A zebra underneath a broccoli.
+[2023-05-14 10:05:04,404][__main__][INFO] - Phrases: zebra;broccoli
+[2023-05-14 10:05:04,404][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:05:22,038][__main__][INFO] - Decode Image...
+[2023-05-14 10:05:22,225][__main__][INFO] - Inference
+[2023-05-14 10:05:22,225][__main__][INFO] - Prompt: A zebra underneath a broccoli.
+[2023-05-14 10:05:22,225][__main__][INFO] - Phrases: zebra;broccoli
+[2023-05-14 10:05:22,225][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:05:39,989][__main__][INFO] - Decode Image...
+[2023-05-14 10:05:40,175][__main__][INFO] - Inference
+[2023-05-14 10:05:40,176][__main__][INFO] - Prompt: A zebra underneath a broccoli.
+[2023-05-14 10:05:40,176][__main__][INFO] - Phrases: zebra;broccoli
+[2023-05-14 10:05:40,176][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:05:57,688][__main__][INFO] - Decode Image...
+[2023-05-14 10:05:57,879][__main__][INFO] - Inference
+[2023-05-14 10:05:57,879][__main__][INFO] - Prompt: A zebra underneath a broccoli.
+[2023-05-14 10:05:57,879][__main__][INFO] - Phrases: zebra;broccoli
+[2023-05-14 10:05:57,879][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:06:15,475][__main__][INFO] - Decode Image...
+[2023-05-14 10:06:15,695][__main__][INFO] - Inference
+[2023-05-14 10:06:15,696][__main__][INFO] - Prompt: A zebra underneath a broccoli.
+[2023-05-14 10:06:15,696][__main__][INFO] - Phrases: zebra;broccoli
+[2023-05-14 10:06:15,696][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:06:38,734][__main__][INFO] - Decode Image...
+[2023-05-14 10:06:38,928][__main__][INFO] - Inference
+[2023-05-14 10:06:38,928][__main__][INFO] - Prompt: A zebra underneath a broccoli.
+[2023-05-14 10:06:38,928][__main__][INFO] - Phrases: zebra;broccoli
+[2023-05-14 10:06:38,928][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:06:56,452][__main__][INFO] - Decode Image...
+[2023-05-14 10:06:56,653][__main__][INFO] - Inference
+[2023-05-14 10:06:56,653][__main__][INFO] - Prompt: A zebra underneath a broccoli.
+[2023-05-14 10:06:56,653][__main__][INFO] - Phrases: zebra;broccoli
+[2023-05-14 10:06:56,653][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:07:14,427][__main__][INFO] - Decode Image...
+[2023-05-14 10:07:14,632][__main__][INFO] - Inference
+[2023-05-14 10:07:14,633][__main__][INFO] - Prompt: A zebra underneath a broccoli.
+[2023-05-14 10:07:14,633][__main__][INFO] - Phrases: zebra;broccoli
+[2023-05-14 10:07:14,633][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:07:36,809][__main__][INFO] - Decode Image...
+[2023-05-14 10:07:37,006][__main__][INFO] - Inference
+[2023-05-14 10:07:37,006][__main__][INFO] - Prompt: A banana on the left of an apple.
+[2023-05-14 10:07:37,006][__main__][INFO] - Phrases: banana;apple
+[2023-05-14 10:07:37,006][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:08:03,680][__main__][INFO] - Decode Image...
+[2023-05-14 10:08:03,895][__main__][INFO] - Inference
+[2023-05-14 10:08:03,896][__main__][INFO] - Prompt: A banana on the left of an apple.
+[2023-05-14 10:08:03,896][__main__][INFO] - Phrases: banana;apple
+[2023-05-14 10:08:03,896][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:08:26,851][__main__][INFO] - Decode Image...
+[2023-05-14 10:08:27,086][__main__][INFO] - Inference
+[2023-05-14 10:08:27,086][__main__][INFO] - Prompt: A banana on the left of an apple.
+[2023-05-14 10:08:27,086][__main__][INFO] - Phrases: banana;apple
+[2023-05-14 10:08:27,086][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:08:51,958][__main__][INFO] - Decode Image...
+[2023-05-14 10:08:52,158][__main__][INFO] - Inference
+[2023-05-14 10:08:52,158][__main__][INFO] - Prompt: A banana on the left of an apple.
+[2023-05-14 10:08:52,158][__main__][INFO] - Phrases: banana;apple
+[2023-05-14 10:08:52,158][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:09:18,906][__main__][INFO] - Decode Image...
+[2023-05-14 10:09:19,125][__main__][INFO] - Inference
+[2023-05-14 10:09:19,125][__main__][INFO] - Prompt: A banana on the left of an apple.
+[2023-05-14 10:09:19,126][__main__][INFO] - Phrases: banana;apple
+[2023-05-14 10:09:19,126][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:09:44,925][__main__][INFO] - Decode Image...
+[2023-05-14 10:09:45,117][__main__][INFO] - Inference
+[2023-05-14 10:09:45,117][__main__][INFO] - Prompt: A banana on the left of an apple.
+[2023-05-14 10:09:45,117][__main__][INFO] - Phrases: banana;apple
+[2023-05-14 10:09:45,117][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:10:06,247][__main__][INFO] - Decode Image...
+[2023-05-14 10:10:06,463][__main__][INFO] - Inference
+[2023-05-14 10:10:06,463][__main__][INFO] - Prompt: A banana on the left of an apple.
+[2023-05-14 10:10:06,463][__main__][INFO] - Phrases: banana;apple
+[2023-05-14 10:10:06,463][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:10:35,848][__main__][INFO] - Decode Image...
+[2023-05-14 10:10:36,067][__main__][INFO] - Inference
+[2023-05-14 10:10:36,068][__main__][INFO] - Prompt: A banana on the left of an apple.
+[2023-05-14 10:10:36,068][__main__][INFO] - Phrases: banana;apple
+[2023-05-14 10:10:36,068][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:11:09,069][__main__][INFO] - Decode Image...
+[2023-05-14 10:11:09,293][__main__][INFO] - Inference
+[2023-05-14 10:11:09,293][__main__][INFO] - Prompt: A banana on the left of an apple.
+[2023-05-14 10:11:09,293][__main__][INFO] - Phrases: banana;apple
+[2023-05-14 10:11:09,293][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:11:36,166][__main__][INFO] - Decode Image...
+[2023-05-14 10:11:36,363][__main__][INFO] - Inference
+[2023-05-14 10:11:36,363][__main__][INFO] - Prompt: A banana on the left of an apple.
+[2023-05-14 10:11:36,363][__main__][INFO] - Phrases: banana;apple
+[2023-05-14 10:11:36,363][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:12:00,610][__main__][INFO] - Decode Image...
+[2023-05-14 10:12:00,789][__main__][INFO] - Inference
+[2023-05-14 10:12:00,789][__main__][INFO] - Prompt: A couch on the left of a chair.
+[2023-05-14 10:12:00,789][__main__][INFO] - Phrases: couch;chair
+[2023-05-14 10:12:00,789][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:12:31,392][__main__][INFO] - Decode Image...
+[2023-05-14 10:12:31,559][__main__][INFO] - Inference
+[2023-05-14 10:12:31,559][__main__][INFO] - Prompt: A couch on the left of a chair.
+[2023-05-14 10:12:31,559][__main__][INFO] - Phrases: couch;chair
+[2023-05-14 10:12:31,559][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:12:59,173][__main__][INFO] - Decode Image...
+[2023-05-14 10:12:59,339][__main__][INFO] - Inference
+[2023-05-14 10:12:59,340][__main__][INFO] - Prompt: A couch on the left of a chair.
+[2023-05-14 10:12:59,340][__main__][INFO] - Phrases: couch;chair
+[2023-05-14 10:12:59,340][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:13:29,820][__main__][INFO] - Decode Image...
+[2023-05-14 10:13:30,017][__main__][INFO] - Inference
+[2023-05-14 10:13:30,017][__main__][INFO] - Prompt: A couch on the left of a chair.
+[2023-05-14 10:13:30,017][__main__][INFO] - Phrases: couch;chair
+[2023-05-14 10:13:30,017][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:13:59,689][__main__][INFO] - Decode Image...
+[2023-05-14 10:13:59,854][__main__][INFO] - Inference
+[2023-05-14 10:13:59,855][__main__][INFO] - Prompt: A couch on the left of a chair.
+[2023-05-14 10:13:59,855][__main__][INFO] - Phrases: couch;chair
+[2023-05-14 10:13:59,855][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:14:20,442][__main__][INFO] - Decode Image...
+[2023-05-14 10:14:20,593][__main__][INFO] - Inference
+[2023-05-14 10:14:20,593][__main__][INFO] - Prompt: A couch on the left of a chair.
+[2023-05-14 10:14:20,593][__main__][INFO] - Phrases: couch;chair
+[2023-05-14 10:14:20,594][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:14:47,345][__main__][INFO] - Decode Image...
+[2023-05-14 10:14:47,531][__main__][INFO] - Inference
+[2023-05-14 10:14:47,531][__main__][INFO] - Prompt: A couch on the left of a chair.
+[2023-05-14 10:14:47,531][__main__][INFO] - Phrases: couch;chair
+[2023-05-14 10:14:47,531][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:15:18,842][__main__][INFO] - Decode Image...
+[2023-05-14 10:15:19,043][__main__][INFO] - Inference
+[2023-05-14 10:15:19,043][__main__][INFO] - Prompt: A couch on the left of a chair.
+[2023-05-14 10:15:19,043][__main__][INFO] - Phrases: couch;chair
+[2023-05-14 10:15:19,043][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:15:52,295][__main__][INFO] - Decode Image...
+[2023-05-14 10:15:52,500][__main__][INFO] - Inference
+[2023-05-14 10:15:52,500][__main__][INFO] - Prompt: A couch on the left of a chair.
+[2023-05-14 10:15:52,500][__main__][INFO] - Phrases: couch;chair
+[2023-05-14 10:15:52,500][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:16:22,890][__main__][INFO] - Decode Image...
+[2023-05-14 10:16:23,096][__main__][INFO] - Inference
+[2023-05-14 10:16:23,096][__main__][INFO] - Prompt: A couch on the left of a chair.
+[2023-05-14 10:16:23,096][__main__][INFO] - Phrases: couch;chair
+[2023-05-14 10:16:23,096][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:16:51,819][__main__][INFO] - Decode Image...
+[2023-05-14 10:16:51,994][__main__][INFO] - Inference
+[2023-05-14 10:16:51,994][__main__][INFO] - Prompt: A car on the left of a bus.
+[2023-05-14 10:16:51,994][__main__][INFO] - Phrases: car;bus
+[2023-05-14 10:16:51,994][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:17:20,767][__main__][INFO] - Decode Image...
+[2023-05-14 10:17:20,977][__main__][INFO] - Inference
+[2023-05-14 10:17:20,977][__main__][INFO] - Prompt: A car on the left of a bus.
+[2023-05-14 10:17:20,977][__main__][INFO] - Phrases: car;bus
+[2023-05-14 10:17:20,977][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:17:47,623][__main__][INFO] - Decode Image...
+[2023-05-14 10:17:47,840][__main__][INFO] - Inference
+[2023-05-14 10:17:47,840][__main__][INFO] - Prompt: A car on the left of a bus.
+[2023-05-14 10:17:47,840][__main__][INFO] - Phrases: car;bus
+[2023-05-14 10:17:47,840][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:18:21,852][__main__][INFO] - Decode Image...
+[2023-05-14 10:18:22,062][__main__][INFO] - Inference
+[2023-05-14 10:18:22,062][__main__][INFO] - Prompt: A car on the left of a bus.
+[2023-05-14 10:18:22,062][__main__][INFO] - Phrases: car;bus
+[2023-05-14 10:18:22,062][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:18:45,281][__main__][INFO] - Decode Image...
+[2023-05-14 10:18:45,484][__main__][INFO] - Inference
+[2023-05-14 10:18:45,484][__main__][INFO] - Prompt: A car on the left of a bus.
+[2023-05-14 10:18:45,484][__main__][INFO] - Phrases: car;bus
+[2023-05-14 10:18:45,484][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:19:25,844][__main__][INFO] - Decode Image...
+[2023-05-14 10:19:26,032][__main__][INFO] - Inference
+[2023-05-14 10:19:26,032][__main__][INFO] - Prompt: A car on the left of a bus.
+[2023-05-14 10:19:26,032][__main__][INFO] - Phrases: car;bus
+[2023-05-14 10:19:26,032][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:19:52,030][__main__][INFO] - Decode Image...
+[2023-05-14 10:19:52,213][__main__][INFO] - Inference
+[2023-05-14 10:19:52,213][__main__][INFO] - Prompt: A car on the left of a bus.
+[2023-05-14 10:19:52,213][__main__][INFO] - Phrases: car;bus
+[2023-05-14 10:19:52,213][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:20:19,858][__main__][INFO] - Decode Image...
+[2023-05-14 10:20:20,051][__main__][INFO] - Inference
+[2023-05-14 10:20:20,051][__main__][INFO] - Prompt: A car on the left of a bus.
+[2023-05-14 10:20:20,051][__main__][INFO] - Phrases: car;bus
+[2023-05-14 10:20:20,051][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:20:46,970][__main__][INFO] - Decode Image...
+[2023-05-14 10:20:47,149][__main__][INFO] - Inference
+[2023-05-14 10:20:47,150][__main__][INFO] - Prompt: A car on the left of a bus.
+[2023-05-14 10:20:47,150][__main__][INFO] - Phrases: car;bus
+[2023-05-14 10:20:47,150][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:21:11,111][__main__][INFO] - Decode Image...
+[2023-05-14 10:21:11,294][__main__][INFO] - Inference
+[2023-05-14 10:21:11,294][__main__][INFO] - Prompt: A car on the left of a bus.
+[2023-05-14 10:21:11,294][__main__][INFO] - Phrases: car;bus
+[2023-05-14 10:21:11,294][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:21:41,768][__main__][INFO] - Decode Image...
+[2023-05-14 10:21:41,972][__main__][INFO] - Inference
+[2023-05-14 10:21:41,972][__main__][INFO] - Prompt: A cat on the left of a dog.
+[2023-05-14 10:21:41,972][__main__][INFO] - Phrases: cat;dog
+[2023-05-14 10:21:41,972][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:22:11,283][__main__][INFO] - Decode Image...
+[2023-05-14 10:22:11,497][__main__][INFO] - Inference
+[2023-05-14 10:22:11,497][__main__][INFO] - Prompt: A cat on the left of a dog.
+[2023-05-14 10:22:11,497][__main__][INFO] - Phrases: cat;dog
+[2023-05-14 10:22:11,497][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:23:06,824][__main__][INFO] - Decode Image...
+[2023-05-14 10:23:07,039][__main__][INFO] - Inference
+[2023-05-14 10:23:07,039][__main__][INFO] - Prompt: A cat on the left of a dog.
+[2023-05-14 10:23:07,039][__main__][INFO] - Phrases: cat;dog
+[2023-05-14 10:23:07,039][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:24:02,449][__main__][INFO] - Decode Image...
+[2023-05-14 10:24:02,657][__main__][INFO] - Inference
+[2023-05-14 10:24:02,657][__main__][INFO] - Prompt: A cat on the left of a dog.
+[2023-05-14 10:24:02,657][__main__][INFO] - Phrases: cat;dog
+[2023-05-14 10:24:02,657][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:24:58,098][__main__][INFO] - Decode Image...
+[2023-05-14 10:24:58,301][__main__][INFO] - Inference
+[2023-05-14 10:24:58,301][__main__][INFO] - Prompt: A cat on the left of a dog.
+[2023-05-14 10:24:58,301][__main__][INFO] - Phrases: cat;dog
+[2023-05-14 10:24:58,301][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:25:54,189][__main__][INFO] - Decode Image...
+[2023-05-14 10:25:54,386][__main__][INFO] - Inference
+[2023-05-14 10:25:54,386][__main__][INFO] - Prompt: A cat on the left of a dog.
+[2023-05-14 10:25:54,386][__main__][INFO] - Phrases: cat;dog
+[2023-05-14 10:25:54,386][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:26:49,773][__main__][INFO] - Decode Image...
+[2023-05-14 10:26:49,984][__main__][INFO] - Inference
+[2023-05-14 10:26:49,985][__main__][INFO] - Prompt: A cat on the left of a dog.
+[2023-05-14 10:26:49,985][__main__][INFO] - Phrases: cat;dog
+[2023-05-14 10:26:49,985][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:27:45,323][__main__][INFO] - Decode Image...
+[2023-05-14 10:27:45,511][__main__][INFO] - Inference
+[2023-05-14 10:27:45,511][__main__][INFO] - Prompt: A cat on the left of a dog.
+[2023-05-14 10:27:45,511][__main__][INFO] - Phrases: cat;dog
+[2023-05-14 10:27:45,511][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:28:40,974][__main__][INFO] - Decode Image...
+[2023-05-14 10:28:41,154][__main__][INFO] - Inference
+[2023-05-14 10:28:41,154][__main__][INFO] - Prompt: A cat on the left of a dog.
+[2023-05-14 10:28:41,154][__main__][INFO] - Phrases: cat;dog
+[2023-05-14 10:28:41,154][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:29:36,613][__main__][INFO] - Decode Image...
+[2023-05-14 10:29:36,799][__main__][INFO] - Inference
+[2023-05-14 10:29:36,799][__main__][INFO] - Prompt: A cat on the left of a dog.
+[2023-05-14 10:29:36,799][__main__][INFO] - Phrases: cat;dog
+[2023-05-14 10:29:36,799][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:30:32,225][__main__][INFO] - Decode Image...
+[2023-05-14 10:30:32,437][__main__][INFO] - Inference
+[2023-05-14 10:30:32,437][__main__][INFO] - Prompt: A carrot on the left of a broccoli.
+[2023-05-14 10:30:32,437][__main__][INFO] - Phrases: carrot;broccoli
+[2023-05-14 10:30:32,437][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:31:11,762][__main__][INFO] - Decode Image...
+[2023-05-14 10:31:11,996][__main__][INFO] - Inference
+[2023-05-14 10:31:11,996][__main__][INFO] - Prompt: A carrot on the left of a broccoli.
+[2023-05-14 10:31:11,996][__main__][INFO] - Phrases: carrot;broccoli
+[2023-05-14 10:31:11,996][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:31:39,589][__main__][INFO] - Decode Image...
+[2023-05-14 10:31:39,794][__main__][INFO] - Inference
+[2023-05-14 10:31:39,794][__main__][INFO] - Prompt: A carrot on the left of a broccoli.
+[2023-05-14 10:31:39,794][__main__][INFO] - Phrases: carrot;broccoli
+[2023-05-14 10:31:39,794][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:32:23,149][__main__][INFO] - Decode Image...
+[2023-05-14 10:32:23,320][__main__][INFO] - Inference
+[2023-05-14 10:32:23,320][__main__][INFO] - Prompt: A carrot on the left of a broccoli.
+[2023-05-14 10:32:23,320][__main__][INFO] - Phrases: carrot;broccoli
+[2023-05-14 10:32:23,321][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:33:01,010][__main__][INFO] - Decode Image...
+[2023-05-14 10:33:01,196][__main__][INFO] - Inference
+[2023-05-14 10:33:01,196][__main__][INFO] - Prompt: A carrot on the left of a broccoli.
+[2023-05-14 10:33:01,196][__main__][INFO] - Phrases: carrot;broccoli
+[2023-05-14 10:33:01,196][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:33:29,394][__main__][INFO] - Decode Image...
+[2023-05-14 10:33:29,581][__main__][INFO] - Inference
+[2023-05-14 10:33:29,581][__main__][INFO] - Prompt: A carrot on the left of a broccoli.
+[2023-05-14 10:33:29,581][__main__][INFO] - Phrases: carrot;broccoli
+[2023-05-14 10:33:29,581][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:33:53,743][__main__][INFO] - Decode Image...
+[2023-05-14 10:33:53,936][__main__][INFO] - Inference
+[2023-05-14 10:33:53,936][__main__][INFO] - Prompt: A carrot on the left of a broccoli.
+[2023-05-14 10:33:53,936][__main__][INFO] - Phrases: carrot;broccoli
+[2023-05-14 10:33:53,936][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:34:30,658][__main__][INFO] - Decode Image...
+[2023-05-14 10:34:30,885][__main__][INFO] - Inference
+[2023-05-14 10:34:30,885][__main__][INFO] - Prompt: A carrot on the left of a broccoli.
+[2023-05-14 10:34:30,885][__main__][INFO] - Phrases: carrot;broccoli
+[2023-05-14 10:34:30,885][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:35:01,456][__main__][INFO] - Decode Image...
+[2023-05-14 10:35:01,665][__main__][INFO] - Inference
+[2023-05-14 10:35:01,665][__main__][INFO] - Prompt: A carrot on the left of a broccoli.
+[2023-05-14 10:35:01,665][__main__][INFO] - Phrases: carrot;broccoli
+[2023-05-14 10:35:01,665][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:35:43,959][__main__][INFO] - Decode Image...
+[2023-05-14 10:35:44,166][__main__][INFO] - Inference
+[2023-05-14 10:35:44,166][__main__][INFO] - Prompt: A carrot on the left of a broccoli.
+[2023-05-14 10:35:44,167][__main__][INFO] - Phrases: carrot;broccoli
+[2023-05-14 10:35:44,167][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:36:22,878][__main__][INFO] - Decode Image...
+[2023-05-14 10:36:23,073][__main__][INFO] - Inference
+[2023-05-14 10:36:23,073][__main__][INFO] - Prompt: A pizza on the right of a suitcase.
+[2023-05-14 10:36:23,073][__main__][INFO] - Phrases: pizza;suitcase
+[2023-05-14 10:36:23,073][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:36:50,342][__main__][INFO] - Decode Image...
+[2023-05-14 10:36:50,547][__main__][INFO] - Inference
+[2023-05-14 10:36:50,547][__main__][INFO] - Prompt: A pizza on the right of a suitcase.
+[2023-05-14 10:36:50,547][__main__][INFO] - Phrases: pizza;suitcase
+[2023-05-14 10:36:50,547][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:37:13,584][__main__][INFO] - Decode Image...
+[2023-05-14 10:37:13,788][__main__][INFO] - Inference
+[2023-05-14 10:37:13,788][__main__][INFO] - Prompt: A pizza on the right of a suitcase.
+[2023-05-14 10:37:13,788][__main__][INFO] - Phrases: pizza;suitcase
+[2023-05-14 10:37:13,788][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:37:38,726][__main__][INFO] - Decode Image...
+[2023-05-14 10:37:38,905][__main__][INFO] - Inference
+[2023-05-14 10:37:38,905][__main__][INFO] - Prompt: A pizza on the right of a suitcase.
+[2023-05-14 10:37:38,905][__main__][INFO] - Phrases: pizza;suitcase
+[2023-05-14 10:37:38,906][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:38:04,821][__main__][INFO] - Decode Image...
+[2023-05-14 10:38:05,039][__main__][INFO] - Inference
+[2023-05-14 10:38:05,039][__main__][INFO] - Prompt: A pizza on the right of a suitcase.
+[2023-05-14 10:38:05,039][__main__][INFO] - Phrases: pizza;suitcase
+[2023-05-14 10:38:05,039][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:38:28,887][__main__][INFO] - Decode Image...
+[2023-05-14 10:38:29,070][__main__][INFO] - Inference
+[2023-05-14 10:38:29,070][__main__][INFO] - Prompt: A pizza on the right of a suitcase.
+[2023-05-14 10:38:29,070][__main__][INFO] - Phrases: pizza;suitcase
+[2023-05-14 10:38:29,070][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:38:56,009][__main__][INFO] - Decode Image...
+[2023-05-14 10:38:56,190][__main__][INFO] - Inference
+[2023-05-14 10:38:56,190][__main__][INFO] - Prompt: A pizza on the right of a suitcase.
+[2023-05-14 10:38:56,190][__main__][INFO] - Phrases: pizza;suitcase
+[2023-05-14 10:38:56,190][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:39:32,244][__main__][INFO] - Decode Image...
+[2023-05-14 10:39:32,449][__main__][INFO] - Inference
+[2023-05-14 10:39:32,449][__main__][INFO] - Prompt: A pizza on the right of a suitcase.
+[2023-05-14 10:39:32,449][__main__][INFO] - Phrases: pizza;suitcase
+[2023-05-14 10:39:32,449][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:40:18,602][__main__][INFO] - Decode Image...
+[2023-05-14 10:40:18,811][__main__][INFO] - Inference
+[2023-05-14 10:40:18,811][__main__][INFO] - Prompt: A pizza on the right of a suitcase.
+[2023-05-14 10:40:18,811][__main__][INFO] - Phrases: pizza;suitcase
+[2023-05-14 10:40:18,811][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:40:49,058][__main__][INFO] - Decode Image...
+[2023-05-14 10:40:49,263][__main__][INFO] - Inference
+[2023-05-14 10:40:49,263][__main__][INFO] - Prompt: A pizza on the right of a suitcase.
+[2023-05-14 10:40:49,263][__main__][INFO] - Phrases: pizza;suitcase
+[2023-05-14 10:40:49,264][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:41:20,715][__main__][INFO] - Decode Image...
+[2023-05-14 10:41:20,915][__main__][INFO] - Inference
+[2023-05-14 10:41:20,916][__main__][INFO] - Prompt: A cat on the right of a tennis racket.
+[2023-05-14 10:41:20,916][__main__][INFO] - Phrases: cat;tennis;racket
+[2023-05-14 10:41:20,916][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:42:16,641][__main__][INFO] - Decode Image...
+[2023-05-14 10:42:16,846][__main__][INFO] - Inference
+[2023-05-14 10:42:16,846][__main__][INFO] - Prompt: A cat on the right of a tennis racket.
+[2023-05-14 10:42:16,846][__main__][INFO] - Phrases: cat;tennis;racket
+[2023-05-14 10:42:16,846][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:43:12,480][__main__][INFO] - Decode Image...
+[2023-05-14 10:43:12,658][__main__][INFO] - Inference
+[2023-05-14 10:43:12,658][__main__][INFO] - Prompt: A cat on the right of a tennis racket.
+[2023-05-14 10:43:12,658][__main__][INFO] - Phrases: cat;tennis;racket
+[2023-05-14 10:43:12,658][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:43:46,189][__main__][INFO] - Decode Image...
+[2023-05-14 10:43:46,381][__main__][INFO] - Inference
+[2023-05-14 10:43:46,382][__main__][INFO] - Prompt: A cat on the right of a tennis racket.
+[2023-05-14 10:43:46,382][__main__][INFO] - Phrases: cat;tennis;racket
+[2023-05-14 10:43:46,382][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:44:41,820][__main__][INFO] - Decode Image...
+[2023-05-14 10:44:41,992][__main__][INFO] - Inference
+[2023-05-14 10:44:41,992][__main__][INFO] - Prompt: A cat on the right of a tennis racket.
+[2023-05-14 10:44:41,992][__main__][INFO] - Phrases: cat;tennis;racket
+[2023-05-14 10:44:41,992][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:45:21,946][__main__][INFO] - Decode Image...
+[2023-05-14 10:45:22,142][__main__][INFO] - Inference
+[2023-05-14 10:45:22,143][__main__][INFO] - Prompt: A cat on the right of a tennis racket.
+[2023-05-14 10:45:22,143][__main__][INFO] - Phrases: cat;tennis;racket
+[2023-05-14 10:45:22,143][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:45:54,680][__main__][INFO] - Decode Image...
+[2023-05-14 10:45:54,905][__main__][INFO] - Inference
+[2023-05-14 10:45:54,905][__main__][INFO] - Prompt: A cat on the right of a tennis racket.
+[2023-05-14 10:45:54,905][__main__][INFO] - Phrases: cat;tennis;racket
+[2023-05-14 10:45:54,905][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:46:22,075][__main__][INFO] - Decode Image...
+[2023-05-14 10:46:22,251][__main__][INFO] - Inference
+[2023-05-14 10:46:22,251][__main__][INFO] - Prompt: A cat on the right of a tennis racket.
+[2023-05-14 10:46:22,251][__main__][INFO] - Phrases: cat;tennis;racket
+[2023-05-14 10:46:22,251][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:47:18,114][__main__][INFO] - Decode Image...
+[2023-05-14 10:47:18,295][__main__][INFO] - Inference
+[2023-05-14 10:47:18,295][__main__][INFO] - Prompt: A cat on the right of a tennis racket.
+[2023-05-14 10:47:18,296][__main__][INFO] - Phrases: cat;tennis;racket
+[2023-05-14 10:47:18,296][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:47:53,581][__main__][INFO] - Decode Image...
+[2023-05-14 10:47:53,749][__main__][INFO] - Inference
+[2023-05-14 10:47:53,749][__main__][INFO] - Prompt: A cat on the right of a tennis racket.
+[2023-05-14 10:47:53,749][__main__][INFO] - Phrases: cat;tennis;racket
+[2023-05-14 10:47:53,749][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:48:25,526][__main__][INFO] - Decode Image...
+[2023-05-14 10:48:25,692][__main__][INFO] - Inference
+[2023-05-14 10:48:25,692][__main__][INFO] - Prompt: A stop sign on the right of a refrigerator.
+[2023-05-14 10:48:25,692][__main__][INFO] - Phrases: stop;sign;refrigerator
+[2023-05-14 10:48:25,692][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:49:01,973][__main__][INFO] - Decode Image...
+[2023-05-14 10:49:02,168][__main__][INFO] - Inference
+[2023-05-14 10:49:02,168][__main__][INFO] - Prompt: A stop sign on the right of a refrigerator.
+[2023-05-14 10:49:02,168][__main__][INFO] - Phrases: stop;sign;refrigerator
+[2023-05-14 10:49:02,168][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:49:37,271][__main__][INFO] - Decode Image...
+[2023-05-14 10:49:37,474][__main__][INFO] - Inference
+[2023-05-14 10:49:37,474][__main__][INFO] - Prompt: A stop sign on the right of a refrigerator.
+[2023-05-14 10:49:37,474][__main__][INFO] - Phrases: stop;sign;refrigerator
+[2023-05-14 10:49:37,474][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:50:20,043][__main__][INFO] - Decode Image...
+[2023-05-14 10:50:20,226][__main__][INFO] - Inference
+[2023-05-14 10:50:20,227][__main__][INFO] - Prompt: A stop sign on the right of a refrigerator.
+[2023-05-14 10:50:20,227][__main__][INFO] - Phrases: stop;sign;refrigerator
+[2023-05-14 10:50:20,227][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:51:15,905][__main__][INFO] - Decode Image...
+[2023-05-14 10:51:16,116][__main__][INFO] - Inference
+[2023-05-14 10:51:16,116][__main__][INFO] - Prompt: A stop sign on the right of a refrigerator.
+[2023-05-14 10:51:16,116][__main__][INFO] - Phrases: stop;sign;refrigerator
+[2023-05-14 10:51:16,116][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:52:11,708][__main__][INFO] - Decode Image...
+[2023-05-14 10:52:11,912][__main__][INFO] - Inference
+[2023-05-14 10:52:11,912][__main__][INFO] - Prompt: A stop sign on the right of a refrigerator.
+[2023-05-14 10:52:11,912][__main__][INFO] - Phrases: stop;sign;refrigerator
+[2023-05-14 10:52:11,912][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:53:07,510][__main__][INFO] - Decode Image...
+[2023-05-14 10:53:07,702][__main__][INFO] - Inference
+[2023-05-14 10:53:07,702][__main__][INFO] - Prompt: A stop sign on the right of a refrigerator.
+[2023-05-14 10:53:07,702][__main__][INFO] - Phrases: stop;sign;refrigerator
+[2023-05-14 10:53:07,703][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:54:03,239][__main__][INFO] - Decode Image...
+[2023-05-14 10:54:03,453][__main__][INFO] - Inference
+[2023-05-14 10:54:03,453][__main__][INFO] - Prompt: A stop sign on the right of a refrigerator.
+[2023-05-14 10:54:03,453][__main__][INFO] - Phrases: stop;sign;refrigerator
+[2023-05-14 10:54:03,453][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:54:58,990][__main__][INFO] - Decode Image...
+[2023-05-14 10:54:59,180][__main__][INFO] - Inference
+[2023-05-14 10:54:59,180][__main__][INFO] - Prompt: A stop sign on the right of a refrigerator.
+[2023-05-14 10:54:59,180][__main__][INFO] - Phrases: stop;sign;refrigerator
+[2023-05-14 10:54:59,180][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:55:54,796][__main__][INFO] - Decode Image...
+[2023-05-14 10:55:54,989][__main__][INFO] - Inference
+[2023-05-14 10:55:54,989][__main__][INFO] - Prompt: A stop sign on the right of a refrigerator.
+[2023-05-14 10:55:54,989][__main__][INFO] - Phrases: stop;sign;refrigerator
+[2023-05-14 10:55:54,989][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:56:27,588][__main__][INFO] - Decode Image...
+[2023-05-14 10:56:27,781][__main__][INFO] - Inference
+[2023-05-14 10:56:27,782][__main__][INFO] - Prompt: A sheep to the right of a wine glass.
+[2023-05-14 10:56:27,782][__main__][INFO] - Phrases: sheep;wine;glass
+[2023-05-14 10:56:27,782][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:56:56,697][__main__][INFO] - Decode Image...
+[2023-05-14 10:56:56,909][__main__][INFO] - Inference
+[2023-05-14 10:56:56,909][__main__][INFO] - Prompt: A sheep to the right of a wine glass.
+[2023-05-14 10:56:56,909][__main__][INFO] - Phrases: sheep;wine;glass
+[2023-05-14 10:56:56,910][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:57:13,559][__main__][INFO] - Decode Image...
+[2023-05-14 10:57:13,779][__main__][INFO] - Inference
+[2023-05-14 10:57:13,779][__main__][INFO] - Prompt: A sheep to the right of a wine glass.
+[2023-05-14 10:57:13,779][__main__][INFO] - Phrases: sheep;wine;glass
+[2023-05-14 10:57:13,779][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:57:36,034][__main__][INFO] - Decode Image...
+[2023-05-14 10:57:36,237][__main__][INFO] - Inference
+[2023-05-14 10:57:36,237][__main__][INFO] - Prompt: A sheep to the right of a wine glass.
+[2023-05-14 10:57:36,237][__main__][INFO] - Phrases: sheep;wine;glass
+[2023-05-14 10:57:36,237][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:57:59,235][__main__][INFO] - Decode Image...
+[2023-05-14 10:57:59,455][__main__][INFO] - Inference
+[2023-05-14 10:57:59,456][__main__][INFO] - Prompt: A sheep to the right of a wine glass.
+[2023-05-14 10:57:59,456][__main__][INFO] - Phrases: sheep;wine;glass
+[2023-05-14 10:57:59,456][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:58:22,806][__main__][INFO] - Decode Image...
+[2023-05-14 10:58:23,023][__main__][INFO] - Inference
+[2023-05-14 10:58:23,023][__main__][INFO] - Prompt: A sheep to the right of a wine glass.
+[2023-05-14 10:58:23,023][__main__][INFO] - Phrases: sheep;wine;glass
+[2023-05-14 10:58:23,023][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:58:57,447][__main__][INFO] - Decode Image...
+[2023-05-14 10:58:57,650][__main__][INFO] - Inference
+[2023-05-14 10:58:57,650][__main__][INFO] - Prompt: A sheep to the right of a wine glass.
+[2023-05-14 10:58:57,650][__main__][INFO] - Phrases: sheep;wine;glass
+[2023-05-14 10:58:57,650][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:59:27,075][__main__][INFO] - Decode Image...
+[2023-05-14 10:59:27,296][__main__][INFO] - Inference
+[2023-05-14 10:59:27,296][__main__][INFO] - Prompt: A sheep to the right of a wine glass.
+[2023-05-14 10:59:27,296][__main__][INFO] - Phrases: sheep;wine;glass
+[2023-05-14 10:59:27,296][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 10:59:47,700][__main__][INFO] - Decode Image...
+[2023-05-14 10:59:47,918][__main__][INFO] - Inference
+[2023-05-14 10:59:47,918][__main__][INFO] - Prompt: A sheep to the right of a wine glass.
+[2023-05-14 10:59:47,918][__main__][INFO] - Phrases: sheep;wine;glass
+[2023-05-14 10:59:47,919][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:00:06,570][__main__][INFO] - Decode Image...
+[2023-05-14 11:00:06,770][__main__][INFO] - Inference
+[2023-05-14 11:00:06,770][__main__][INFO] - Prompt: A sheep to the right of a wine glass.
+[2023-05-14 11:00:06,770][__main__][INFO] - Phrases: sheep;wine;glass
+[2023-05-14 11:00:06,771][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:00:30,569][__main__][INFO] - Decode Image...
+[2023-05-14 11:00:30,779][__main__][INFO] - Inference
+[2023-05-14 11:00:30,779][__main__][INFO] - Prompt: A zebra to the right of a fire hydrant.
+[2023-05-14 11:00:30,780][__main__][INFO] - Phrases: zebra;fire;hydrant
+[2023-05-14 11:00:30,780][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:01:01,340][__main__][INFO] - Decode Image...
+[2023-05-14 11:01:01,520][__main__][INFO] - Inference
+[2023-05-14 11:01:01,521][__main__][INFO] - Prompt: A zebra to the right of a fire hydrant.
+[2023-05-14 11:01:01,521][__main__][INFO] - Phrases: zebra;fire;hydrant
+[2023-05-14 11:01:01,521][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:01:34,795][__main__][INFO] - Decode Image...
+[2023-05-14 11:01:34,976][__main__][INFO] - Inference
+[2023-05-14 11:01:34,976][__main__][INFO] - Prompt: A zebra to the right of a fire hydrant.
+[2023-05-14 11:01:34,976][__main__][INFO] - Phrases: zebra;fire;hydrant
+[2023-05-14 11:01:34,976][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:02:03,026][__main__][INFO] - Decode Image...
+[2023-05-14 11:02:03,247][__main__][INFO] - Inference
+[2023-05-14 11:02:03,247][__main__][INFO] - Prompt: A zebra to the right of a fire hydrant.
+[2023-05-14 11:02:03,247][__main__][INFO] - Phrases: zebra;fire;hydrant
+[2023-05-14 11:02:03,247][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:02:34,772][__main__][INFO] - Decode Image...
+[2023-05-14 11:02:34,950][__main__][INFO] - Inference
+[2023-05-14 11:02:34,950][__main__][INFO] - Prompt: A zebra to the right of a fire hydrant.
+[2023-05-14 11:02:34,950][__main__][INFO] - Phrases: zebra;fire;hydrant
+[2023-05-14 11:02:34,950][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:03:30,585][__main__][INFO] - Decode Image...
+[2023-05-14 11:03:30,780][__main__][INFO] - Inference
+[2023-05-14 11:03:30,780][__main__][INFO] - Prompt: A zebra to the right of a fire hydrant.
+[2023-05-14 11:03:30,780][__main__][INFO] - Phrases: zebra;fire;hydrant
+[2023-05-14 11:03:30,780][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:03:54,878][__main__][INFO] - Decode Image...
+[2023-05-14 11:03:55,065][__main__][INFO] - Inference
+[2023-05-14 11:03:55,065][__main__][INFO] - Prompt: A zebra to the right of a fire hydrant.
+[2023-05-14 11:03:55,065][__main__][INFO] - Phrases: zebra;fire;hydrant
+[2023-05-14 11:03:55,065][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:04:23,102][__main__][INFO] - Decode Image...
+[2023-05-14 11:04:23,296][__main__][INFO] - Inference
+[2023-05-14 11:04:23,296][__main__][INFO] - Prompt: A zebra to the right of a fire hydrant.
+[2023-05-14 11:04:23,296][__main__][INFO] - Phrases: zebra;fire;hydrant
+[2023-05-14 11:04:23,296][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:04:43,422][__main__][INFO] - Decode Image...
+[2023-05-14 11:04:43,606][__main__][INFO] - Inference
+[2023-05-14 11:04:43,606][__main__][INFO] - Prompt: A zebra to the right of a fire hydrant.
+[2023-05-14 11:04:43,606][__main__][INFO] - Phrases: zebra;fire;hydrant
+[2023-05-14 11:04:43,606][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:05:13,428][__main__][INFO] - Decode Image...
+[2023-05-14 11:05:13,627][__main__][INFO] - Inference
+[2023-05-14 11:05:13,627][__main__][INFO] - Prompt: A zebra to the right of a fire hydrant.
+[2023-05-14 11:05:13,627][__main__][INFO] - Phrases: zebra;fire;hydrant
+[2023-05-14 11:05:13,627][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-14 11:05:45,117][__main__][INFO] - Decode Image...

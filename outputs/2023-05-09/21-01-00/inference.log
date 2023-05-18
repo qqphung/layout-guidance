@@ -1,0 +1,16 @@
+[2023-05-09 21:01:08,874][__main__][INFO] - {'general': {'save_path': './hrs_save/counting', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 3, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-09 21:01:08,875][__main__][INFO] - save config to ./hrs_save/counting/config.yaml
+[2023-05-09 21:01:08,904][__main__][INFO] - Inference
+[2023-05-09 21:01:08,904][__main__][INFO] - Prompt: two cups filled with steaming hot coffee sit side-by-side on a wooden table.
+[2023-05-09 21:01:08,904][__main__][INFO] - Phrases: cup;cup;table;steam;steam
+[2023-05-09 21:01:08,904][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:03:17,846][__main__][INFO] - Decode Image...
+[2023-05-09 21:03:18,501][__main__][INFO] - Inference
+[2023-05-09 21:03:18,501][__main__][INFO] - Prompt: two parking meters are side-by-side, both displaying the same time limit and rate of payment.
+[2023-05-09 21:03:18,501][__main__][INFO] - Phrases: 
+[2023-05-09 21:03:18,501][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:04:18,203][__main__][INFO] - Decode Image...
+[2023-05-09 21:04:18,871][__main__][INFO] - Inference
+[2023-05-09 21:04:18,871][__main__][INFO] - Prompt: two baseball bats are lying side-by-side on a grassy field, waiting to be used in a game of baseball.
+[2023-05-09 21:04:18,871][__main__][INFO] - Phrases: 
+[2023-05-09 21:04:18,871][__main__][INFO] - Conver Phrases to Object Positions

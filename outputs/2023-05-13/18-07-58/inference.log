@@ -1,0 +1,51 @@
+[2023-05-13 18:08:04,683][__main__][INFO] - {'general': {'save_path': './test/counting', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-13 18:08:04,683][__main__][INFO] - save config to ./test/counting/config.yaml
+[2023-05-13 18:08:04,714][__main__][INFO] - Inference
+[2023-05-13 18:08:04,714][__main__][INFO] - Prompt: two giraffes are standing in the snow watching two snowboarders zooming down the mountain.
+[2023-05-13 18:08:04,714][__main__][INFO] - Phrases: giraffe;giraffe;snowboarder;snowboarder
+[2023-05-13 18:08:04,714][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:08:25,570][__main__][INFO] - Decode Image...
+[2023-05-13 18:08:25,747][__main__][INFO] - Inference
+[2023-05-13 18:08:25,747][__main__][INFO] - Prompt: two mice scurrying around a kitchen counter, nibbling on two small pieces of broccoli.
+[2023-05-13 18:08:25,747][__main__][INFO] - Phrases: broccoli;broccoli;kitchen;counter
+[2023-05-13 18:08:25,747][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:09:24,608][__main__][INFO] - Decode Image...
+[2023-05-13 18:09:24,763][__main__][INFO] - Inference
+[2023-05-13 18:09:24,763][__main__][INFO] - Prompt: three people are standing around three sinks, each of them holding a cell phone in their hands.
+[2023-05-13 18:09:24,763][__main__][INFO] - Phrases: sink;cell;phone;sink;cell;phone;sink;cell;phone
+[2023-05-13 18:09:24,763][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:10:18,647][__main__][INFO] - Decode Image...
+[2023-05-13 18:10:18,822][__main__][INFO] - Inference
+[2023-05-13 18:10:18,822][__main__][INFO] - Prompt: two orange-colored dogs are chasing two oranges across a grassy field.
+[2023-05-13 18:10:18,822][__main__][INFO] - Phrases: orange-colored;dog;orange-colored;dog;orange;orange
+[2023-05-13 18:10:18,823][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:11:12,752][__main__][INFO] - Decode Image...
+[2023-05-13 18:11:12,936][__main__][INFO] - Inference
+[2023-05-13 18:11:12,936][__main__][INFO] - Prompt: two fire hydrants stand on either side of two sinks, providing a convenient source of water for washing hands.
+[2023-05-13 18:11:12,936][__main__][INFO] - Phrases: fire;hydrant;fire;hydrant;sink;sink
+[2023-05-13 18:11:12,936][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:11:36,110][__main__][INFO] - Decode Image...
+[2023-05-13 18:11:36,277][__main__][INFO] - Inference
+[2023-05-13 18:11:36,277][__main__][INFO] - Prompt: two refrigerators side-by-side in a kitchen, with a basketball and a soccer ball sitting in front of them.
+[2023-05-13 18:11:36,277][__main__][INFO] - Phrases: refrigerator;refrigerator;basketball;soccer;ball
+[2023-05-13 18:11:36,277][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:12:30,543][__main__][INFO] - Decode Image...
+[2023-05-13 18:12:30,730][__main__][INFO] - Inference
+[2023-05-13 18:12:30,731][__main__][INFO] - Prompt: three children are running around a park, each with a kite in one hand and a pair of scissors in the other.
+[2023-05-13 18:12:30,731][__main__][INFO] - Phrases: child;kite;scissors;child;kite;scissors;child;kite;scissors
+[2023-05-13 18:12:30,731][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:13:24,018][__main__][INFO] - Decode Image...
+[2023-05-13 18:13:24,199][__main__][INFO] - Inference
+[2023-05-13 18:13:24,199][__main__][INFO] - Prompt: three tennis rackets are lined up on one side of the room, while three keyboards are lined up on the other side.
+[2023-05-13 18:13:24,199][__main__][INFO] - Phrases: tennis;racket;tennis;racket;tennis;racket;keyboard;keyboard;keyboard
+[2023-05-13 18:13:24,199][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:13:46,733][__main__][INFO] - Decode Image...
+[2023-05-13 18:13:46,930][__main__][INFO] - Inference
+[2023-05-13 18:13:46,930][__main__][INFO] - Prompt: three elephants are standing at the intersection of two roads, both of which have stop signs.
+[2023-05-13 18:13:46,930][__main__][INFO] - Phrases: elephant;elephant;elephant;stop;stop
+[2023-05-13 18:13:46,930][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:14:40,575][__main__][INFO] - Decode Image...
+[2023-05-13 18:14:40,752][__main__][INFO] - Inference
+[2023-05-13 18:14:40,752][__main__][INFO] - Prompt: two bottles are sitting on a bathroom counter next to three toilets, all of which are flushed.
+[2023-05-13 18:14:40,752][__main__][INFO] - Phrases: bottle;bottle;toilet;toilet;toilet
+[2023-05-13 18:14:40,752][__main__][INFO] - Conver Phrases to Object Positions

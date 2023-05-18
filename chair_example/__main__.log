@@ -1,0 +1,243 @@
+2023-04-09 23:57:29,995 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-09 23:57:29,996 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-09 23:57:30,000 - __main__ - INFO - Inference
+2023-04-09 23:57:30,000 - __main__ - INFO - Prompt: A couch on the left of a chair.
+2023-04-09 23:57:30,000 - __main__ - INFO - Phrases: couch; chair
+2023-04-09 23:57:30,000 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-09 23:57:48,080 - __main__ - INFO - Decode Image...
+2023-04-09 23:57:48,179 - __main__ - INFO - save example image to ./chair_example/example_0.png
+2023-04-11 16:49:36,066 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 16:49:36,067 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 16:52:21,609 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 16:52:21,610 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 16:53:05,374 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 16:53:05,375 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 16:54:13,001 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 16:54:13,003 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 16:54:48,081 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 16:54:48,081 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 16:57:07,066 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 16:57:07,067 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 16:57:11,463 - __main__ - INFO - Inference
+2023-04-11 16:57:11,463 - __main__ - INFO - Prompt: A train on top of a surfboard.
+2023-04-11 16:57:11,463 - __main__ - INFO - Phrases: train;surfboard
+2023-04-11 16:57:11,463 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 16:57:37,786 - __main__ - INFO - Decode Image...
+2023-04-11 16:59:10,216 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 16:59:10,217 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 16:59:16,266 - __main__ - INFO - Inference
+2023-04-11 16:59:16,266 - __main__ - INFO - Prompt: A train on top of a surfboard.
+2023-04-11 16:59:16,266 - __main__ - INFO - Phrases: train;surfboard
+2023-04-11 16:59:16,266 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 16:59:36,091 - __main__ - INFO - Decode Image...
+2023-04-11 16:59:36,206 - __main__ - INFO - save example image to ./chair_example/A_train_on_top_of_a_surfboard.example_0.png
+2023-04-11 16:59:41,090 - __main__ - INFO - Inference
+2023-04-11 16:59:41,090 - __main__ - INFO - Prompt: A wine glass on top of a dog.
+2023-04-11 16:59:41,090 - __main__ - INFO - Phrases: wine_glass;dog
+2023-04-11 16:59:41,090 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:04:46,505 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 17:04:46,506 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 17:04:51,589 - __main__ - INFO - Inference
+2023-04-11 17:04:51,589 - __main__ - INFO - Prompt: A train on top of a surfboard.
+2023-04-11 17:04:51,589 - __main__ - INFO - Phrases: train;surfboard
+2023-04-11 17:04:51,589 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:05:10,206 - __main__ - INFO - Decode Image...
+2023-04-11 17:05:10,320 - __main__ - INFO - save example image to ./chair_example/A_train_on_top_of_a_surfboard.example_0.png
+2023-04-11 17:05:15,451 - __main__ - INFO - Inference
+2023-04-11 17:05:15,451 - __main__ - INFO - Prompt: A wine glass on top of a dog.
+2023-04-11 17:05:15,451 - __main__ - INFO - Phrases: wine_glass;dog
+2023-04-11 17:05:15,451 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:06:35,367 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 17:06:35,368 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 17:06:40,986 - __main__ - INFO - Inference
+2023-04-11 17:06:40,986 - __main__ - INFO - Prompt: A train on top of a surfboard.
+2023-04-11 17:06:40,986 - __main__ - INFO - Phrases: train;surfboard
+2023-04-11 17:06:40,986 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:07:00,857 - __main__ - INFO - Decode Image...
+2023-04-11 17:07:00,971 - __main__ - INFO - save example image to ./chair_example/A_train_on_top_of_a_surfboard.example_0.png
+2023-04-11 17:07:05,926 - __main__ - INFO - Inference
+2023-04-11 17:07:05,926 - __main__ - INFO - Prompt: A wine glass on top of a dog.
+2023-04-11 17:07:05,926 - __main__ - INFO - Phrases: glass;dog
+2023-04-11 17:07:05,926 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:07:24,982 - __main__ - INFO - Decode Image...
+2023-04-11 17:07:25,099 - __main__ - INFO - save example image to ./chair_example/A_wine_glass_on_top_of_a_dog.example_0.png
+2023-04-11 17:07:30,068 - __main__ - INFO - Inference
+2023-04-11 17:07:30,068 - __main__ - INFO - Prompt: A bicycle on top of a boat.
+2023-04-11 17:07:30,068 - __main__ - INFO - Phrases: bicycle;boat
+2023-04-11 17:07:30,068 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:07:49,405 - __main__ - INFO - Decode Image...
+2023-04-11 17:07:49,519 - __main__ - INFO - save example image to ./chair_example/A_bicycle_on_top_of_a_boat.example_0.png
+2023-04-11 17:07:55,269 - __main__ - INFO - Inference
+2023-04-11 17:07:55,269 - __main__ - INFO - Prompt: An umbrella on top of a spoon.
+2023-04-11 17:07:55,269 - __main__ - INFO - Phrases: umbrella;spoon
+2023-04-11 17:07:55,269 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:08:14,732 - __main__ - INFO - Decode Image...
+2023-04-11 17:08:14,846 - __main__ - INFO - save example image to ./chair_example/An_umbrella_on_top_of_a_spoon.example_0.png
+2023-04-11 17:08:19,975 - __main__ - INFO - Inference
+2023-04-11 17:08:19,975 - __main__ - INFO - Prompt: A laptop on top of a teddy bear.
+2023-04-11 17:08:19,975 - __main__ - INFO - Phrases: laptop;bear
+2023-04-11 17:08:19,975 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:08:39,399 - __main__ - INFO - Decode Image...
+2023-04-11 17:08:39,513 - __main__ - INFO - save example image to ./chair_example/A_laptop_on_top_of_a_teddy_bear.example_0.png
+2023-04-11 17:10:18,375 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 4, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 17:10:18,375 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 17:12:29,661 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 4, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 17:12:29,662 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 17:12:32,670 - __main__ - INFO - Inference
+2023-04-11 17:12:32,670 - __main__ - INFO - Prompt: One car on the street.
+2023-04-11 17:12:32,670 - __main__ - INFO - Phrases: car
+2023-04-11 17:12:32,670 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:13:38,489 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 17:13:38,490 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 17:13:40,936 - __main__ - INFO - Inference
+2023-04-11 17:13:40,936 - __main__ - INFO - Prompt: One car on the street.
+2023-04-11 17:13:40,936 - __main__ - INFO - Phrases: car
+2023-04-11 17:13:40,936 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:14:17,252 - __main__ - INFO - Decode Image...
+2023-04-11 17:14:17,525 - __main__ - INFO - save example image to ./chair_example/One_car_on_the_street.example_0.png
+2023-04-11 17:14:17,610 - __main__ - INFO - save example image to ./chair_example/One_car_on_the_street.example_1.png
+2023-04-11 17:14:22,674 - __main__ - INFO - Inference
+2023-04-11 17:14:22,674 - __main__ - INFO - Prompt: Two cars on the street.
+2023-04-11 17:14:22,674 - __main__ - INFO - Phrases: car1;car2
+2023-04-11 17:14:22,674 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:16:13,845 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 17:16:13,846 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 17:16:15,739 - __main__ - INFO - Inference
+2023-04-11 17:16:15,739 - __main__ - INFO - Prompt: One car on the street.
+2023-04-11 17:16:15,739 - __main__ - INFO - Phrases: car
+2023-04-11 17:16:15,739 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:16:36,260 - __main__ - INFO - Decode Image...
+2023-04-11 17:16:36,532 - __main__ - INFO - save example image to ./chair_example/One_car_on_the_street.example_0.png
+2023-04-11 17:16:36,621 - __main__ - INFO - save example image to ./chair_example/One_car_on_the_street.example_1.png
+2023-04-11 17:16:41,485 - __main__ - INFO - Inference
+2023-04-11 17:16:41,485 - __main__ - INFO - Prompt: Two cars on the street.
+2023-04-11 17:16:41,485 - __main__ - INFO - Phrases: car;car
+2023-04-11 17:16:41,485 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:19:54,177 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 17:19:54,177 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 17:20:00,113 - __main__ - INFO - Inference
+2023-04-11 17:20:00,113 - __main__ - INFO - Prompt: A train on top of a surfboard.
+2023-04-11 17:20:00,113 - __main__ - INFO - Phrases: train;surfboard
+2023-04-11 17:20:00,113 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:20:36,352 - __main__ - INFO - Decode Image...
+2023-04-11 17:20:36,624 - __main__ - INFO - save example image to ./chair_example/A_train_on_top_of_a_surfboard.example_0.png
+2023-04-11 17:20:36,717 - __main__ - INFO - save example image to ./chair_example/A_train_on_top_of_a_surfboard.example_1.png
+2023-04-11 17:20:42,209 - __main__ - INFO - Inference
+2023-04-11 17:20:42,209 - __main__ - INFO - Prompt: A wine glass on top of a dog.
+2023-04-11 17:20:42,209 - __main__ - INFO - Phrases: glass;dog
+2023-04-11 17:20:42,209 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:21:18,444 - __main__ - INFO - Decode Image...
+2023-04-11 17:21:18,718 - __main__ - INFO - save example image to ./chair_example/A_wine_glass_on_top_of_a_dog.example_0.png
+2023-04-11 17:21:18,810 - __main__ - INFO - save example image to ./chair_example/A_wine_glass_on_top_of_a_dog.example_1.png
+2023-04-11 17:21:24,150 - __main__ - INFO - Inference
+2023-04-11 17:21:24,150 - __main__ - INFO - Prompt: A bicycle on top of a boat.
+2023-04-11 17:21:24,150 - __main__ - INFO - Phrases: boat;bicycle
+2023-04-11 17:21:24,150 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:22:00,641 - __main__ - INFO - Decode Image...
+2023-04-11 17:22:00,917 - __main__ - INFO - save example image to ./chair_example/A_bicycle_on_top_of_a_boat.example_0.png
+2023-04-11 17:22:01,002 - __main__ - INFO - save example image to ./chair_example/A_bicycle_on_top_of_a_boat.example_1.png
+2023-04-11 17:22:06,058 - __main__ - INFO - Inference
+2023-04-11 17:22:06,058 - __main__ - INFO - Prompt: An umbrella on top of a spoon.
+2023-04-11 17:22:06,058 - __main__ - INFO - Phrases: umbrella;spoon
+2023-04-11 17:22:06,058 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:22:42,410 - __main__ - INFO - Decode Image...
+2023-04-11 17:22:42,684 - __main__ - INFO - save example image to ./chair_example/An_umbrella_on_top_of_a_spoon.example_0.png
+2023-04-11 17:22:42,775 - __main__ - INFO - save example image to ./chair_example/An_umbrella_on_top_of_a_spoon.example_1.png
+2023-04-11 17:22:48,280 - __main__ - INFO - Inference
+2023-04-11 17:22:48,280 - __main__ - INFO - Prompt: A laptop on top of a teddy bear.
+2023-04-11 17:22:48,280 - __main__ - INFO - Phrases: laptop;bear
+2023-04-11 17:22:48,280 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:23:25,157 - __main__ - INFO - Decode Image...
+2023-04-11 17:23:25,430 - __main__ - INFO - save example image to ./chair_example/A_laptop_on_top_of_a_teddy_bear.example_0.png
+2023-04-11 17:23:25,497 - __main__ - INFO - save example image to ./chair_example/A_laptop_on_top_of_a_teddy_bear.example_1.png
+2023-04-11 17:23:30,388 - __main__ - INFO - Inference
+2023-04-11 17:23:30,388 - __main__ - INFO - Prompt: A giraffe underneath a microwave.
+2023-04-11 17:23:30,388 - __main__ - INFO - Phrases: giraffe;microwave
+2023-04-11 17:23:30,388 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:23:58,777 - __main__ - INFO - Decode Image...
+2023-04-11 17:23:59,051 - __main__ - INFO - save example image to ./chair_example/A_giraffe_underneath_a_microwave.example_0.png
+2023-04-11 17:23:59,137 - __main__ - INFO - save example image to ./chair_example/A_giraffe_underneath_a_microwave.example_1.png
+2023-04-11 17:24:04,773 - __main__ - INFO - Inference
+2023-04-11 17:24:04,774 - __main__ - INFO - Prompt: A donut underneath a toilet.
+2023-04-11 17:24:04,774 - __main__ - INFO - Phrases: toilet;donut
+2023-04-11 17:24:04,774 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:24:41,564 - __main__ - INFO - Decode Image...
+2023-04-11 17:24:41,838 - __main__ - INFO - save example image to ./chair_example/A_donut_underneath_a_toilet.example_0.png
+2023-04-11 17:24:41,899 - __main__ - INFO - save example image to ./chair_example/A_donut_underneath_a_toilet.example_1.png
+2023-04-11 17:24:47,521 - __main__ - INFO - Inference
+2023-04-11 17:24:47,521 - __main__ - INFO - Prompt: A hair drier underneath a sheep.
+2023-04-11 17:24:47,521 - __main__ - INFO - Phrases: drier;sheep
+2023-04-11 17:24:47,521 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:25:25,056 - __main__ - INFO - Decode Image...
+2023-04-11 17:25:25,329 - __main__ - INFO - save example image to ./chair_example/A_hair_drier_underneath_a_sheep.example_0.png
+2023-04-11 17:25:25,403 - __main__ - INFO - save example image to ./chair_example/A_hair_drier_underneath_a_sheep.example_1.png
+2023-04-11 17:25:30,305 - __main__ - INFO - Inference
+2023-04-11 17:25:30,305 - __main__ - INFO - Prompt: A tennis racket underneath a traffic light.
+2023-04-11 17:25:30,305 - __main__ - INFO - Phrases: light;racket
+2023-04-11 17:25:30,305 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:26:06,915 - __main__ - INFO - Decode Image...
+2023-04-11 17:26:07,189 - __main__ - INFO - save example image to ./chair_example/A_tennis_racket_underneath_a_traffic_light.example_0.png
+2023-04-11 17:26:07,278 - __main__ - INFO - save example image to ./chair_example/A_tennis_racket_underneath_a_traffic_light.example_1.png
+2023-04-11 17:26:12,068 - __main__ - INFO - Inference
+2023-04-11 17:26:12,068 - __main__ - INFO - Prompt: A zebra underneath a broccoli.
+2023-04-11 17:26:12,068 - __main__ - INFO - Phrases: zebra;broccoli
+2023-04-11 17:26:12,068 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:26:49,091 - __main__ - INFO - Decode Image...
+2023-04-11 17:26:49,364 - __main__ - INFO - save example image to ./chair_example/A_zebra_underneath_a_broccoli.example_0.png
+2023-04-11 17:26:49,438 - __main__ - INFO - save example image to ./chair_example/A_zebra_underneath_a_broccoli.example_1.png
+2023-04-11 17:26:53,465 - __main__ - INFO - Inference
+2023-04-11 17:26:53,465 - __main__ - INFO - Prompt: A banana on the left of an apple.
+2023-04-11 17:26:53,465 - __main__ - INFO - Phrases: banana;apple
+2023-04-11 17:26:53,465 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 17:27:30,594 - __main__ - INFO - Decode Image...
+2023-04-11 17:27:30,868 - __main__ - INFO - save example image to ./chair_example/A_banana_on_the_left_of_an_apple.example_0.png
+2023-04-11 17:27:30,976 - __main__ - INFO - save example image to ./chair_example/A_banana_on_the_left_of_an_apple.example_1.png
+2023-04-11 21:29:29,889 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 21:29:29,890 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 21:29:34,051 - __main__ - INFO - Inference
+2023-04-11 21:29:34,051 - __main__ - INFO - Prompt: Two cars on the street.
+2023-04-11 21:29:34,051 - __main__ - INFO - Phrases: car;car
+2023-04-11 21:29:34,051 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 21:34:32,343 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 21:34:32,343 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 21:34:37,086 - __main__ - INFO - Inference
+2023-04-11 21:34:37,086 - __main__ - INFO - Prompt: Two cars on the street.
+2023-04-11 21:34:37,086 - __main__ - INFO - Phrases: car
+2023-04-11 21:34:37,086 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 21:36:45,271 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 21:36:45,272 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 21:36:49,786 - __main__ - INFO - Inference
+2023-04-11 21:36:49,786 - __main__ - INFO - Prompt: Two cars on the street.
+2023-04-11 21:36:49,786 - __main__ - INFO - Phrases: car
+2023-04-11 21:36:49,786 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 21:39:03,602 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 21:39:03,603 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 21:39:07,932 - __main__ - INFO - Inference
+2023-04-11 21:39:07,932 - __main__ - INFO - Prompt: Two cars on the street.
+2023-04-11 21:39:07,933 - __main__ - INFO - Phrases: cars
+2023-04-11 21:39:07,933 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 21:40:19,235 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-11 21:40:19,236 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-11 21:40:24,105 - __main__ - INFO - Inference
+2023-04-11 21:40:24,105 - __main__ - INFO - Prompt: Two cars on the street.
+2023-04-11 21:40:24,105 - __main__ - INFO - Phrases: cars;cars
+2023-04-11 21:40:24,105 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-11 21:40:59,664 - __main__ - INFO - Decode Image...
+2023-04-11 21:40:59,937 - __main__ - INFO - save example image to ./chair_example/Two_cars_on_the_street.example_0.png
+2023-04-11 21:41:00,067 - __main__ - INFO - save example image to ./chair_example/Two_cars_on_the_street.example_1.png
+2023-04-11 21:41:05,844 - __main__ - INFO - Inference
+2023-04-11 21:41:05,844 - __main__ - INFO - Prompt: Three cars on the street.
+2023-04-11 21:41:05,844 - __main__ - INFO - Phrases: carOne;carTwo;carThree
+2023-04-11 21:41:05,844 - __main__ - INFO - Conver Phrases to Object Positions
+2023-04-20 09:52:39,420 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-20 09:52:39,420 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-20 09:54:02,510 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-20 09:54:02,510 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-20 10:37:14,512 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-20 10:37:14,513 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-20 10:38:22,872 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-20 10:38:22,875 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-20 10:40:44,007 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-20 10:40:44,007 - __main__ - INFO - save config to ./chair_example/config.yaml
+2023-04-20 10:42:07,516 - __main__ - INFO - {'general': {'save_path': './chair_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 2, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+2023-04-20 10:42:07,517 - __main__ - INFO - save config to ./chair_example/config.yaml

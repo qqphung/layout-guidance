@@ -8,6 +8,7 @@ def compute_ca_loss(attn_maps_mid, attn_maps_up, bboxes, object_positions):
     object_number = len(bboxes)
     if object_number == 0:
         return torch.tensor(0).float().cuda() if torch.cuda.is_available() else torch.tensor(0).float()
+    # import pdb; pdb.set_trace()
     for attn_map_integrated in attn_maps_mid:
         attn_map = attn_map_integrated.chunk(2)[1]
 
@@ -74,6 +75,7 @@ def draw_box(pil_img, bboxes, phrases, save_path):
     draw = ImageDraw.Draw(pil_img)
     font = ImageFont.truetype('./FreeMono.ttf', 25)
     phrases = [x.strip() for x in phrases.split(';')]
+    # import pdb; pdb.set_trace()
     for obj_bboxes, phrase in zip(bboxes, phrases):
         for obj_bbox in obj_bboxes:
             x_0, y_0, x_1, y_1 = obj_bbox[0], obj_bbox[1], obj_bbox[2], obj_bbox[3]

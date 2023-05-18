@@ -1,0 +1,8 @@
+[2023-04-09 23:42:13,376][__main__][INFO] - {'general': {'save_path': './bear_example', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 445}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-04-09 23:42:13,377][__main__][INFO] - save config to ./bear_example/config.yaml
+[2023-04-09 23:42:13,383][__main__][INFO] - Inference
+[2023-04-09 23:42:13,383][__main__][INFO] - Prompt: A panda on the left of a bear.
+[2023-04-09 23:42:13,383][__main__][INFO] - Phrases: panda; bear
+[2023-04-09 23:42:13,383][__main__][INFO] - Conver Phrases to Object Positions
+[2023-04-09 23:42:31,494][__main__][INFO] - Decode Image...
+[2023-04-09 23:42:31,594][__main__][INFO] - save example image to ./bear_example/example_0.png

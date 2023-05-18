@@ -1,0 +1,56 @@
+[2023-05-13 18:45:51,500][__main__][INFO] - {'general': {'save_path': './test/counting', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 1, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-13 18:45:51,501][__main__][INFO] - save config to ./test/counting/config.yaml
+[2023-05-13 18:45:51,516][__main__][INFO] - Inference
+[2023-05-13 18:45:51,516][__main__][INFO] - Prompt: a horse below a car.
+[2023-05-13 18:45:51,516][__main__][INFO] - Phrases: horse;car
+[2023-05-13 18:45:51,516][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:46:16,294][__main__][INFO] - Decode Image...
+[2023-05-13 18:46:16,488][__main__][INFO] - Inference
+[2023-05-13 18:46:16,488][__main__][INFO] - Prompt: a dog on a banana.
+[2023-05-13 18:46:16,488][__main__][INFO] - Phrases: dog;banana
+[2023-05-13 18:46:16,488][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:47:09,694][__main__][INFO] - Decode Image...
+[2023-05-13 18:47:09,868][__main__][INFO] - Inference
+[2023-05-13 18:47:09,869][__main__][INFO] - Prompt: a chair below a horse.
+[2023-05-13 18:47:09,869][__main__][INFO] - Phrases: chair;horse
+[2023-05-13 18:47:09,869][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:47:25,851][__main__][INFO] - Decode Image...
+[2023-05-13 18:47:26,018][__main__][INFO] - Inference
+[2023-05-13 18:47:26,018][__main__][INFO] - Prompt: a dog under a airplane.
+[2023-05-13 18:47:26,018][__main__][INFO] - Phrases: dog;airplane
+[2023-05-13 18:47:26,018][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:47:50,267][__main__][INFO] - Decode Image...
+[2023-05-13 18:47:50,470][__main__][INFO] - Inference
+[2023-05-13 18:47:50,470][__main__][INFO] - Prompt: a airplane under a horse.
+[2023-05-13 18:47:50,470][__main__][INFO] - Phrases: airplane;horse
+[2023-05-13 18:47:50,470][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:48:13,416][__main__][INFO] - Decode Image...
+[2023-05-13 18:48:13,587][__main__][INFO] - Inference
+[2023-05-13 18:48:13,587][__main__][INFO] - Prompt: a horse above a airplane.
+[2023-05-13 18:48:13,587][__main__][INFO] - Phrases: horse;airplane
+[2023-05-13 18:48:13,587][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:48:34,779][__main__][INFO] - Decode Image...
+[2023-05-13 18:48:34,944][__main__][INFO] - Inference
+[2023-05-13 18:48:34,944][__main__][INFO] - Prompt: a cat over a person.
+[2023-05-13 18:48:34,944][__main__][INFO] - Phrases: cat;person
+[2023-05-13 18:48:34,944][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:48:54,034][__main__][INFO] - Decode Image...
+[2023-05-13 18:48:54,199][__main__][INFO] - Inference
+[2023-05-13 18:48:54,199][__main__][INFO] - Prompt: a horse above a cat.
+[2023-05-13 18:48:54,200][__main__][INFO] - Phrases: horse;cat
+[2023-05-13 18:48:54,200][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:49:16,429][__main__][INFO] - Decode Image...
+[2023-05-13 18:49:16,611][__main__][INFO] - Inference
+[2023-05-13 18:49:16,611][__main__][INFO] - Prompt: a car on a cat.
+[2023-05-13 18:49:16,611][__main__][INFO] - Phrases: car;cat
+[2023-05-13 18:49:16,611][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:49:33,763][__main__][INFO] - Decode Image...
+[2023-05-13 18:49:33,944][__main__][INFO] - Inference
+[2023-05-13 18:49:33,944][__main__][INFO] - Prompt: a cat below a chair.
+[2023-05-13 18:49:33,944][__main__][INFO] - Phrases: cat;chair
+[2023-05-13 18:49:33,944][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-13 18:50:09,706][__main__][INFO] - Decode Image...
+[2023-05-13 18:50:09,877][__main__][INFO] - Inference
+[2023-05-13 18:50:09,878][__main__][INFO] - Prompt: a cat over a airplane.
+[2023-05-13 18:50:09,878][__main__][INFO] - Phrases: cat;airplane
+[2023-05-13 18:50:09,878][__main__][INFO] - Conver Phrases to Object Positions

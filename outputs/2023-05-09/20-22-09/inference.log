@@ -1,0 +1,496 @@
+[2023-05-09 20:22:26,535][__main__][INFO] - {'general': {'save_path': './hrs_save/spatial', 'model_path': 'runwayml/stable-diffusion-v1-5', 'unet_config': './conf/unet/config.json'}, 'inference': {'loss_scale': 30, 'batch_size': 3, 'loss_threshold': 0.2, 'max_iter': 5, 'max_index_step': 10, 'timesteps': 51, 'classifier_free_guidance': 7.5, 'rand_seed': 100}, 'noise_schedule': {'beta_start': 0.00085, 'beta_end': 0.012, 'beta_schedule': 'scaled_linear', 'num_train_timesteps': 1000}}
+[2023-05-09 20:22:26,536][__main__][INFO] - save config to ./hrs_save/spatial/config.yaml
+[2023-05-09 20:22:26,577][__main__][INFO] - Inference
+[2023-05-09 20:22:26,577][__main__][INFO] - Prompt: a banana on the left of a person and on the right of a car.
+[2023-05-09 20:22:26,577][__main__][INFO] - Phrases: banana;person;car
+[2023-05-09 20:22:26,577][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:24:38,527][__main__][INFO] - Decode Image...
+[2023-05-09 20:24:39,130][__main__][INFO] - Inference
+[2023-05-09 20:24:39,130][__main__][INFO] - Prompt: a person among horse and dog.
+[2023-05-09 20:24:39,130][__main__][INFO] - Phrases: person;horse;dog
+[2023-05-09 20:24:39,130][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:26:47,241][__main__][INFO] - Decode Image...
+[2023-05-09 20:26:47,814][__main__][INFO] - Inference
+[2023-05-09 20:26:47,814][__main__][INFO] - Prompt: a airplane under a car and on the left of a cat.
+[2023-05-09 20:26:47,814][__main__][INFO] - Phrases: airplane;car;cat
+[2023-05-09 20:26:47,814][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:28:55,046][__main__][INFO] - Decode Image...
+[2023-05-09 20:28:55,599][__main__][INFO] - Inference
+[2023-05-09 20:28:55,599][__main__][INFO] - Prompt: a person among dog and airplane.
+[2023-05-09 20:28:55,599][__main__][INFO] - Phrases: person;dog;airplane
+[2023-05-09 20:28:55,599][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:31:02,731][__main__][INFO] - Decode Image...
+[2023-05-09 20:31:03,325][__main__][INFO] - Inference
+[2023-05-09 20:31:03,325][__main__][INFO] - Prompt: a person under a cat and on the left of a dog.
+[2023-05-09 20:31:03,326][__main__][INFO] - Phrases: person;cat;dog
+[2023-05-09 20:31:03,326][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:33:10,536][__main__][INFO] - Decode Image...
+[2023-05-09 20:33:11,130][__main__][INFO] - Inference
+[2023-05-09 20:33:11,130][__main__][INFO] - Prompt: a dog beneath a horse and on the right of a chair.
+[2023-05-09 20:33:11,130][__main__][INFO] - Phrases: dog;horse;chair
+[2023-05-09 20:33:11,130][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:35:18,404][__main__][INFO] - Decode Image...
+[2023-05-09 20:35:19,039][__main__][INFO] - Inference
+[2023-05-09 20:35:19,039][__main__][INFO] - Prompt: a chair in the middle of person and airplane.
+[2023-05-09 20:35:19,039][__main__][INFO] - Phrases: chair;person;airplane
+[2023-05-09 20:35:19,039][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:37:26,355][__main__][INFO] - Decode Image...
+[2023-05-09 20:37:26,996][__main__][INFO] - Inference
+[2023-05-09 20:37:26,996][__main__][INFO] - Prompt: a dog above a car and under a banana.
+[2023-05-09 20:37:26,996][__main__][INFO] - Phrases: dog;car;banana
+[2023-05-09 20:37:26,996][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:39:34,250][__main__][INFO] - Decode Image...
+[2023-05-09 20:39:34,808][__main__][INFO] - Inference
+[2023-05-09 20:39:34,808][__main__][INFO] - Prompt: a airplane beneath a cat and above a person.
+[2023-05-09 20:39:34,808][__main__][INFO] - Phrases: airplane;cat;person
+[2023-05-09 20:39:34,808][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:41:42,092][__main__][INFO] - Decode Image...
+[2023-05-09 20:41:42,666][__main__][INFO] - Inference
+[2023-05-09 20:41:42,667][__main__][INFO] - Prompt: a banana between chair and cat.
+[2023-05-09 20:41:42,667][__main__][INFO] - Phrases: banana;chair;cat
+[2023-05-09 20:41:42,667][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:43:49,779][__main__][INFO] - Decode Image...
+[2023-05-09 20:43:50,395][__main__][INFO] - Inference
+[2023-05-09 20:43:50,395][__main__][INFO] - Prompt: a airplane under a chair and on the left of a dog.
+[2023-05-09 20:43:50,395][__main__][INFO] - Phrases: airplane;chair;dog
+[2023-05-09 20:43:50,395][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:45:57,738][__main__][INFO] - Decode Image...
+[2023-05-09 20:45:58,275][__main__][INFO] - Inference
+[2023-05-09 20:45:58,276][__main__][INFO] - Prompt: a banana on the left of a person and over a dog.
+[2023-05-09 20:45:58,276][__main__][INFO] - Phrases: banana;person;dog
+[2023-05-09 20:45:58,276][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:48:05,536][__main__][INFO] - Decode Image...
+[2023-05-09 20:48:06,157][__main__][INFO] - Inference
+[2023-05-09 20:48:06,157][__main__][INFO] - Prompt: a airplane on the left of a car and on the right of a person.
+[2023-05-09 20:48:06,157][__main__][INFO] - Phrases: person;airplane;car
+[2023-05-09 20:48:06,157][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:50:13,273][__main__][INFO] - Decode Image...
+[2023-05-09 20:50:13,883][__main__][INFO] - Inference
+[2023-05-09 20:50:13,883][__main__][INFO] - Prompt: a banana over a airplane and above a chair.
+[2023-05-09 20:50:13,883][__main__][INFO] - Phrases: banana;airplane;chair
+[2023-05-09 20:50:13,883][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:52:21,095][__main__][INFO] - Decode Image...
+[2023-05-09 20:52:21,759][__main__][INFO] - Inference
+[2023-05-09 20:52:21,759][__main__][INFO] - Prompt: a person between chair and car.
+[2023-05-09 20:52:21,759][__main__][INFO] - Phrases: person;chair;car
+[2023-05-09 20:52:21,759][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:54:29,130][__main__][INFO] - Decode Image...
+[2023-05-09 20:54:29,722][__main__][INFO] - Inference
+[2023-05-09 20:54:29,722][__main__][INFO] - Prompt: a cat in the middle of car and chair.
+[2023-05-09 20:54:29,722][__main__][INFO] - Phrases: cat;car;chair
+[2023-05-09 20:54:29,722][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:56:37,538][__main__][INFO] - Decode Image...
+[2023-05-09 20:56:38,150][__main__][INFO] - Inference
+[2023-05-09 20:56:38,150][__main__][INFO] - Prompt: a dog beneath a cat and below a banana.
+[2023-05-09 20:56:38,151][__main__][INFO] - Phrases: dog;cat;banana
+[2023-05-09 20:56:38,151][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 20:58:45,601][__main__][INFO] - Decode Image...
+[2023-05-09 20:58:46,232][__main__][INFO] - Inference
+[2023-05-09 20:58:46,232][__main__][INFO] - Prompt: a horse on the right of a chair and on a banana.
+[2023-05-09 20:58:46,232][__main__][INFO] - Phrases: horse;chair;banana
+[2023-05-09 20:58:46,232][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:00:53,808][__main__][INFO] - Decode Image...
+[2023-05-09 21:00:54,404][__main__][INFO] - Inference
+[2023-05-09 21:00:54,404][__main__][INFO] - Prompt: a person on the left of a cat and under a dog.
+[2023-05-09 21:00:54,404][__main__][INFO] - Phrases: person;cat;dog
+[2023-05-09 21:00:54,404][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:03:01,762][__main__][INFO] - Decode Image...
+[2023-05-09 21:03:02,364][__main__][INFO] - Inference
+[2023-05-09 21:03:02,364][__main__][INFO] - Prompt: a dog among airplane and banana.
+[2023-05-09 21:03:02,364][__main__][INFO] - Phrases: dog;airplane;banana
+[2023-05-09 21:03:02,365][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:05:09,722][__main__][INFO] - Decode Image...
+[2023-05-09 21:05:10,287][__main__][INFO] - Inference
+[2023-05-09 21:05:10,288][__main__][INFO] - Prompt: a chair among car and banana.
+[2023-05-09 21:05:10,288][__main__][INFO] - Phrases: chair;car;banana
+[2023-05-09 21:05:10,288][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:07:17,518][__main__][INFO] - Decode Image...
+[2023-05-09 21:07:18,126][__main__][INFO] - Inference
+[2023-05-09 21:07:18,126][__main__][INFO] - Prompt: a cat beneath a person and on the right of a airplane.
+[2023-05-09 21:07:18,126][__main__][INFO] - Phrases: cat;person;airplane
+[2023-05-09 21:07:18,126][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:09:25,295][__main__][INFO] - Decode Image...
+[2023-05-09 21:09:25,903][__main__][INFO] - Inference
+[2023-05-09 21:09:25,903][__main__][INFO] - Prompt: a airplane below a chair and under a cat.
+[2023-05-09 21:09:25,903][__main__][INFO] - Phrases: airplane;chair;cat
+[2023-05-09 21:09:25,903][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:11:33,341][__main__][INFO] - Decode Image...
+[2023-05-09 21:11:33,995][__main__][INFO] - Inference
+[2023-05-09 21:11:33,995][__main__][INFO] - Prompt: a horse on a banana and under a car.
+[2023-05-09 21:11:33,995][__main__][INFO] - Phrases: horse;banana;car
+[2023-05-09 21:11:33,995][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:13:41,328][__main__][INFO] - Decode Image...
+[2023-05-09 21:13:41,946][__main__][INFO] - Inference
+[2023-05-09 21:13:41,946][__main__][INFO] - Prompt: a banana beneath a person and over a cat.
+[2023-05-09 21:13:41,946][__main__][INFO] - Phrases: person;banana;cat
+[2023-05-09 21:13:41,946][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:15:49,289][__main__][INFO] - Decode Image...
+[2023-05-09 21:15:49,888][__main__][INFO] - Inference
+[2023-05-09 21:15:49,888][__main__][INFO] - Prompt: a horse on the left of a banana and on the right of a dog.
+[2023-05-09 21:15:49,888][__main__][INFO] - Phrases: dog;horse;banana
+[2023-05-09 21:15:49,888][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:17:57,101][__main__][INFO] - Decode Image...
+[2023-05-09 21:17:57,655][__main__][INFO] - Inference
+[2023-05-09 21:17:57,656][__main__][INFO] - Prompt: a banana on the left of a horse and over a dog.
+[2023-05-09 21:17:57,656][__main__][INFO] - Phrases: banana;horse;dog
+[2023-05-09 21:17:57,656][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:20:05,183][__main__][INFO] - Decode Image...
+[2023-05-09 21:20:05,786][__main__][INFO] - Inference
+[2023-05-09 21:20:05,787][__main__][INFO] - Prompt: a cat between car and banana.
+[2023-05-09 21:20:05,787][__main__][INFO] - Phrases: cat;car;banana
+[2023-05-09 21:20:05,787][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:22:13,023][__main__][INFO] - Decode Image...
+[2023-05-09 21:22:13,615][__main__][INFO] - Inference
+[2023-05-09 21:22:13,615][__main__][INFO] - Prompt: a banana above a airplane and on the left of a person.
+[2023-05-09 21:22:13,615][__main__][INFO] - Phrases: banana;airplane;person
+[2023-05-09 21:22:13,615][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:24:21,719][__main__][INFO] - Decode Image...
+[2023-05-09 21:24:22,352][__main__][INFO] - Inference
+[2023-05-09 21:24:22,352][__main__][INFO] - Prompt: a cat on the left of a chair and under a person.
+[2023-05-09 21:24:22,352][__main__][INFO] - Phrases: cat;chair;person
+[2023-05-09 21:24:22,352][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:26:29,570][__main__][INFO] - Decode Image...
+[2023-05-09 21:26:30,193][__main__][INFO] - Inference
+[2023-05-09 21:26:30,193][__main__][INFO] - Prompt: a dog above a airplane and on a banana.
+[2023-05-09 21:26:30,193][__main__][INFO] - Phrases: dog;airplane;banana
+[2023-05-09 21:26:30,193][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:28:37,214][__main__][INFO] - Decode Image...
+[2023-05-09 21:28:37,862][__main__][INFO] - Inference
+[2023-05-09 21:28:37,862][__main__][INFO] - Prompt: a dog on a banana and on the right of a horse.
+[2023-05-09 21:28:37,862][__main__][INFO] - Phrases: dog;banana;horse
+[2023-05-09 21:28:37,862][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:30:45,180][__main__][INFO] - Decode Image...
+[2023-05-09 21:30:45,785][__main__][INFO] - Inference
+[2023-05-09 21:30:45,786][__main__][INFO] - Prompt: a airplane below a dog and on a banana.
+[2023-05-09 21:30:45,786][__main__][INFO] - Phrases: airplane;dog;banana
+[2023-05-09 21:30:45,786][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:32:53,295][__main__][INFO] - Decode Image...
+[2023-05-09 21:32:53,919][__main__][INFO] - Inference
+[2023-05-09 21:32:53,919][__main__][INFO] - Prompt: a banana on a airplane and below a horse.
+[2023-05-09 21:32:53,919][__main__][INFO] - Phrases: banana;airplane;horse
+[2023-05-09 21:32:53,919][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:35:01,160][__main__][INFO] - Decode Image...
+[2023-05-09 21:35:01,746][__main__][INFO] - Inference
+[2023-05-09 21:35:01,747][__main__][INFO] - Prompt: a airplane on the right of a person and on the left of a chair.
+[2023-05-09 21:35:01,747][__main__][INFO] - Phrases: airplane;person;chair
+[2023-05-09 21:35:01,747][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:37:09,021][__main__][INFO] - Decode Image...
+[2023-05-09 21:37:09,622][__main__][INFO] - Inference
+[2023-05-09 21:37:09,622][__main__][INFO] - Prompt: a dog on the right of a chair and on a cat.
+[2023-05-09 21:37:09,622][__main__][INFO] - Phrases: dog;chair;cat
+[2023-05-09 21:37:09,622][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:39:16,911][__main__][INFO] - Decode Image...
+[2023-05-09 21:39:17,515][__main__][INFO] - Inference
+[2023-05-09 21:39:17,515][__main__][INFO] - Prompt: a airplane above a chair and on the left of a horse.
+[2023-05-09 21:39:17,515][__main__][INFO] - Phrases: airplane;chair;horse
+[2023-05-09 21:39:17,515][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:41:24,716][__main__][INFO] - Decode Image...
+[2023-05-09 21:41:25,255][__main__][INFO] - Inference
+[2023-05-09 21:41:25,255][__main__][INFO] - Prompt: a car between airplane and horse.
+[2023-05-09 21:41:25,255][__main__][INFO] - Phrases: car;airplane;horse
+[2023-05-09 21:41:25,255][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:43:32,642][__main__][INFO] - Decode Image...
+[2023-05-09 21:43:33,234][__main__][INFO] - Inference
+[2023-05-09 21:43:33,234][__main__][INFO] - Prompt: a airplane under a chair and below a horse.
+[2023-05-09 21:43:33,234][__main__][INFO] - Phrases: airplane;chair;horse
+[2023-05-09 21:43:33,234][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:45:40,568][__main__][INFO] - Decode Image...
+[2023-05-09 21:45:41,166][__main__][INFO] - Inference
+[2023-05-09 21:45:41,166][__main__][INFO] - Prompt: a chair among car and dog.
+[2023-05-09 21:45:41,166][__main__][INFO] - Phrases: chair;car;dog
+[2023-05-09 21:45:41,166][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:47:48,397][__main__][INFO] - Decode Image...
+[2023-05-09 21:47:48,974][__main__][INFO] - Inference
+[2023-05-09 21:47:48,974][__main__][INFO] - Prompt: a car between person and airplane.
+[2023-05-09 21:47:48,974][__main__][INFO] - Phrases: car;person;airplane
+[2023-05-09 21:47:48,974][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:49:56,335][__main__][INFO] - Decode Image...
+[2023-05-09 21:49:56,922][__main__][INFO] - Inference
+[2023-05-09 21:49:56,923][__main__][INFO] - Prompt: a banana beneath a person and on the left of a chair.
+[2023-05-09 21:49:56,923][__main__][INFO] - Phrases: person;banana;chair
+[2023-05-09 21:49:56,923][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:52:04,440][__main__][INFO] - Decode Image...
+[2023-05-09 21:52:05,142][__main__][INFO] - Inference
+[2023-05-09 21:52:05,142][__main__][INFO] - Prompt: a dog below a cat and above a car.
+[2023-05-09 21:52:05,142][__main__][INFO] - Phrases: dog;cat;car
+[2023-05-09 21:52:05,142][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:54:12,346][__main__][INFO] - Decode Image...
+[2023-05-09 21:54:12,952][__main__][INFO] - Inference
+[2023-05-09 21:54:12,952][__main__][INFO] - Prompt: a car on the right of a chair and below a cat.
+[2023-05-09 21:54:12,952][__main__][INFO] - Phrases: car;chair;cat
+[2023-05-09 21:54:12,952][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:56:20,296][__main__][INFO] - Decode Image...
+[2023-05-09 21:56:20,863][__main__][INFO] - Inference
+[2023-05-09 21:56:20,863][__main__][INFO] - Prompt: a banana below a airplane and above a car.
+[2023-05-09 21:56:20,863][__main__][INFO] - Phrases: airplane;banana;car
+[2023-05-09 21:56:20,863][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 21:58:28,257][__main__][INFO] - Decode Image...
+[2023-05-09 21:58:28,865][__main__][INFO] - Inference
+[2023-05-09 21:58:28,865][__main__][INFO] - Prompt: a chair under a airplane and on the right of a banana.
+[2023-05-09 21:58:28,865][__main__][INFO] - Phrases: chair;airplane;banana
+[2023-05-09 21:58:28,865][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:00:35,970][__main__][INFO] - Decode Image...
+[2023-05-09 22:00:36,614][__main__][INFO] - Inference
+[2023-05-09 22:00:36,614][__main__][INFO] - Prompt: a dog above a airplane and under a person.
+[2023-05-09 22:00:36,614][__main__][INFO] - Phrases: dog;airplane;person
+[2023-05-09 22:00:36,614][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:02:43,867][__main__][INFO] - Decode Image...
+[2023-05-09 22:02:44,513][__main__][INFO] - Inference
+[2023-05-09 22:02:44,513][__main__][INFO] - Prompt: a dog beneath a car and on the left of a person.
+[2023-05-09 22:02:44,513][__main__][INFO] - Phrases: dog;car;person
+[2023-05-09 22:02:44,513][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:04:51,882][__main__][INFO] - Decode Image...
+[2023-05-09 22:04:52,462][__main__][INFO] - Inference
+[2023-05-09 22:04:52,462][__main__][INFO] - Prompt: a person on the left of a banana and over a horse.
+[2023-05-09 22:04:52,462][__main__][INFO] - Phrases: person;banana;horse
+[2023-05-09 22:04:52,462][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:06:59,497][__main__][INFO] - Decode Image...
+[2023-05-09 22:07:00,068][__main__][INFO] - Inference
+[2023-05-09 22:07:00,068][__main__][INFO] - Prompt: a cat below a car and under a banana.
+[2023-05-09 22:07:00,068][__main__][INFO] - Phrases: cat;car;banana
+[2023-05-09 22:07:00,068][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:09:07,464][__main__][INFO] - Decode Image...
+[2023-05-09 22:09:08,030][__main__][INFO] - Inference
+[2023-05-09 22:09:08,030][__main__][INFO] - Prompt: a horse under a dog and over a banana.
+[2023-05-09 22:09:08,030][__main__][INFO] - Phrases: horse;dog;banana
+[2023-05-09 22:09:08,030][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:11:15,371][__main__][INFO] - Decode Image...
+[2023-05-09 22:11:15,913][__main__][INFO] - Inference
+[2023-05-09 22:11:15,914][__main__][INFO] - Prompt: a horse under a cat and below a airplane.
+[2023-05-09 22:11:15,914][__main__][INFO] - Phrases: horse;cat;airplane
+[2023-05-09 22:11:15,914][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:13:23,260][__main__][INFO] - Decode Image...
+[2023-05-09 22:13:23,841][__main__][INFO] - Inference
+[2023-05-09 22:13:23,841][__main__][INFO] - Prompt: a car under a horse and on the left of a airplane.
+[2023-05-09 22:13:23,841][__main__][INFO] - Phrases: car;horse;airplane
+[2023-05-09 22:13:23,841][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:15:31,162][__main__][INFO] - Decode Image...
+[2023-05-09 22:15:31,775][__main__][INFO] - Inference
+[2023-05-09 22:15:31,775][__main__][INFO] - Prompt: a cat under a horse and on the right of a banana.
+[2023-05-09 22:15:31,775][__main__][INFO] - Phrases: cat;horse;banana
+[2023-05-09 22:15:31,775][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:17:38,920][__main__][INFO] - Decode Image...
+[2023-05-09 22:17:39,586][__main__][INFO] - Inference
+[2023-05-09 22:17:39,587][__main__][INFO] - Prompt: a dog beneath a chair and under a person.
+[2023-05-09 22:17:39,587][__main__][INFO] - Phrases: dog;chair;person
+[2023-05-09 22:17:39,587][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:19:46,625][__main__][INFO] - Decode Image...
+[2023-05-09 22:19:47,195][__main__][INFO] - Inference
+[2023-05-09 22:19:47,195][__main__][INFO] - Prompt: a chair under a cat and beneath a dog.
+[2023-05-09 22:19:47,195][__main__][INFO] - Phrases: cat;dog;chair
+[2023-05-09 22:19:47,195][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:21:54,259][__main__][INFO] - Decode Image...
+[2023-05-09 22:21:54,863][__main__][INFO] - Inference
+[2023-05-09 22:21:54,863][__main__][INFO] - Prompt: a airplane between cat and dog.
+[2023-05-09 22:21:54,863][__main__][INFO] - Phrases: airplane;cat;dog
+[2023-05-09 22:21:54,863][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:24:03,016][__main__][INFO] - Decode Image...
+[2023-05-09 22:24:03,675][__main__][INFO] - Inference
+[2023-05-09 22:24:03,675][__main__][INFO] - Prompt: a person above a chair and on a horse.
+[2023-05-09 22:24:03,675][__main__][INFO] - Phrases: person;chair;horse
+[2023-05-09 22:24:03,675][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:26:10,729][__main__][INFO] - Decode Image...
+[2023-05-09 22:26:11,250][__main__][INFO] - Inference
+[2023-05-09 22:26:11,250][__main__][INFO] - Prompt: a dog over a airplane and above a car.
+[2023-05-09 22:26:11,250][__main__][INFO] - Phrases: dog;airplane;car
+[2023-05-09 22:26:11,251][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:28:18,463][__main__][INFO] - Decode Image...
+[2023-05-09 22:28:19,112][__main__][INFO] - Inference
+[2023-05-09 22:28:19,112][__main__][INFO] - Prompt: a chair beneath a person and above a horse.
+[2023-05-09 22:28:19,112][__main__][INFO] - Phrases: person;chair;horse
+[2023-05-09 22:28:19,112][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:30:26,312][__main__][INFO] - Decode Image...
+[2023-05-09 22:30:26,869][__main__][INFO] - Inference
+[2023-05-09 22:30:26,869][__main__][INFO] - Prompt: a chair on the right of a airplane and on the left of a car.
+[2023-05-09 22:30:26,869][__main__][INFO] - Phrases: airplane;chair;car
+[2023-05-09 22:30:26,869][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:32:33,876][__main__][INFO] - Decode Image...
+[2023-05-09 22:32:34,444][__main__][INFO] - Inference
+[2023-05-09 22:32:34,444][__main__][INFO] - Prompt: a banana on the right of a car and over a dog.
+[2023-05-09 22:32:34,444][__main__][INFO] - Phrases: banana;car;dog
+[2023-05-09 22:32:34,444][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:34:41,635][__main__][INFO] - Decode Image...
+[2023-05-09 22:34:42,236][__main__][INFO] - Inference
+[2023-05-09 22:34:42,236][__main__][INFO] - Prompt: a dog on the right of a horse and under a person.
+[2023-05-09 22:34:42,236][__main__][INFO] - Phrases: dog;horse;person
+[2023-05-09 22:34:42,236][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:36:49,404][__main__][INFO] - Decode Image...
+[2023-05-09 22:36:49,937][__main__][INFO] - Inference
+[2023-05-09 22:36:49,937][__main__][INFO] - Prompt: a dog below a airplane and on the left of a person.
+[2023-05-09 22:36:49,937][__main__][INFO] - Phrases: dog;airplane;person
+[2023-05-09 22:36:49,937][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:38:56,966][__main__][INFO] - Decode Image...
+[2023-05-09 22:38:57,593][__main__][INFO] - Inference
+[2023-05-09 22:38:57,593][__main__][INFO] - Prompt: a banana on a dog and beneath a airplane.
+[2023-05-09 22:38:57,593][__main__][INFO] - Phrases: banana;dog;airplane
+[2023-05-09 22:38:57,593][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:41:04,767][__main__][INFO] - Decode Image...
+[2023-05-09 22:41:05,377][__main__][INFO] - Inference
+[2023-05-09 22:41:05,377][__main__][INFO] - Prompt: a airplane under a chair and over a car.
+[2023-05-09 22:41:05,377][__main__][INFO] - Phrases: airplane;chair;car
+[2023-05-09 22:41:05,377][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:43:12,677][__main__][INFO] - Decode Image...
+[2023-05-09 22:43:13,279][__main__][INFO] - Inference
+[2023-05-09 22:43:13,279][__main__][INFO] - Prompt: a chair under a horse and over a cat.
+[2023-05-09 22:43:13,279][__main__][INFO] - Phrases: chair;horse;cat
+[2023-05-09 22:43:13,279][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:45:20,356][__main__][INFO] - Decode Image...
+[2023-05-09 22:45:20,929][__main__][INFO] - Inference
+[2023-05-09 22:45:20,929][__main__][INFO] - Prompt: a banana among cat and horse.
+[2023-05-09 22:45:20,929][__main__][INFO] - Phrases: banana;cat;horse
+[2023-05-09 22:45:20,929][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:47:28,128][__main__][INFO] - Decode Image...
+[2023-05-09 22:47:28,668][__main__][INFO] - Inference
+[2023-05-09 22:47:28,668][__main__][INFO] - Prompt: a car over a person and on the left of a chair.
+[2023-05-09 22:47:28,668][__main__][INFO] - Phrases: car;person;chair
+[2023-05-09 22:47:28,668][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:49:35,810][__main__][INFO] - Decode Image...
+[2023-05-09 22:49:36,380][__main__][INFO] - Inference
+[2023-05-09 22:49:36,380][__main__][INFO] - Prompt: a chair under a dog and on the left of a banana.
+[2023-05-09 22:49:36,380][__main__][INFO] - Phrases: chair;dog;banana
+[2023-05-09 22:49:36,380][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:51:43,372][__main__][INFO] - Decode Image...
+[2023-05-09 22:51:44,004][__main__][INFO] - Inference
+[2023-05-09 22:51:44,004][__main__][INFO] - Prompt: a car in the middle of dog and cat.
+[2023-05-09 22:51:44,004][__main__][INFO] - Phrases: car;dog;cat
+[2023-05-09 22:51:44,004][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:53:51,160][__main__][INFO] - Decode Image...
+[2023-05-09 22:53:51,745][__main__][INFO] - Inference
+[2023-05-09 22:53:51,745][__main__][INFO] - Prompt: a car over a dog and on the left of a person.
+[2023-05-09 22:53:51,745][__main__][INFO] - Phrases: car;dog;person
+[2023-05-09 22:53:51,745][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:55:58,960][__main__][INFO] - Decode Image...
+[2023-05-09 22:55:59,551][__main__][INFO] - Inference
+[2023-05-09 22:55:59,551][__main__][INFO] - Prompt: a horse under a airplane and on the right of a cat.
+[2023-05-09 22:55:59,551][__main__][INFO] - Phrases: horse;airplane;cat
+[2023-05-09 22:55:59,551][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 22:58:06,528][__main__][INFO] - Decode Image...
+[2023-05-09 22:58:07,109][__main__][INFO] - Inference
+[2023-05-09 22:58:07,109][__main__][INFO] - Prompt: a banana beneath a chair and below a cat.
+[2023-05-09 22:58:07,109][__main__][INFO] - Phrases: banana;chair;cat
+[2023-05-09 22:58:07,109][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:00:14,284][__main__][INFO] - Decode Image...
+[2023-05-09 23:00:14,893][__main__][INFO] - Inference
+[2023-05-09 23:00:14,893][__main__][INFO] - Prompt: a cat above a horse and on a person.
+[2023-05-09 23:00:14,894][__main__][INFO] - Phrases: cat;horse;person
+[2023-05-09 23:00:14,894][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:02:22,110][__main__][INFO] - Decode Image...
+[2023-05-09 23:02:22,718][__main__][INFO] - Inference
+[2023-05-09 23:02:22,718][__main__][INFO] - Prompt: a chair above a person and on the right of a cat.
+[2023-05-09 23:02:22,718][__main__][INFO] - Phrases: chair;person;cat
+[2023-05-09 23:02:22,718][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:04:29,841][__main__][INFO] - Decode Image...
+[2023-05-09 23:04:30,438][__main__][INFO] - Inference
+[2023-05-09 23:04:30,438][__main__][INFO] - Prompt: a chair below a cat and on a person.
+[2023-05-09 23:04:30,439][__main__][INFO] - Phrases: cat;chair;person
+[2023-05-09 23:04:30,439][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:06:37,769][__main__][INFO] - Decode Image...
+[2023-05-09 23:06:38,372][__main__][INFO] - Inference
+[2023-05-09 23:06:38,372][__main__][INFO] - Prompt: a cat on the right of a horse and under a dog.
+[2023-05-09 23:06:38,372][__main__][INFO] - Phrases: cat;horse;dog
+[2023-05-09 23:06:38,372][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:08:45,660][__main__][INFO] - Decode Image...
+[2023-05-09 23:08:46,292][__main__][INFO] - Inference
+[2023-05-09 23:08:46,293][__main__][INFO] - Prompt: a car below a dog and on the left of a chair.
+[2023-05-09 23:08:46,293][__main__][INFO] - Phrases: car;dog;chair
+[2023-05-09 23:08:46,293][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:10:53,496][__main__][INFO] - Decode Image...
+[2023-05-09 23:10:54,106][__main__][INFO] - Inference
+[2023-05-09 23:10:54,106][__main__][INFO] - Prompt: a airplane on the left of a dog and beneath a banana.
+[2023-05-09 23:10:54,106][__main__][INFO] - Phrases: airplane;dog;banana
+[2023-05-09 23:10:54,106][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:13:01,296][__main__][INFO] - Decode Image...
+[2023-05-09 23:13:01,895][__main__][INFO] - Inference
+[2023-05-09 23:13:01,895][__main__][INFO] - Prompt: a airplane on the left of a banana and under a dog.
+[2023-05-09 23:13:01,895][__main__][INFO] - Phrases: airplane;banana;dog
+[2023-05-09 23:13:01,895][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:15:09,134][__main__][INFO] - Decode Image...
+[2023-05-09 23:15:09,747][__main__][INFO] - Inference
+[2023-05-09 23:15:09,747][__main__][INFO] - Prompt: a person among airplane and horse.
+[2023-05-09 23:15:09,748][__main__][INFO] - Phrases: person;airplane;horse
+[2023-05-09 23:15:09,748][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:17:16,848][__main__][INFO] - Decode Image...
+[2023-05-09 23:17:17,431][__main__][INFO] - Inference
+[2023-05-09 23:17:17,431][__main__][INFO] - Prompt: a dog beneath a cat and under a car.
+[2023-05-09 23:17:17,431][__main__][INFO] - Phrases: dog;cat;car
+[2023-05-09 23:17:17,431][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:19:24,664][__main__][INFO] - Decode Image...
+[2023-05-09 23:19:25,226][__main__][INFO] - Inference
+[2023-05-09 23:19:25,226][__main__][INFO] - Prompt: a car over a cat and on the right of a banana.
+[2023-05-09 23:19:25,226][__main__][INFO] - Phrases: car;cat;banana
+[2023-05-09 23:19:25,226][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:21:32,455][__main__][INFO] - Decode Image...
+[2023-05-09 23:21:33,031][__main__][INFO] - Inference
+[2023-05-09 23:21:33,031][__main__][INFO] - Prompt: a car on the left of a banana and under a airplane.
+[2023-05-09 23:21:33,031][__main__][INFO] - Phrases: car;banana;airplane
+[2023-05-09 23:21:33,031][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:23:41,221][__main__][INFO] - Decode Image...
+[2023-05-09 23:23:41,831][__main__][INFO] - Inference
+[2023-05-09 23:23:41,831][__main__][INFO] - Prompt: a cat among airplane and person.
+[2023-05-09 23:23:41,831][__main__][INFO] - Phrases: cat;airplane;person
+[2023-05-09 23:23:41,831][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:25:49,018][__main__][INFO] - Decode Image...
+[2023-05-09 23:25:49,655][__main__][INFO] - Inference
+[2023-05-09 23:25:49,655][__main__][INFO] - Prompt: a airplane beneath a person and under a horse.
+[2023-05-09 23:25:49,655][__main__][INFO] - Phrases: airplane;person;horse
+[2023-05-09 23:25:49,655][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:27:56,885][__main__][INFO] - Decode Image...
+[2023-05-09 23:27:57,449][__main__][INFO] - Inference
+[2023-05-09 23:27:57,449][__main__][INFO] - Prompt: a chair over a cat and above a banana.
+[2023-05-09 23:27:57,449][__main__][INFO] - Phrases: chair;cat;banana
+[2023-05-09 23:27:57,449][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:30:04,448][__main__][INFO] - Decode Image...
+[2023-05-09 23:30:05,059][__main__][INFO] - Inference
+[2023-05-09 23:30:05,059][__main__][INFO] - Prompt: a airplane on a banana and below a horse.
+[2023-05-09 23:30:05,059][__main__][INFO] - Phrases: airplane;banana;horse
+[2023-05-09 23:30:05,059][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:32:12,198][__main__][INFO] - Decode Image...
+[2023-05-09 23:32:12,813][__main__][INFO] - Inference
+[2023-05-09 23:32:12,813][__main__][INFO] - Prompt: a horse over a cat and on the left of a car.
+[2023-05-09 23:32:12,813][__main__][INFO] - Phrases: horse;cat;car
+[2023-05-09 23:32:12,813][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:34:20,076][__main__][INFO] - Decode Image...
+[2023-05-09 23:34:20,635][__main__][INFO] - Inference
+[2023-05-09 23:34:20,635][__main__][INFO] - Prompt: a chair on a car and above a airplane.
+[2023-05-09 23:34:20,635][__main__][INFO] - Phrases: chair;car;airplane
+[2023-05-09 23:34:20,635][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:36:27,718][__main__][INFO] - Decode Image...
+[2023-05-09 23:36:28,328][__main__][INFO] - Inference
+[2023-05-09 23:36:28,328][__main__][INFO] - Prompt: a dog between chair and cat.
+[2023-05-09 23:36:28,328][__main__][INFO] - Phrases: dog;chair;cat
+[2023-05-09 23:36:28,328][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:38:35,592][__main__][INFO] - Decode Image...
+[2023-05-09 23:38:36,224][__main__][INFO] - Inference
+[2023-05-09 23:38:36,224][__main__][INFO] - Prompt: a dog on the right of a horse and beneath a chair.
+[2023-05-09 23:38:36,224][__main__][INFO] - Phrases: dog;horse;chair
+[2023-05-09 23:38:36,224][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:40:43,456][__main__][INFO] - Decode Image...
+[2023-05-09 23:40:44,070][__main__][INFO] - Inference
+[2023-05-09 23:40:44,070][__main__][INFO] - Prompt: a cat beneath a person and over a chair.
+[2023-05-09 23:40:44,070][__main__][INFO] - Phrases: cat;person;chair
+[2023-05-09 23:40:44,070][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:42:51,150][__main__][INFO] - Decode Image...
+[2023-05-09 23:42:51,810][__main__][INFO] - Inference
+[2023-05-09 23:42:51,810][__main__][INFO] - Prompt: a chair on the left of a banana and under a horse.
+[2023-05-09 23:42:51,810][__main__][INFO] - Phrases: chair;banana;horse
+[2023-05-09 23:42:51,810][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:44:59,012][__main__][INFO] - Decode Image...
+[2023-05-09 23:44:59,606][__main__][INFO] - Inference
+[2023-05-09 23:44:59,607][__main__][INFO] - Prompt: a horse between person and chair.
+[2023-05-09 23:44:59,607][__main__][INFO] - Phrases: person;horse;chair
+[2023-05-09 23:44:59,607][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:47:06,837][__main__][INFO] - Decode Image...
+[2023-05-09 23:47:07,461][__main__][INFO] - Inference
+[2023-05-09 23:47:07,461][__main__][INFO] - Prompt: a cat over a person and beneath a dog.
+[2023-05-09 23:47:07,461][__main__][INFO] - Phrases: cat;person;dog
+[2023-05-09 23:47:07,461][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:49:14,557][__main__][INFO] - Decode Image...
+[2023-05-09 23:49:15,205][__main__][INFO] - Inference
+[2023-05-09 23:49:15,206][__main__][INFO] - Prompt: a cat on the right of a dog and on the left of a banana.
+[2023-05-09 23:49:15,206][__main__][INFO] - Phrases: cat;dog;banana
+[2023-05-09 23:49:15,206][__main__][INFO] - Conver Phrases to Object Positions
+[2023-05-09 23:51:22,442][__main__][INFO] - Decode Image...
+[2023-05-09 23:51:23,056][__main__][INFO] - Inference
+[2023-05-09 23:51:23,056][__main__][INFO] - Prompt: a person over a horse and on the left of a banana.
+[2023-05-09 23:51:23,056][__main__][INFO] - Phrases: person;horse;banana
+[2023-05-09 23:51:23,056][__main__][INFO] - Conver Phrases to Object Positions
